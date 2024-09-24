@@ -58,3 +58,42 @@
 [2024-09-24 21:48:31,050: INFO]: Created params/laptop_params.yaml completed
 [2024-09-24 21:48:31,050: INFO]: Created research/laptop/trials.ipynb completed
 [2024-09-24 21:48:31,051: INFO]: Created templates/laptop_index.html completed
+[2024-09-24 23:16:22,834: INFO]: Logging file start
+[2024-09-24 23:24:06,480: INFO]: Logging file start
+[2024-09-24 23:30:32,740: INFO]: Logging file start
+[2024-09-24 23:30:32,745: INFO]: yaml: config/bike_config.yaml loaded successfully
+[2024-09-24 23:34:49,206: INFO]: created directory at: d
+[2024-09-24 23:34:49,208: INFO]: created directory at: a
+[2024-09-24 23:34:49,208: INFO]: created directory at: t
+[2024-09-24 23:34:49,209: INFO]: created directory at: a
+[2024-09-24 23:34:49,209: INFO]: created directory at: /
+[2024-09-24 23:34:49,210: INFO]: created directory at: b
+[2024-09-24 23:34:49,211: INFO]: created directory at: i
+[2024-09-24 23:34:49,211: INFO]: created directory at: k
+[2024-09-24 23:34:49,212: INFO]: created directory at: e
+[2024-09-24 23:34:49,213: INFO]: created directory at: /
+[2024-09-24 23:34:49,213: INFO]: created directory at: d
+[2024-09-24 23:34:49,214: INFO]: created directory at: a
+[2024-09-24 23:34:49,216: INFO]: created directory at: t
+[2024-09-24 23:34:49,229: INFO]: created directory at: a
+[2024-09-24 23:34:49,250: INFO]: created directory at: _
+[2024-09-24 23:34:49,254: INFO]: created directory at: i
+[2024-09-24 23:34:49,256: INFO]: created directory at: n
+[2024-09-24 23:34:49,258: INFO]: created directory at: g
+[2024-09-24 23:34:49,258: INFO]: created directory at: e
+[2024-09-24 23:34:49,320: INFO]: created directory at: s
+[2024-09-24 23:34:49,333: INFO]: created directory at: t
+[2024-09-24 23:34:49,334: INFO]: created directory at: i
+[2024-09-24 23:34:49,335: INFO]: created directory at: o
+[2024-09-24 23:34:49,336: INFO]: created directory at: n
+[2024-09-24 23:37:15,128: INFO]: created directory at: data/bike/data_ingestion
+[2024-09-24 23:39:06,635: INFO]: created directory at: data/bike/data_ingestion
+[2024-09-24 23:39:50,483: INFO]: created directory at: data/bike/used_bikes.csv
+[2024-09-24 23:48:03,507: INFO]: Logging file start
+[2024-09-25 00:12:24,699: INFO]: Logging file start
+[2024-09-25 00:23:24,647: INFO]: yaml: config/bike_config.yaml loaded successfully
+[2024-09-25 00:23:24,659: INFO]: yaml: params/bike_params.yaml loaded successfully
+[2024-09-25 00:23:56,635: INFO]: yaml: config/bike_config.yaml loaded successfully
+[2024-09-25 00:23:56,638: INFO]: yaml: params/bike_params.yaml loaded successfully
+[2024-09-25 00:23:56,642: INFO]: created directory at: data/bike
+[2024-09-25 00:23:56,643: INFO]: created directory at: data/bike/data_ingestion

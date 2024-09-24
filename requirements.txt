@@ -3,4 +3,8 @@ numpy
 scikit-learn
 seaborn
 matplotlib
+notebook
+python-box
+ensure
+gdown
 -e.

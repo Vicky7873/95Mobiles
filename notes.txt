@@ -1,0 +1,54 @@
+@dataclass(frozen=True)
+
+mean
+In Python, the @dataclass decorator is used to create data classes, which are classes primarily used to store data
+When you add frozen=True, it means the object is immutable. Once you create an object, you can't change its values. 
+If you try to change something, it will give you an error.
+ex:- @dataclass(frozen=True)
+class Point:
+    x: int
+    y: int
+
+# Create a Point object
+point = Point(3, 4)
+
+# You can access the values
+print(point.x)  # This will show 3
+print(point.y)  # This will show 4
+
+# But you can't change the values
+# point.x = 5  # This will cause an error
+
+
+#######################################
+With self: Variables and methods are accessible across the class instances (within class different different methods we can use it).
+and when we create class instance outside of the class these variables are accessible
+
+Without self: Variables are local to the method and cannot be accessed from other methods or outside that method.
+
+class Example:
+    def __init__(self):
+        self.instance_variable = 5  # Instance variable
+
+    def show(self):
+        print(self.instance_variable)  # Accessing the instance variable
+
+obj = Example()
+obj.show()  # Output: 5
+
+class Example:
+    def __init__():
+        instance_variable = 5  # This is an instance variable.
+
+    def show():
+        print(instance_variable) 
+
+obj = Example
+obj.show() error: NameError: name 'instance_variable' is not defined
+
+###############################################################
+read_yaml(path_to_yaml:Path)
+path_to_yaml = variable , Path = type of Variables
+in simple english read_int(x:int)
+x should be an integer
+################################################################
