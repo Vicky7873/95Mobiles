@@ -4,3 +4,8 @@ data_ingestion:
   root_dir: data/bike/data_ingestion
   download_url: https://raw.githubusercontent.com/Vicky7873/data/refs/heads/main/Used_Bikes.csv
   bike_raw_data: data/bike/data_ingestion/used_bikes.csv
+
+feature_engeenering:
+  root_dir: data/bike/feature_engeenering
+  bike_raw_data: data/bike/data_ingestion/used_bikes.csv
+  feature_eng_data: data/bike/feature_engeenering/clean_bike.csv
