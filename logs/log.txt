@@ -97,3 +97,32 @@
 [2024-09-25 00:23:56,638: INFO]: yaml: params/bike_params.yaml loaded successfully
 [2024-09-25 00:23:56,642: INFO]: created directory at: data/bike
 [2024-09-25 00:23:56,643: INFO]: created directory at: data/bike/data_ingestion
+[2024-09-26 20:46:46,361: INFO]: Logging file start
+[2024-09-26 20:46:46,494: INFO]: yaml: config/bike_config.yaml loaded successfully
+[2024-09-26 20:46:46,497: INFO]: yaml: params/bike_params.yaml loaded successfully
+[2024-09-26 20:46:46,497: INFO]: created directory at: data/bike
+[2024-09-26 20:46:46,498: INFO]: created directory at: data/bike/data_ingestion
+[2024-09-26 20:57:04,430: INFO]: Logging file start
+[2024-09-26 20:57:04,523: INFO]: >>>>>> stage Bike data ingestion config started <<<<<<
+[2024-09-26 20:58:08,826: INFO]: Logging file start
+[2024-09-26 20:58:08,921: INFO]: >>>>>> stage Bike data ingestion config started <<<<<<
+[2024-09-26 20:59:10,782: INFO]: Logging file start
+[2024-09-26 20:59:10,872: INFO]: >>>>>> stage Bike data ingestion config started <<<<<<
+[2024-09-26 21:00:45,348: INFO]: Logging file start
+[2024-09-26 21:00:45,441: INFO]: >>>>>> stage Bike data ingestion config started <<<<<<
+[2024-09-26 21:00:45,442: INFO]: yaml: config/bike_config.yaml loaded successfully
+[2024-09-26 21:00:45,442: INFO]: yaml: params/bike_params.yaml loaded successfully
+[2024-09-26 21:00:45,442: INFO]: created directory at: data/bike
+[2024-09-26 21:00:45,442: INFO]: created directory at: data/bike/data_ingestion
+[2024-09-26 21:00:45,929: INFO]: >>>>>> stage Bike data ingestion config completed <<<<<<
+
+x======x
+[2024-09-26 21:01:01,103: INFO]: Logging file start
+[2024-09-26 21:01:01,185: INFO]: >>>>>> stage Bike data ingestion config started <<<<<<
+[2024-09-26 21:01:01,185: INFO]: yaml: config/bike_config.yaml loaded successfully
+[2024-09-26 21:01:01,186: INFO]: yaml: params/bike_params.yaml loaded successfully
+[2024-09-26 21:01:01,186: INFO]: created directory at: data/bike
+[2024-09-26 21:01:01,186: INFO]: created directory at: data/bike/data_ingestion
+[2024-09-26 21:01:01,281: INFO]: >>>>>> stage Bike data ingestion config completed <<<<<<
+
+x======x
