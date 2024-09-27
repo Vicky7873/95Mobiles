@@ -189,3 +189,177 @@ x======x
 [2024-09-26 23:43:13,941: INFO]: >>>>>> stage Bike Feature engeenering completed <<<<<<
 
 x======x
+[2024-09-26 23:51:40,039: INFO]: Logging file start
+[2024-09-27 00:56:53,849: INFO]: yaml: config/bike_config.yaml loaded successfully
+[2024-09-27 00:56:53,859: INFO]: yaml: params/bike_params.yaml loaded successfully
+[2024-09-27 00:56:53,870: INFO]: created directory at: data/bike
+[2024-09-27 00:57:10,241: INFO]: Logging file start
+[2024-09-27 00:57:11,124: INFO]: yaml: config/bike_config.yaml loaded successfully
+[2024-09-27 00:57:11,124: INFO]: yaml: params/bike_params.yaml loaded successfully
+[2024-09-27 00:57:11,125: INFO]: created directory at: data/bike
+[2024-09-27 00:57:11,125: INFO]: created directory at: data/bike/data_split
+[2024-09-27 00:58:45,678: INFO]: yaml: config/bike_config.yaml loaded successfully
+[2024-09-27 00:58:45,680: INFO]: yaml: params/bike_params.yaml loaded successfully
+[2024-09-27 00:58:45,680: INFO]: created directory at: data/bike
+[2024-09-27 00:58:45,681: INFO]: created directory at: data/bike/data_split
+[2024-09-27 00:59:48,982: INFO]: Logging file start
+[2024-09-27 00:59:49,673: INFO]: yaml: config/bike_config.yaml loaded successfully
+[2024-09-27 00:59:49,674: INFO]: yaml: params/bike_params.yaml loaded successfully
+[2024-09-27 00:59:49,675: INFO]: created directory at: data/bike
+[2024-09-27 00:59:49,675: INFO]: created directory at: data/bike/data_split
+[2024-09-27 01:00:16,914: INFO]: yaml: config/bike_config.yaml loaded successfully
+[2024-09-27 01:00:16,916: INFO]: yaml: params/bike_params.yaml loaded successfully
+[2024-09-27 01:00:16,917: INFO]: created directory at: data/bike
+[2024-09-27 01:00:16,918: INFO]: created directory at: data/bike/data_split
+[2024-09-27 01:01:25,755: INFO]: Logging file start
+[2024-09-27 01:01:26,513: INFO]: yaml: config/bike_config.yaml loaded successfully
+[2024-09-27 01:01:26,514: INFO]: yaml: params/bike_params.yaml loaded successfully
+[2024-09-27 01:01:26,514: INFO]: created directory at: data/bike
+[2024-09-27 01:01:26,515: INFO]: created directory at: data/bike/data_split
+[2024-09-27 01:03:10,478: INFO]: Logging file start
+[2024-09-27 01:03:11,256: INFO]: yaml: config/bike_config.yaml loaded successfully
+[2024-09-27 01:03:11,257: INFO]: yaml: params/bike_params.yaml loaded successfully
+[2024-09-27 01:03:11,257: INFO]: created directory at: data/bike
+[2024-09-27 01:03:11,258: INFO]: created directory at: data/bike/data_split
+[2024-09-27 09:14:27,103: INFO]: yaml: config/bike_config.yaml loaded successfully
+[2024-09-27 09:14:27,107: INFO]: yaml: params/bike_params.yaml loaded successfully
+[2024-09-27 09:14:27,109: INFO]: created directory at: data/bike
+[2024-09-27 09:14:27,110: INFO]: created directory at: data/bike/data_split
+[2024-09-27 09:14:47,846: INFO]: Logging file start
+[2024-09-27 09:14:48,753: INFO]: yaml: config/bike_config.yaml loaded successfully
+[2024-09-27 09:14:48,754: INFO]: yaml: params/bike_params.yaml loaded successfully
+[2024-09-27 09:14:48,755: INFO]: created directory at: data/bike
+[2024-09-27 09:14:48,755: INFO]: created directory at: data/bike/data_split
+[2024-09-27 09:16:43,608: INFO]: yaml: config/bike_config.yaml loaded successfully
+[2024-09-27 09:16:43,610: INFO]: yaml: params/bike_params.yaml loaded successfully
+[2024-09-27 09:16:43,611: INFO]: created directory at: data/bike
+[2024-09-27 09:16:43,611: INFO]: created directory at: data/bike/data_split
+[2024-09-27 09:17:50,973: INFO]: Logging file start
+[2024-09-27 09:17:51,836: INFO]: yaml: config/bike_config.yaml loaded successfully
+[2024-09-27 09:17:51,837: INFO]: yaml: params/bike_params.yaml loaded successfully
+[2024-09-27 09:17:51,837: INFO]: created directory at: data/bike
+[2024-09-27 09:17:51,838: INFO]: created directory at: data/bike/data_split
+[2024-09-27 09:23:34,859: INFO]: yaml: config/bike_config.yaml loaded successfully
+[2024-09-27 09:23:34,862: INFO]: yaml: params/bike_params.yaml loaded successfully
+[2024-09-27 09:23:34,862: INFO]: created directory at: data/bike
+[2024-09-27 09:23:34,862: INFO]: created directory at: data/bike/data_split
+[2024-09-27 09:23:45,072: INFO]: Logging file start
+[2024-09-27 09:23:45,769: INFO]: yaml: config/bike_config.yaml loaded successfully
+[2024-09-27 09:23:45,770: INFO]: yaml: params/bike_params.yaml loaded successfully
+[2024-09-27 09:23:45,770: INFO]: created directory at: data/bike
+[2024-09-27 09:23:45,771: INFO]: created directory at: data/bike/data_split
+[2024-09-27 09:24:52,175: INFO]: yaml: config/bike_config.yaml loaded successfully
+[2024-09-27 09:24:52,177: INFO]: yaml: params/bike_params.yaml loaded successfully
+[2024-09-27 09:24:52,178: INFO]: created directory at: data/bike
+[2024-09-27 09:24:52,179: INFO]: created directory at: data/bike/data_split
+[2024-09-27 09:25:54,095: INFO]: Logging file start
+[2024-09-27 09:25:54,854: INFO]: yaml: config/bike_config.yaml loaded successfully
+[2024-09-27 09:25:54,855: INFO]: yaml: params/bike_params.yaml loaded successfully
+[2024-09-27 09:25:54,856: INFO]: created directory at: data/bike
+[2024-09-27 09:25:54,856: INFO]: created directory at: data/bike/data_split
+[2024-09-27 09:26:06,165: INFO]: Logging file start
+[2024-09-27 09:26:06,812: INFO]: yaml: config/bike_config.yaml loaded successfully
+[2024-09-27 09:26:06,813: INFO]: yaml: params/bike_params.yaml loaded successfully
+[2024-09-27 09:26:06,813: INFO]: created directory at: data/bike
+[2024-09-27 09:26:06,814: INFO]: created directory at: data/bike/data_split
+[2024-09-27 09:26:35,029: INFO]: yaml: config/bike_config.yaml loaded successfully
+[2024-09-27 09:26:35,032: INFO]: yaml: params/bike_params.yaml loaded successfully
+[2024-09-27 09:26:35,033: INFO]: created directory at: data/bike
+[2024-09-27 09:26:35,034: INFO]: created directory at: data/bike/data_split
+[2024-09-27 09:26:45,668: INFO]: Logging file start
+[2024-09-27 09:26:46,406: INFO]: yaml: config/bike_config.yaml loaded successfully
+[2024-09-27 09:26:46,407: INFO]: yaml: params/bike_params.yaml loaded successfully
+[2024-09-27 09:26:46,408: INFO]: created directory at: data/bike
+[2024-09-27 09:26:46,408: INFO]: created directory at: data/bike/data_split
+[2024-09-27 09:35:30,409: INFO]: yaml: config/bike_config.yaml loaded successfully
+[2024-09-27 09:35:30,411: INFO]: yaml: params/bike_params.yaml loaded successfully
+[2024-09-27 09:35:30,412: INFO]: created directory at: data/bike
+[2024-09-27 09:35:30,412: INFO]: created directory at: data/bike/data_split
+[2024-09-27 09:43:35,867: INFO]: Logging file start
+[2024-09-27 09:43:36,637: INFO]: >>>>>> stage Bike data ingestion config started <<<<<<
+[2024-09-27 09:43:36,638: INFO]: yaml: config/bike_config.yaml loaded successfully
+[2024-09-27 09:43:36,639: INFO]: yaml: params/bike_params.yaml loaded successfully
+[2024-09-27 09:43:36,639: INFO]: created directory at: data/bike
+[2024-09-27 09:43:36,639: INFO]: created directory at: data/bike/data_ingestion
+[2024-09-27 09:43:37,365: INFO]: >>>>>> stage Bike data ingestion config completed <<<<<<
+
+x======x
+[2024-09-27 09:43:37,365: INFO]: >>>>>> stage Bike Feature engeenering started <<<<<<
+[2024-09-27 09:43:37,367: INFO]: yaml: config/bike_config.yaml loaded successfully
+[2024-09-27 09:43:37,368: INFO]: yaml: params/bike_params.yaml loaded successfully
+[2024-09-27 09:43:37,368: INFO]: created directory at: data/bike
+[2024-09-27 09:43:37,368: INFO]: created directory at: data/bike/feature_engeenering
+[2024-09-27 09:43:38,139: INFO]: >>>>>> stage Bike Feature engeenering completed <<<<<<
+
+x======x
+[2024-09-27 09:43:38,139: INFO]: >>>>>> stage Bike Data Split started <<<<<<
+[2024-09-27 09:43:38,139: INFO]: yaml: config/bike_config.yaml loaded successfully
+[2024-09-27 09:43:38,140: INFO]: yaml: params/bike_params.yaml loaded successfully
+[2024-09-27 09:43:38,140: INFO]: created directory at: data/bike
+[2024-09-27 09:43:38,140: INFO]: created directory at: data/bike/data_split
+[2024-09-27 09:43:38,281: INFO]: >>>>>> stage Bike Data Split completed <<<<<<
+
+x======x
+[2024-09-27 09:44:19,865: INFO]: Logging file start
+[2024-09-27 09:44:20,532: INFO]: yaml: config/bike_config.yaml loaded successfully
+[2024-09-27 09:44:20,533: INFO]: yaml: params/bike_params.yaml loaded successfully
+[2024-09-27 09:44:20,533: INFO]: created directory at: data/bike
+[2024-09-27 09:44:20,534: INFO]: created directory at: data/bike/data_split
+[2024-09-27 09:44:57,716: INFO]: Logging file start
+[2024-09-27 09:44:58,431: INFO]: yaml: config/bike_config.yaml loaded successfully
+[2024-09-27 09:44:58,432: INFO]: yaml: params/bike_params.yaml loaded successfully
+[2024-09-27 09:44:58,433: INFO]: created directory at: data/bike
+[2024-09-27 09:44:58,434: INFO]: created directory at: data/bike/data_split
+[2024-09-27 09:45:22,196: INFO]: Logging file start
+[2024-09-27 09:45:22,916: INFO]: yaml: config/bike_config.yaml loaded successfully
+[2024-09-27 09:45:22,917: INFO]: yaml: params/bike_params.yaml loaded successfully
+[2024-09-27 09:45:22,918: INFO]: created directory at: data/bike
+[2024-09-27 09:45:22,918: INFO]: created directory at: data/bike/data_split
+[2024-09-27 09:45:35,923: INFO]: Logging file start
+[2024-09-27 09:45:36,693: INFO]: yaml: config/bike_config.yaml loaded successfully
+[2024-09-27 09:45:36,694: INFO]: yaml: params/bike_params.yaml loaded successfully
+[2024-09-27 09:45:36,694: INFO]: created directory at: data/bike
+[2024-09-27 09:45:36,695: INFO]: created directory at: data/bike/data_split
+[2024-09-27 09:46:53,454: INFO]: yaml: config/bike_config.yaml loaded successfully
+[2024-09-27 09:46:53,457: INFO]: yaml: params/bike_params.yaml loaded successfully
+[2024-09-27 09:46:53,458: INFO]: created directory at: data/bike
+[2024-09-27 09:46:53,459: INFO]: created directory at: data/bike/data_split
+[2024-09-27 09:48:01,054: INFO]: yaml: config/bike_config.yaml loaded successfully
+[2024-09-27 09:48:01,057: INFO]: yaml: params/bike_params.yaml loaded successfully
+[2024-09-27 09:48:01,058: INFO]: created directory at: data/bike
+[2024-09-27 09:48:01,058: INFO]: created directory at: data/bike/data_split
+[2024-09-27 09:48:29,880: INFO]: Logging file start
+[2024-09-27 09:48:30,803: INFO]: yaml: config/bike_config.yaml loaded successfully
+[2024-09-27 09:48:30,804: INFO]: yaml: params/bike_params.yaml loaded successfully
+[2024-09-27 09:48:30,805: INFO]: created directory at: data/bike
+[2024-09-27 09:48:30,806: INFO]: created directory at: data/bike/data_split
+[2024-09-27 09:48:43,353: INFO]: Logging file start
+[2024-09-27 09:48:44,031: INFO]: yaml: config/bike_config.yaml loaded successfully
+[2024-09-27 09:48:44,032: INFO]: yaml: params/bike_params.yaml loaded successfully
+[2024-09-27 09:48:44,033: INFO]: created directory at: data/bike
+[2024-09-27 09:48:44,033: INFO]: created directory at: data/bike/data_split
+[2024-09-27 09:49:22,690: INFO]: Logging file start
+[2024-09-27 09:49:23,434: INFO]: >>>>>> stage Bike data ingestion config started <<<<<<
+[2024-09-27 09:49:23,435: INFO]: yaml: config/bike_config.yaml loaded successfully
+[2024-09-27 09:49:23,435: INFO]: yaml: params/bike_params.yaml loaded successfully
+[2024-09-27 09:49:23,435: INFO]: created directory at: data/bike
+[2024-09-27 09:49:23,435: INFO]: created directory at: data/bike/data_ingestion
+[2024-09-27 09:49:23,987: INFO]: >>>>>> stage Bike data ingestion config completed <<<<<<
+
+x======x
+[2024-09-27 09:49:23,988: INFO]: >>>>>> stage Bike Feature engeenering started <<<<<<
+[2024-09-27 09:49:23,990: INFO]: yaml: config/bike_config.yaml loaded successfully
+[2024-09-27 09:49:23,991: INFO]: yaml: params/bike_params.yaml loaded successfully
+[2024-09-27 09:49:23,991: INFO]: created directory at: data/bike
+[2024-09-27 09:49:23,992: INFO]: created directory at: data/bike/feature_engeenering
+[2024-09-27 09:49:24,707: INFO]: >>>>>> stage Bike Feature engeenering completed <<<<<<
+
+x======x
+[2024-09-27 09:49:24,708: INFO]: >>>>>> stage Bike Data Split started <<<<<<
+[2024-09-27 09:49:24,708: INFO]: yaml: config/bike_config.yaml loaded successfully
+[2024-09-27 09:49:24,709: INFO]: yaml: params/bike_params.yaml loaded successfully
+[2024-09-27 09:49:24,709: INFO]: created directory at: data/bike
+[2024-09-27 09:49:24,709: INFO]: created directory at: data/bike/data_split
+[2024-09-27 09:49:24,920: INFO]: >>>>>> stage Bike Data Split completed <<<<<<
+
+x======x

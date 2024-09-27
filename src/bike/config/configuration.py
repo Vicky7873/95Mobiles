@@ -1,6 +1,6 @@
 from src.bike.utils.common import create_directory,read_yaml
 from src.bike.constants import *
-from src.bike.entity import Bike_DataIngestionConfig,Bike_feature_engg
+from src.bike.entity import Bike_DataIngestionConfig,Bike_feature_engg,DatasplitConfig
 
 class ConfigurationManger:
     def __init__(self,confi_filepath = CONFIG_FILE_PATH,param_filepath = PARAMS_FILE_PATH):
@@ -34,3 +34,23 @@ class ConfigurationManger:
         )
 
         return feature_config
+    
+
+
+    def get_data_split_config(self) -> DatasplitConfig:
+        config = self.config.splliting_data
+        params = self.params.split
+        create_directory([config.root_dir])
+
+        split_config = DatasplitConfig(
+            root_dir = config.root_dir,
+            feature_eng_data = config.feature_eng_data,
+            X_train = config.X_train,
+            X_test = config.X_test,
+            y_train = config.y_train,
+            y_test = config.y_test,
+            test_size = params.test_size,
+            random_state = params.random_state
+        )
+
+        return split_config

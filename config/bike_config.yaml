@@ -9,3 +9,11 @@ feature_engeenering:
   root_dir: data/bike/feature_engeenering
   bike_raw_data: data/bike/data_ingestion/used_bikes.csv
   feature_eng_data: data/bike/feature_engeenering/clean_bike.csv
+
+splliting_data:
+  root_dir: data/bike/data_split
+  feature_eng_data: data/bike/feature_engeenering/clean_bike.csv
+  X_train: data/bike/data_split/X_train.csv
+  X_test: data/bike/data_split/X_test.csv
+  y_train: data/bike/data_split/y_train.csv
+  y_test: data/bike/data_split/y_test.csv
