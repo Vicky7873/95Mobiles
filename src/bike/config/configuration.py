@@ -1,6 +1,6 @@
 from src.bike.utils.common import create_directory,read_yaml
 from src.bike.constants import *
-from src.bike.entity import Bike_DataIngestionConfig,Bike_feature_engg,DatasplitConfig,BikeModelTuningConfig
+from src.bike.entity import Bike_DataIngestionConfig,Bike_feature_engg,DatasplitConfig,BikeModelTuningConfig,BikeModelEvalConfig
 
 class ConfigurationManger:
     def __init__(self,confi_filepath = CONFIG_FILE_PATH,param_filepath = PARAMS_FILE_PATH):
@@ -79,3 +79,23 @@ class ConfigurationManger:
         )
 
         return tunning_config
+    
+
+
+    def get_model_eval(self)-> BikeModelEvalConfig:
+        config = self.config.model_eval
+
+        create_directory([config.root_dir])
+
+        model_eval = BikeModelEvalConfig(
+            root_dir=config.root_dir,
+            X_test=config.X_test,
+            y_test=config.y_test,
+            tunned_model=config.tunned_model,
+            mlflow_uri="https://dagshub.com/Vicky7873/95Mobiles.mlflow",
+            X_train=config.X_train,
+            y_train=config.y_train,
+            score= config.score
+        )
+
+        return model_eval

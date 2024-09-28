@@ -39,3 +39,16 @@ class BikeModelTuningConfig:
     criterion: str
     oob_score: bool
     mlflow_uri: str
+
+
+@dataclass(frozen=True)
+class BikeModelEvalConfig:
+    root_dir: Path
+    X_test: Path
+    y_test: Path
+    tunned_model: Path
+    mlflow_uri: str
+    X_train: Path
+    y_train: Path
+    score: Path
+    
