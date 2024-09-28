@@ -1,0 +1,8 @@
+stages:
+  bike_data_ingestion:
+    cmd: python src/bike/pipelines/bike_data_ingestion.py
+    deps: 
+      - src/bike/pipelines/bike_data_ingestion.py
+      - config/bike_config.yaml
+    outs:
+      - data/bike/data_ingestion/used_bikes.csv

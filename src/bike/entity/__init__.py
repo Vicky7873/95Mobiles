@@ -25,3 +25,17 @@ class DatasplitConfig:
     y_test: Path
     test_size: float
     random_state: int
+
+@dataclass(frozen=True)
+class BikeModelTuningConfig:
+    root_dir: Path
+    X_train: Path
+    X_test: Path
+    y_train: Path
+    y_test: Path
+    tunned_model: Path
+    n_estimators: int
+    bootstrap: bool
+    criterion: str
+    oob_score: bool
+    mlflow_uri: str

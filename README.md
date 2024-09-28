@@ -8,3 +8,9 @@ conda create -n 95m python=3.12 -y
 pip install -r requirements.txt
 
 # Bike Price Predictions
+1. Exp done for end to end
+2. data ingestion for bike done
+3. feature eng done
+4. data splitting done
+5. Hyper parameter tuninng
+6. 

@@ -17,3 +17,11 @@ splliting_data:
   X_test: data/bike/data_split/X_test.csv
   y_train: data/bike/data_split/y_train.csv
   y_test: data/bike/data_split/y_test.csv
+
+hyper_tune:
+  root_dir: data/bike/bike_tune
+  X_train: data/bike/data_split/X_train.csv
+  X_test: data/bike/data_split/X_test.csv
+  y_train: data/bike/data_split/y_train.csv
+  y_test: data/bike/data_split/y_test.csv
+  tunned_model: data/bike/bike_tune/tunned_model.pkl

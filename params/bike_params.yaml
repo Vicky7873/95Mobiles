@@ -1,3 +1,9 @@
 split:
   test_size: 0.20
   random_state: 21
+
+model:
+  n_estimators: 10
+  bootstrap: True
+  criterion: squared_error
+  oob_score: False

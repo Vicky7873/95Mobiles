@@ -363,3 +363,151 @@ x======x
 [2024-09-27 09:49:24,920: INFO]: >>>>>> stage Bike Data Split completed <<<<<<
 
 x======x
+[2024-09-28 18:33:20,622: INFO]: Logging file start
+[2024-09-28 18:56:54,380: INFO]: Logging file start
+[2024-09-28 19:09:44,123: INFO]: yaml: config/bike_config.yaml loaded successfully
+[2024-09-28 19:09:44,131: INFO]: yaml: params/bike_params.yaml loaded successfully
+[2024-09-28 19:09:44,138: INFO]: created directory at: data/bike
+[2024-09-28 19:09:44,145: INFO]: created directory at: data/bike/bike_tune
+[2024-09-28 19:15:33,900: INFO]: Logging file start
+[2024-09-28 19:15:35,818: INFO]: yaml: config/bike_config.yaml loaded successfully
+[2024-09-28 19:15:35,821: INFO]: yaml: params/bike_params.yaml loaded successfully
+[2024-09-28 19:15:35,822: INFO]: created directory at: data/bike
+[2024-09-28 19:15:35,822: INFO]: created directory at: data/bike/bike_tune
+[2024-09-28 19:16:11,703: INFO]: yaml: config/bike_config.yaml loaded successfully
+[2024-09-28 19:16:11,706: INFO]: yaml: params/bike_params.yaml loaded successfully
+[2024-09-28 19:16:11,707: INFO]: created directory at: data/bike
+[2024-09-28 19:16:11,707: INFO]: created directory at: data/bike/bike_tune
+[2024-09-28 19:16:36,974: INFO]: yaml: config/bike_config.yaml loaded successfully
+[2024-09-28 19:16:36,977: INFO]: yaml: params/bike_params.yaml loaded successfully
+[2024-09-28 19:16:36,977: INFO]: created directory at: data/bike
+[2024-09-28 19:16:36,978: INFO]: created directory at: data/bike/bike_tune
+[2024-09-28 19:16:47,081: INFO]: Logging file start
+[2024-09-28 19:16:48,326: INFO]: yaml: config/bike_config.yaml loaded successfully
+[2024-09-28 19:16:48,329: INFO]: yaml: params/bike_params.yaml loaded successfully
+[2024-09-28 19:16:48,330: INFO]: created directory at: data/bike
+[2024-09-28 19:16:48,330: INFO]: created directory at: data/bike/bike_tune
+[2024-09-28 19:17:56,524: INFO]: Logging file start
+[2024-09-28 19:17:57,774: INFO]: yaml: config/bike_config.yaml loaded successfully
+[2024-09-28 19:17:57,775: INFO]: yaml: params/bike_params.yaml loaded successfully
+[2024-09-28 19:17:57,775: INFO]: created directory at: data/bike
+[2024-09-28 19:17:57,776: INFO]: created directory at: data/bike/bike_tune
+[2024-09-28 19:20:37,351: INFO]: yaml: config/bike_config.yaml loaded successfully
+[2024-09-28 19:20:37,353: INFO]: yaml: params/bike_params.yaml loaded successfully
+[2024-09-28 19:20:37,353: INFO]: created directory at: data/bike
+[2024-09-28 19:20:37,354: INFO]: created directory at: data/bike/bike_tune
+[2024-09-28 19:23:51,751: INFO]: Logging file start
+[2024-09-28 19:23:53,048: INFO]: yaml: config/bike_config.yaml loaded successfully
+[2024-09-28 19:23:53,050: INFO]: yaml: params/bike_params.yaml loaded successfully
+[2024-09-28 19:23:53,050: INFO]: created directory at: data/bike
+[2024-09-28 19:23:53,051: INFO]: created directory at: data/bike/bike_tune
+[2024-09-28 19:59:58,531: INFO]: Logging file start
+[2024-09-28 20:00:00,025: INFO]: yaml: config/bike_config.yaml loaded successfully
+[2024-09-28 20:00:00,029: INFO]: yaml: params/bike_params.yaml loaded successfully
+[2024-09-28 20:00:00,030: INFO]: created directory at: data/bike
+[2024-09-28 20:00:00,030: INFO]: created directory at: data/bike/bike_tune
+[2024-09-28 20:27:58,259: INFO]: Logging file start
+[2024-09-28 20:27:59,862: INFO]: yaml: config/bike_config.yaml loaded successfully
+[2024-09-28 20:27:59,865: INFO]: yaml: params/bike_params.yaml loaded successfully
+[2024-09-28 20:27:59,866: INFO]: created directory at: data/bike
+[2024-09-28 20:27:59,867: INFO]: created directory at: data/bike/bike_tune
+[2024-09-28 20:49:39,856: INFO]: HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+[2024-09-28 20:49:39,861: INFO]: Accessing as Vicky7873
+[2024-09-28 20:49:40,265: INFO]: HTTP Request: GET https://dagshub.com/api/v1/repos/Vicky7873/95Mobiles "HTTP/1.1 200 OK"
+[2024-09-28 20:49:40,267: INFO]: Initialized MLflow to track repo "Vicky7873/95Mobiles"
+[2024-09-28 20:49:40,268: INFO]: Repository Vicky7873/95Mobiles initialized!
+[2024-09-28 20:51:22,958: INFO]: HTTP Request: GET https://dagshub.com/api/v1/repos/Vicky7873/95Mobiles "HTTP/1.1 200 OK"
+[2024-09-28 20:51:22,965: INFO]: Initialized MLflow to track repo "Vicky7873/95Mobiles"
+[2024-09-28 20:51:22,966: INFO]: Repository Vicky7873/95Mobiles initialized!
+[2024-09-28 20:53:48,437: INFO]: Logging file start
+[2024-09-28 20:53:50,473: INFO]: HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+[2024-09-28 20:53:50,484: INFO]: Accessing as Vicky7873
+[2024-09-28 20:53:50,941: INFO]: HTTP Request: GET https://dagshub.com/api/v1/repos/Vicky7873/95Mobiles "HTTP/1.1 200 OK"
+[2024-09-28 20:53:50,944: INFO]: Initialized MLflow to track repo "Vicky7873/95Mobiles"
+[2024-09-28 20:53:50,945: INFO]: Repository Vicky7873/95Mobiles initialized!
+[2024-09-28 20:53:52,997: INFO]: yaml: config/bike_config.yaml loaded successfully
+[2024-09-28 20:53:53,001: INFO]: yaml: params/bike_params.yaml loaded successfully
+[2024-09-28 20:53:53,002: INFO]: created directory at: data/bike
+[2024-09-28 20:53:53,003: INFO]: created directory at: data/bike/bike_tune
+[2024-09-28 21:10:35,377: INFO]: HTTP Request: GET https://dagshub.com/api/v1/repos/Vicky7873/95Mobiles "HTTP/1.1 200 OK"
+[2024-09-28 21:10:35,390: INFO]: Initialized MLflow to track repo "Vicky7873/95Mobiles"
+[2024-09-28 21:10:35,391: INFO]: Repository Vicky7873/95Mobiles initialized!
+[2024-09-28 21:11:01,028: INFO]: Logging file start
+[2024-09-28 21:11:03,081: INFO]: HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+[2024-09-28 21:11:03,093: INFO]: Accessing as Vicky7873
+[2024-09-28 21:11:03,501: INFO]: HTTP Request: GET https://dagshub.com/api/v1/repos/Vicky7873/95Mobiles "HTTP/1.1 200 OK"
+[2024-09-28 21:11:03,505: INFO]: Initialized MLflow to track repo "Vicky7873/95Mobiles"
+[2024-09-28 21:11:03,507: INFO]: Repository Vicky7873/95Mobiles initialized!
+[2024-09-28 21:11:03,522: INFO]: yaml: config/bike_config.yaml loaded successfully
+[2024-09-28 21:11:03,527: INFO]: yaml: params/bike_params.yaml loaded successfully
+[2024-09-28 21:11:03,528: INFO]: created directory at: data/bike
+[2024-09-28 21:11:03,529: INFO]: created directory at: data/bike/bike_tune
+[2024-09-28 21:22:32,233: WARNING]: Retrying (Retry(total=4, connect=5, read=4, redirect=5, status=5)) after connection broken by 'RemoteDisconnected('Remote end closed connection without response')': /Vicky7873/95Mobiles.mlflow/api/2.0/mlflow/runs/log-metric
+[2024-09-28 22:17:47,048: INFO]: Logging file start
+[2024-09-28 22:17:48,875: INFO]: yaml: config/bike_config.yaml loaded successfully
+[2024-09-28 22:17:48,879: INFO]: yaml: params/bike_params.yaml loaded successfully
+[2024-09-28 22:17:48,879: INFO]: created directory at: data/bike
+[2024-09-28 22:17:48,880: INFO]: created directory at: data/bike/bike_tune
+[2024-09-28 22:17:49,264: INFO]: HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+[2024-09-28 22:17:49,273: INFO]: Accessing as Vicky7873
+[2024-09-28 22:17:49,777: INFO]: HTTP Request: GET https://dagshub.com/api/v1/repos/Vicky7873/95Mobiles "HTTP/1.1 200 OK"
+[2024-09-28 22:17:49,783: INFO]: Initialized MLflow to track repo "Vicky7873/95Mobiles"
+[2024-09-28 22:17:49,786: INFO]: Repository Vicky7873/95Mobiles initialized!
+[2024-09-28 22:46:39,016: INFO]: Logging file start
+[2024-09-28 22:46:40,850: INFO]: yaml: config/bike_config.yaml loaded successfully
+[2024-09-28 22:46:40,854: INFO]: yaml: params/bike_params.yaml loaded successfully
+[2024-09-28 22:46:40,855: INFO]: created directory at: data/bike
+[2024-09-28 22:46:40,856: INFO]: created directory at: data/bike/bike_tune
+[2024-09-28 22:46:41,261: INFO]: HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+[2024-09-28 22:46:41,266: INFO]: Accessing as Vicky7873
+[2024-09-28 22:46:41,773: INFO]: HTTP Request: GET https://dagshub.com/api/v1/repos/Vicky7873/95Mobiles "HTTP/1.1 200 OK"
+[2024-09-28 22:46:41,775: INFO]: Initialized MLflow to track repo "Vicky7873/95Mobiles"
+[2024-09-28 22:46:41,776: INFO]: Repository Vicky7873/95Mobiles initialized!
+[2024-09-28 23:29:44,047: INFO]: Logging file start
+[2024-09-28 23:29:45,733: INFO]: yaml: config/bike_config.yaml loaded successfully
+[2024-09-28 23:29:45,735: INFO]: yaml: params/bike_params.yaml loaded successfully
+[2024-09-28 23:29:45,736: INFO]: created directory at: data/bike
+[2024-09-28 23:29:45,736: INFO]: created directory at: data/bike/bike_tune
+[2024-09-28 23:29:46,109: INFO]: HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+[2024-09-28 23:29:46,120: INFO]: Accessing as Vicky7873
+[2024-09-28 23:29:46,514: INFO]: HTTP Request: GET https://dagshub.com/api/v1/repos/Vicky7873/95Mobiles "HTTP/1.1 200 OK"
+[2024-09-28 23:29:46,519: INFO]: Initialized MLflow to track repo "Vicky7873/95Mobiles"
+[2024-09-28 23:29:46,521: INFO]: Repository Vicky7873/95Mobiles initialized!
+[2024-09-28 23:42:01,129: INFO]: Logging file start
+[2024-09-28 23:42:02,993: INFO]: >>>>>> stage Bike data ingestion config started <<<<<<
+[2024-09-28 23:42:02,994: INFO]: yaml: config/bike_config.yaml loaded successfully
+[2024-09-28 23:42:02,997: INFO]: yaml: params/bike_params.yaml loaded successfully
+[2024-09-28 23:42:02,997: INFO]: created directory at: data/bike
+[2024-09-28 23:42:02,997: INFO]: created directory at: data/bike/data_ingestion
+[2024-09-28 23:42:03,680: INFO]: >>>>>> stage Bike data ingestion config completed <<<<<<
+
+x======x
+[2024-09-28 23:42:03,680: INFO]: >>>>>> stage Bike Feature engeenering started <<<<<<
+[2024-09-28 23:42:03,682: INFO]: yaml: config/bike_config.yaml loaded successfully
+[2024-09-28 23:42:03,682: INFO]: yaml: params/bike_params.yaml loaded successfully
+[2024-09-28 23:42:03,682: INFO]: created directory at: data/bike
+[2024-09-28 23:42:03,683: INFO]: created directory at: data/bike/feature_engeenering
+[2024-09-28 23:42:04,435: INFO]: >>>>>> stage Bike Feature engeenering completed <<<<<<
+
+x======x
+[2024-09-28 23:42:04,435: INFO]: >>>>>> stage Bike Data Split started <<<<<<
+[2024-09-28 23:42:04,436: INFO]: yaml: config/bike_config.yaml loaded successfully
+[2024-09-28 23:42:04,437: INFO]: yaml: params/bike_params.yaml loaded successfully
+[2024-09-28 23:42:04,437: INFO]: created directory at: data/bike
+[2024-09-28 23:42:04,437: INFO]: created directory at: data/bike/data_split
+[2024-09-28 23:42:04,664: INFO]: >>>>>> stage Bike Data Split completed <<<<<<
+
+x======x
+[2024-09-28 23:42:04,664: INFO]: >>>>>> stage Bike Model Tunning started <<<<<<
+[2024-09-28 23:42:04,665: INFO]: yaml: config/bike_config.yaml loaded successfully
+[2024-09-28 23:42:04,665: INFO]: yaml: params/bike_params.yaml loaded successfully
+[2024-09-28 23:42:04,665: INFO]: created directory at: data/bike
+[2024-09-28 23:42:04,665: INFO]: created directory at: data/bike/bike_tune
+[2024-09-28 23:42:05,081: INFO]: HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+[2024-09-28 23:42:05,087: INFO]: Accessing as Vicky7873
+[2024-09-28 23:42:05,593: INFO]: HTTP Request: GET https://dagshub.com/api/v1/repos/Vicky7873/95Mobiles "HTTP/1.1 200 OK"
+[2024-09-28 23:42:05,598: INFO]: Initialized MLflow to track repo "Vicky7873/95Mobiles"
+[2024-09-28 23:42:05,600: INFO]: Repository Vicky7873/95Mobiles initialized!
+[2024-09-28 23:52:30,906: INFO]: >>>>>> stage Bike Model Tunning completed <<<<<<
+
+x======x
