@@ -1481,3 +1481,13 @@ x======x
 [2024-09-29 23:59:09,596: INFO]: 192.168.29.22 - - [29/Sep/2024 23:59:09] "GET /bike/ HTTP/1.1" 200 -
 [2024-09-29 23:59:37,000: INFO]: 192.168.29.22 - - [29/Sep/2024 23:59:37] "POST /bike/predict HTTP/1.1" 200 -
 [2024-09-29 23:59:38,684: INFO]: 192.168.29.22 - - [29/Sep/2024 23:59:38] "GET /bike/ HTTP/1.1" 200 -
+[2024-09-30 00:03:17,249: INFO]: Logging file start
+[2024-09-30 00:03:17,386: INFO]: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.29.22:8080
+[2024-09-30 00:03:17,386: INFO]: [33mPress CTRL+C to quit[0m
+[2024-09-30 00:03:17,387: INFO]:  * Restarting with stat
+[2024-09-30 00:03:17,930: INFO]: Logging file start
+[2024-09-30 00:03:18,024: WARNING]:  * Debugger is active!
+[2024-09-30 00:03:18,034: INFO]:  * Debugger PIN: 138-279-406

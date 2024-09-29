@@ -12,5 +12,11 @@ pip install -r requirements.txt
 2. data ingestion for bike done
 3. feature eng done
 4. data splitting done
-5. Hyper parameter tuninng
-6. 
+5. Hyper parameter tuninng with mlflow
+![alt text](image.png)
+6. model evaluatuion done with mlflow
+![alt text](image-1.png)
+7. Application added
+![alt text](image-2.png)
+![alt text](image-3.png)
+![alt text](image-4.png)
