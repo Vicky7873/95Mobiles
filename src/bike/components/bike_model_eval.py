@@ -15,9 +15,11 @@ class BikeModelEval:
     def model_eval(self):
         dagshub.init(repo_owner='Vicky7873', repo_name='95Mobiles', mlflow=True)
         X_test = pd.read_csv(self.config.X_test)
+        # X_test = X_test.drop("Unnamed: 0",axis=1)
         y_test = pd.read_csv(self.config.y_test)
         model = joblib.load(self.config.tunned_model)
         X_train = pd.read_csv(self.config.X_train)
+        # X_train = X_train.drop("Unnamed: 0",axis=1)
         y_train = pd.read_csv(self.config.y_train)
 
         mlflow.set_registry_uri(uri=self.config.mlflow_uri)

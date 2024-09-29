@@ -26,6 +26,15 @@ hyper_tune:
   y_test: data/bike/data_split/y_test.csv
   tunned_model: data/bike/bike_tune/tunned_model.pkl
 
+
+model_training:
+  root_dir: data/bike/model_training
+  X_train: data/bike/data_split/X_train.csv
+  y_train: data/bike/data_split/y_train.csv
+  save_model: data/bike/model_training/rfr_pkl
+  save_model_for_train: models
+
+
 model_eval:
   root_dir: data/bike/model_eval
   X_train: data/bike/data_split/X_train.csv

@@ -8,7 +8,7 @@ class SplitData:
     
     def split_data(self):
         df = pd.read_csv(self.config.feature_eng_data)
-        X = df.drop(columns='price')
+        X = df.drop('price',axis=1)
         y = df['price']
         X_train,X_test,y_train,y_test = train_test_split(X,y,test_size=self.config.test_size,random_state=self.config.random_state)
         print(f"X_train shape:{X_train.shape}")
@@ -29,5 +29,9 @@ class SplitData:
         X_train = pd.read_csv(self.config.X_train)
         X_test = pd.read_csv(self.config.X_test)
 
-        X_train.drop(columns='Unnamed: 0').to_csv(self.config.X_train)
-        X_test.drop(columns='Unnamed: 0').to_csv(self.config.X_test)
+        X_train.drop(columns='Unnamed: 0',axis=1,inplace=True)
+        X_train.to_csv(self.config.X_train,index=False)
+        X_test.drop(columns='Unnamed: 0',axis=1,inplace=True)
+        X_test.to_csv(self.config.X_test,index=False)
+        print("after clean:\n",X_train.head(1))
+        print("after clean:\n",X_test.head(1))

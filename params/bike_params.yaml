@@ -3,7 +3,7 @@ split:
   random_state: 21
 
 model:
-  n_estimators: 10
+  n_estimators: 3
   bootstrap: True
   criterion: squared_error
-  oob_score: False
+  oob_score: True

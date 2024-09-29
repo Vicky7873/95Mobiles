@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bike Price Prediction</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Poppins', sans-serif;
+            background: linear-gradient(135deg, #ffafbd, #ffc3a0);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            overflow: hidden;
+        }
+
+        .container {
+            background: rgba(255, 255, 255, 0.15);
+            padding: 40px;
+            border-radius: 15px;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+            backdrop-filter: blur(10px);
+            max-width: 600px;
+            width: 100%;
+            text-align: center;
+        }
+
+        h1 {
+            color: #333;
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+        }
+
+        .form-group {
+            margin: 15px 0;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 8px;
+            font-size: 1.2rem;
+            color: #333;
+        }
+
+        input, select {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            font-size: 1rem;
+            color: #555;
+        }
+
+        input:focus, select:focus {
+            border-color: #ff7e5f;
+            outline: none;
+            box-shadow: 0 0 8px rgba(255, 126, 95, 0.5);
+        }
+
+        button {
+            background-color: #ff7e5f;
+            color: #fff;
+            padding: 15px 30px;
+            border: none;
+            border-radius: 50px;
+            font-size: 1.2rem;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            margin-top: 20px;
+        }
+
+        button:hover {
+            background-color: #fc4a1a;
+            box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.2);
+            transform: translateY(-3px);
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Bike Price Prediction</h1>
+        <form action="/bike/predict" method="post">
+            <div class="form-group">
+                <label for="bike_name">Bike Name</label>
+                <input type="text" id="bike_name" name="bike_name" placeholder="Enter Bike Name" required>
+            </div>
+            <!-- <div class="form-group">
+                <label for="price">Price</label>
+                <input type="number" id="price" name="price" placeholder="Enter Expected Price (in Rs)" required>
+            </div> -->
+            <div class="form-group">
+                <label for="city">City</label>
+                <select id="city" name="city" required>
+                    <option value="" disabled selected>Select City</option>
+                    <option value="Ahmedabad">Ahmedabad</option>
+                    <option value="Delhi">Delhi</option>
+                    <option value="Bangalore">Bangalore</option>
+                    <option value="Mumbai">Mumbai</option>
+                    <option value="Hyderabad">Hyderabad</option>
+                    <option value="Pune">Pune</option>
+                    <option value="Lucknow">Lucknow</option>
+                    <option value="Jaipur">Jaipur</option>
+                    <option value="Chennai">Chennai</option>
+                    <option value="Ghaziabad">Ghaziabad</option>
+                    <option value="others">Others</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="kms_driven">KMs Driven</label>
+                <input type="number" id="kms_driven" name="kms_driven" placeholder="Enter KMs Driven" required>
+            </div>
+            <div class="form-group">
+                <label for="owner">Owner</label>
+                <select id="owner" name="owner" required>
+                    <option value="" disabled selected>Select Owner Type</option>
+                    <option value="First Owner">First Owner</option>
+                    <option value="Second Owner">Second Owner</option>
+                    <option value="Third Owner">Third Owner</option>
+                    <option value="Fourth or More">Fourth or More</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="age">Age of Bike (in years)</label>
+                <input type="number" id="age" name="age" placeholder="Enter Age of the Bike" required>
+            </div>
+            <div class="form-group">
+                <label for="power">Power (CC)</label>
+                <input type="number" id="power" name="power" placeholder="Enter Engine Power (in CC)" required>
+            </div>
+            <div class="form-group">
+                <label for="brand">Brand</label>
+                <select id="brand" name="brand" required>
+                    <option value="" disabled selected>Select Brand</option>
+                    <option value="Bajaj">Bajaj</option>
+                    <option value="Hero">Hero</option>
+                    <option value="Royal Enfield">Royal Enfield</option>
+                    <option value="Yamaha">Yamaha</option>
+                    <option value="Honda">Honda</option>
+                    <option value="Suzuki">Suzuki</option>
+                    <option value="TVS">TVS</option>
+                    <option value="KTM">KTM</option>
+                    <option value="Harley-Davidson">Harley-Davidson</option>
+                    <option value="Kawasaki">Kawasaki</option>
+                    <option value="Hyosung">Hyosung</option>
+                    <option value="Benelli">Benelli</option>
+                    <option value="Mahindra">Mahindra</option>
+                    <option value="Triumph">Triumph</option>
+                    <option value="Ducati">Ducati</option>
+                    <option value="BMW">BMW</option>
+                    <option value="Jawa">Jawa</option>
+                    <option value="MV">MV</option>
+                    <option value="Indian">Indian</option>
+                    <option value="Ideal">Ideal</option>
+                    <option value="Rajdoot">Rajdoot</option>
+                    <option value="LML">LML</option>
+                    <option value="Yezdi">Yezdi</option>
+                </select>
+            </div>
+            <button type="submit">Predict Price</button>
+        </form>
+    </div>
+
+</body>
+</html>

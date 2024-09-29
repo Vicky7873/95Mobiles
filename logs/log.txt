@@ -613,3 +613,871 @@ x======x
 [2024-09-29 01:09:33,677: INFO]: >>>>>> stage Bike Model eval completed <<<<<<
 
 x======x
+[2024-09-29 19:38:54,644: INFO]: Logging file start
+[2024-09-29 19:38:54,847: INFO]: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.29.22:8080
+[2024-09-29 19:38:54,847: INFO]: [33mPress CTRL+C to quit[0m
+[2024-09-29 19:38:54,848: INFO]:  * Restarting with stat
+[2024-09-29 19:38:55,403: INFO]: Logging file start
+[2024-09-29 19:38:55,500: WARNING]:  * Debugger is active!
+[2024-09-29 19:38:55,508: INFO]:  * Debugger PIN: 138-279-406
+[2024-09-29 19:39:03,589: INFO]: 192.168.29.22 - - [29/Sep/2024 19:39:03] "GET / HTTP/1.1" 200 -
+[2024-09-29 19:39:03,670: INFO]: 192.168.29.22 - - [29/Sep/2024 19:39:03] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[2024-09-29 19:39:06,860: INFO]: 192.168.29.22 - - [29/Sep/2024 19:39:06] "[33mGET /bike.html HTTP/1.1[0m" 404 -
+[2024-09-29 19:40:01,823: INFO]: Logging file start
+[2024-09-29 19:40:02,003: INFO]: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.29.22:8080
+[2024-09-29 19:40:02,003: INFO]: [33mPress CTRL+C to quit[0m
+[2024-09-29 19:40:02,003: INFO]:  * Restarting with stat
+[2024-09-29 19:40:02,567: INFO]: Logging file start
+[2024-09-29 19:40:02,674: WARNING]:  * Debugger is active!
+[2024-09-29 19:40:02,683: INFO]:  * Debugger PIN: 138-279-406
+[2024-09-29 19:40:06,283: INFO]: 192.168.29.22 - - [29/Sep/2024 19:40:06] "GET / HTTP/1.1" 200 -
+[2024-09-29 19:40:08,970: INFO]: 192.168.29.22 - - [29/Sep/2024 19:40:08] "[33mGET /bike_index.html HTTP/1.1[0m" 404 -
+[2024-09-29 19:43:37,719: INFO]:  * Detected change in '/Users/bhikipallai/Desktop/Projects/95Mobiles/src/bike/applications/bike.py', reloading
+[2024-09-29 19:43:37,943: INFO]:  * Restarting with stat
+[2024-09-29 19:43:39,040: INFO]: Logging file start
+[2024-09-29 19:43:39,206: WARNING]:  * Debugger is active!
+[2024-09-29 19:43:39,217: INFO]:  * Debugger PIN: 138-279-406
+[2024-09-29 19:44:07,734: INFO]: Logging file start
+[2024-09-29 19:44:07,875: INFO]: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.29.22:8080
+[2024-09-29 19:44:07,875: INFO]: [33mPress CTRL+C to quit[0m
+[2024-09-29 19:44:07,875: INFO]:  * Restarting with stat
+[2024-09-29 19:44:08,460: INFO]: Logging file start
+[2024-09-29 19:44:08,567: WARNING]:  * Debugger is active!
+[2024-09-29 19:44:08,575: INFO]:  * Debugger PIN: 138-279-406
+[2024-09-29 19:44:12,096: INFO]: 192.168.29.22 - - [29/Sep/2024 19:44:12] "GET / HTTP/1.1" 200 -
+[2024-09-29 19:44:14,710: INFO]: 192.168.29.22 - - [29/Sep/2024 19:44:14] "[33mGET /bike_index.html HTTP/1.1[0m" 404 -
+[2024-09-29 19:45:04,349: INFO]: Logging file start
+[2024-09-29 19:45:04,484: INFO]: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.29.22:8080
+[2024-09-29 19:45:04,484: INFO]: [33mPress CTRL+C to quit[0m
+[2024-09-29 19:45:04,485: INFO]:  * Restarting with stat
+[2024-09-29 19:45:05,070: INFO]: Logging file start
+[2024-09-29 19:45:05,173: WARNING]:  * Debugger is active!
+[2024-09-29 19:45:05,180: INFO]:  * Debugger PIN: 138-279-406
+[2024-09-29 19:45:08,608: INFO]: 192.168.29.22 - - [29/Sep/2024 19:45:08] "GET / HTTP/1.1" 200 -
+[2024-09-29 19:45:10,424: INFO]: 192.168.29.22 - - [29/Sep/2024 19:45:10] "[33mGET /bike_index.html HTTP/1.1[0m" 404 -
+[2024-09-29 19:48:04,674: INFO]: Logging file start
+[2024-09-29 19:48:04,826: INFO]: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.29.22:8080
+[2024-09-29 19:48:04,826: INFO]: [33mPress CTRL+C to quit[0m
+[2024-09-29 19:48:04,827: INFO]:  * Restarting with stat
+[2024-09-29 19:48:05,428: INFO]: Logging file start
+[2024-09-29 19:48:05,531: WARNING]:  * Debugger is active!
+[2024-09-29 19:48:05,539: INFO]:  * Debugger PIN: 138-279-406
+[2024-09-29 19:48:09,215: INFO]: 192.168.29.22 - - [29/Sep/2024 19:48:09] "GET / HTTP/1.1" 200 -
+[2024-09-29 19:48:12,835: INFO]: 192.168.29.22 - - [29/Sep/2024 19:48:12] "[33mGET /bike_index.html HTTP/1.1[0m" 404 -
+[2024-09-29 19:50:07,332: INFO]:  * Detected change in '/Users/bhikipallai/Desktop/Projects/95Mobiles/src/bike/applications/bike.py', reloading
+[2024-09-29 19:50:07,482: INFO]:  * Restarting with stat
+[2024-09-29 19:50:08,344: INFO]: Logging file start
+[2024-09-29 19:50:08,493: WARNING]:  * Debugger is active!
+[2024-09-29 19:50:08,500: INFO]:  * Debugger PIN: 138-279-406
+[2024-09-29 19:50:14,398: INFO]: 192.168.29.22 - - [29/Sep/2024 19:50:14] "[33mGET /bike_index.html HTTP/1.1[0m" 404 -
+[2024-09-29 19:50:15,713: INFO]: 192.168.29.22 - - [29/Sep/2024 19:50:15] "[33mGET /bike_index.html HTTP/1.1[0m" 404 -
+[2024-09-29 19:50:25,795: INFO]: Logging file start
+[2024-09-29 19:50:25,933: INFO]: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.29.22:8080
+[2024-09-29 19:50:25,933: INFO]: [33mPress CTRL+C to quit[0m
+[2024-09-29 19:50:25,934: INFO]:  * Restarting with stat
+[2024-09-29 19:50:26,504: INFO]: Logging file start
+[2024-09-29 19:50:26,613: WARNING]:  * Debugger is active!
+[2024-09-29 19:50:26,621: INFO]:  * Debugger PIN: 138-279-406
+[2024-09-29 19:50:31,579: INFO]: 192.168.29.22 - - [29/Sep/2024 19:50:31] "GET / HTTP/1.1" 200 -
+[2024-09-29 19:50:33,382: INFO]: 192.168.29.22 - - [29/Sep/2024 19:50:33] "[33mGET /bike_index.html HTTP/1.1[0m" 404 -
+[2024-09-29 19:51:35,622: INFO]:  * Detected change in '/Users/bhikipallai/Desktop/Projects/95Mobiles/src/bike/applications/bike.py', reloading
+[2024-09-29 19:51:35,753: INFO]:  * Restarting with stat
+[2024-09-29 19:51:36,612: INFO]: Logging file start
+[2024-09-29 19:51:36,762: WARNING]:  * Debugger is active!
+[2024-09-29 19:51:36,771: INFO]:  * Debugger PIN: 138-279-406
+[2024-09-29 19:51:40,586: INFO]: Logging file start
+[2024-09-29 19:51:40,701: INFO]: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.29.22:8080
+[2024-09-29 19:51:40,702: INFO]: [33mPress CTRL+C to quit[0m
+[2024-09-29 19:51:40,702: INFO]:  * Restarting with stat
+[2024-09-29 19:51:41,279: INFO]: Logging file start
+[2024-09-29 19:51:41,402: WARNING]:  * Debugger is active!
+[2024-09-29 19:51:41,413: INFO]:  * Debugger PIN: 138-279-406
+[2024-09-29 19:51:45,914: INFO]: 192.168.29.22 - - [29/Sep/2024 19:51:45] "GET / HTTP/1.1" 200 -
+[2024-09-29 19:51:47,564: INFO]: 192.168.29.22 - - [29/Sep/2024 19:51:47] "[33mGET /bike_index.html HTTP/1.1[0m" 404 -
+[2024-09-29 20:00:32,208: INFO]: Logging file start
+[2024-09-29 20:00:32,362: INFO]: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.29.22:8080
+[2024-09-29 20:00:32,362: INFO]: [33mPress CTRL+C to quit[0m
+[2024-09-29 20:00:32,362: INFO]:  * Restarting with stat
+[2024-09-29 20:00:32,937: INFO]: Logging file start
+[2024-09-29 20:00:33,048: WARNING]:  * Debugger is active!
+[2024-09-29 20:00:33,057: INFO]:  * Debugger PIN: 138-279-406
+[2024-09-29 20:00:36,297: INFO]: 192.168.29.22 - - [29/Sep/2024 20:00:36] "GET / HTTP/1.1" 200 -
+[2024-09-29 20:00:37,909: INFO]: 192.168.29.22 - - [29/Sep/2024 20:00:37] "[32mGET /bike HTTP/1.1[0m" 308 -
+[2024-09-29 20:00:37,920: INFO]: 192.168.29.22 - - [29/Sep/2024 20:00:37] "GET /bike/ HTTP/1.1" 200 -
+[2024-09-29 20:01:27,231: INFO]: 192.168.29.22 - - [29/Sep/2024 20:01:27] "[35m[1mPOST /bike/predict HTTP/1.1[0m" 500 -
+[2024-09-29 20:01:27,270: INFO]: 192.168.29.22 - - [29/Sep/2024 20:01:27] "GET /bike/predict?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+[2024-09-29 20:01:27,270: INFO]: 192.168.29.22 - - [29/Sep/2024 20:01:27] "GET /bike/predict?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+[2024-09-29 20:01:27,310: INFO]: 192.168.29.22 - - [29/Sep/2024 20:01:27] "GET /bike/predict?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+[2024-09-29 20:02:36,956: INFO]:  * Detected change in '/Users/bhikipallai/Desktop/Projects/95Mobiles/src/bike/applications/bike.py', reloading
+[2024-09-29 20:02:37,097: INFO]:  * Restarting with stat
+[2024-09-29 20:02:38,029: INFO]: Logging file start
+[2024-09-29 20:02:38,163: WARNING]:  * Debugger is active!
+[2024-09-29 20:02:38,171: INFO]:  * Debugger PIN: 138-279-406
+[2024-09-29 20:02:42,000: INFO]: Logging file start
+[2024-09-29 20:02:42,124: INFO]: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.29.22:8080
+[2024-09-29 20:02:42,124: INFO]: [33mPress CTRL+C to quit[0m
+[2024-09-29 20:02:42,124: INFO]:  * Restarting with stat
+[2024-09-29 20:02:42,714: INFO]: Logging file start
+[2024-09-29 20:02:42,822: WARNING]:  * Debugger is active!
+[2024-09-29 20:02:42,828: INFO]:  * Debugger PIN: 138-279-406
+[2024-09-29 20:02:45,501: INFO]: 192.168.29.22 - - [29/Sep/2024 20:02:45] "GET / HTTP/1.1" 200 -
+[2024-09-29 20:02:48,081: INFO]: 192.168.29.22 - - [29/Sep/2024 20:02:48] "GET /bike/ HTTP/1.1" 200 -
+[2024-09-29 20:03:03,012: INFO]: 192.168.29.22 - - [29/Sep/2024 20:03:03] "[35m[1mPOST /bike/predict HTTP/1.1[0m" 500 -
+[2024-09-29 20:03:03,029: INFO]: 192.168.29.22 - - [29/Sep/2024 20:03:03] "[36mGET /bike/predict?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[2024-09-29 20:03:03,033: INFO]: 192.168.29.22 - - [29/Sep/2024 20:03:03] "[36mGET /bike/predict?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[2024-09-29 20:04:10,202: INFO]:  * Detected change in '/Users/bhikipallai/Desktop/Projects/95Mobiles/src/bike/applications/bike.py', reloading
+[2024-09-29 20:04:10,314: INFO]:  * Restarting with stat
+[2024-09-29 20:04:11,163: INFO]: Logging file start
+[2024-09-29 20:04:11,306: WARNING]:  * Debugger is active!
+[2024-09-29 20:04:11,313: INFO]:  * Debugger PIN: 138-279-406
+[2024-09-29 20:04:15,965: INFO]: Logging file start
+[2024-09-29 20:04:16,082: INFO]: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.29.22:8080
+[2024-09-29 20:04:16,082: INFO]: [33mPress CTRL+C to quit[0m
+[2024-09-29 20:04:16,083: INFO]:  * Restarting with stat
+[2024-09-29 20:04:16,685: INFO]: Logging file start
+[2024-09-29 20:04:16,857: WARNING]:  * Debugger is active!
+[2024-09-29 20:04:16,865: INFO]:  * Debugger PIN: 138-279-406
+[2024-09-29 20:04:22,288: INFO]: 192.168.29.22 - - [29/Sep/2024 20:04:22] "GET / HTTP/1.1" 200 -
+[2024-09-29 20:04:23,868: INFO]: 192.168.29.22 - - [29/Sep/2024 20:04:23] "GET /bike/ HTTP/1.1" 200 -
+[2024-09-29 20:04:49,973: INFO]: 192.168.29.22 - - [29/Sep/2024 20:04:49] "[35m[1mPOST /bike/predict HTTP/1.1[0m" 500 -
+[2024-09-29 20:04:49,996: INFO]: 192.168.29.22 - - [29/Sep/2024 20:04:49] "[36mGET /bike/predict?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[2024-09-29 20:04:49,996: INFO]: 192.168.29.22 - - [29/Sep/2024 20:04:49] "[36mGET /bike/predict?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[2024-09-29 20:05:15,795: INFO]:  * Detected change in '/Users/bhikipallai/Desktop/Projects/95Mobiles/src/bike/applications/bike.py', reloading
+[2024-09-29 20:05:15,920: INFO]:  * Restarting with stat
+[2024-09-29 20:05:16,713: INFO]: Logging file start
+[2024-09-29 20:05:16,841: WARNING]:  * Debugger is active!
+[2024-09-29 20:05:16,849: INFO]:  * Debugger PIN: 138-279-406
+[2024-09-29 20:07:36,767: INFO]: Logging file start
+[2024-09-29 20:07:38,297: INFO]: >>>>>> stage Bike data ingestion config started <<<<<<
+[2024-09-29 20:07:38,302: INFO]: yaml: config/bike_config.yaml loaded successfully
+[2024-09-29 20:07:38,303: INFO]: yaml: params/bike_params.yaml loaded successfully
+[2024-09-29 20:07:38,304: INFO]: created directory at: data/bike
+[2024-09-29 20:07:38,304: INFO]: created directory at: data/bike/data_ingestion
+[2024-09-29 20:07:39,080: INFO]: >>>>>> stage Bike data ingestion config completed <<<<<<
+
+x======x
+[2024-09-29 20:07:39,080: INFO]: >>>>>> stage Bike Feature engeenering started <<<<<<
+[2024-09-29 20:07:39,082: INFO]: yaml: config/bike_config.yaml loaded successfully
+[2024-09-29 20:07:39,082: INFO]: yaml: params/bike_params.yaml loaded successfully
+[2024-09-29 20:07:39,082: INFO]: created directory at: data/bike
+[2024-09-29 20:07:39,083: INFO]: created directory at: data/bike/feature_engeenering
+[2024-09-29 20:07:39,833: INFO]: >>>>>> stage Bike Feature engeenering completed <<<<<<
+
+x======x
+[2024-09-29 20:07:39,833: INFO]: >>>>>> stage Bike Data Split started <<<<<<
+[2024-09-29 20:07:39,835: INFO]: yaml: config/bike_config.yaml loaded successfully
+[2024-09-29 20:07:39,836: INFO]: yaml: params/bike_params.yaml loaded successfully
+[2024-09-29 20:07:39,836: INFO]: created directory at: data/bike
+[2024-09-29 20:07:39,836: INFO]: created directory at: data/bike/data_split
+[2024-09-29 20:07:40,050: INFO]: >>>>>> stage Bike Data Split completed <<<<<<
+
+x======x
+[2024-09-29 20:07:40,050: INFO]: >>>>>> stage Bike Model Tunning started <<<<<<
+[2024-09-29 20:07:40,051: INFO]: yaml: config/bike_config.yaml loaded successfully
+[2024-09-29 20:07:40,052: INFO]: yaml: params/bike_params.yaml loaded successfully
+[2024-09-29 20:07:40,052: INFO]: created directory at: data/bike
+[2024-09-29 20:07:40,052: INFO]: created directory at: data/bike/bike_tune
+[2024-09-29 20:07:40,410: INFO]: HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+[2024-09-29 20:07:40,411: INFO]: Accessing as Vicky7873
+[2024-09-29 20:07:40,805: INFO]: HTTP Request: GET https://dagshub.com/api/v1/repos/Vicky7873/95Mobiles "HTTP/1.1 200 OK"
+[2024-09-29 20:07:40,807: INFO]: Initialized MLflow to track repo "Vicky7873/95Mobiles"
+[2024-09-29 20:07:40,807: INFO]: Repository Vicky7873/95Mobiles initialized!
+[2024-09-29 20:12:18,192: INFO]: Logging file start
+[2024-09-29 20:12:19,577: INFO]: yaml: config/bike_config.yaml loaded successfully
+[2024-09-29 20:12:19,581: INFO]: yaml: params/bike_params.yaml loaded successfully
+[2024-09-29 20:12:19,582: INFO]: created directory at: data/bike
+[2024-09-29 20:12:19,582: INFO]: created directory at: data/bike/data_split
+[2024-09-29 20:18:17,255: INFO]: >>>>>> stage Bike Model Tunning completed <<<<<<
+
+x======x
+[2024-09-29 20:18:17,256: INFO]: >>>>>> stage Bike Model eval started <<<<<<
+[2024-09-29 20:18:17,258: INFO]: yaml: config/bike_config.yaml loaded successfully
+[2024-09-29 20:18:17,259: INFO]: yaml: params/bike_params.yaml loaded successfully
+[2024-09-29 20:18:17,259: INFO]: created directory at: data/bike
+[2024-09-29 20:18:17,259: INFO]: created directory at: data/bike/model_eval
+[2024-09-29 20:18:17,667: INFO]: HTTP Request: GET https://dagshub.com/api/v1/repos/Vicky7873/95Mobiles "HTTP/1.1 200 OK"
+[2024-09-29 20:18:17,669: INFO]: Initialized MLflow to track repo "Vicky7873/95Mobiles"
+[2024-09-29 20:18:17,669: INFO]: Repository Vicky7873/95Mobiles initialized!
+[2024-09-29 20:18:52,188: INFO]: Logging file start
+[2024-09-29 20:18:53,011: INFO]: yaml: config/bike_config.yaml loaded successfully
+[2024-09-29 20:18:53,013: INFO]: yaml: params/bike_params.yaml loaded successfully
+[2024-09-29 20:18:53,013: INFO]: created directory at: data/bike
+[2024-09-29 20:18:53,014: INFO]: created directory at: data/bike/data_split
+[2024-09-29 20:19:34,390: INFO]: Logging file start
+[2024-09-29 20:19:35,235: INFO]: yaml: config/bike_config.yaml loaded successfully
+[2024-09-29 20:19:35,238: INFO]: yaml: params/bike_params.yaml loaded successfully
+[2024-09-29 20:19:35,238: INFO]: created directory at: data/bike
+[2024-09-29 20:19:35,239: INFO]: created directory at: data/bike/data_split
+[2024-09-29 20:19:45,250: INFO]: Logging file start
+[2024-09-29 20:19:46,041: INFO]: yaml: config/bike_config.yaml loaded successfully
+[2024-09-29 20:19:46,043: INFO]: yaml: params/bike_params.yaml loaded successfully
+[2024-09-29 20:19:46,044: INFO]: created directory at: data/bike
+[2024-09-29 20:19:46,044: INFO]: created directory at: data/bike/data_split
+[2024-09-29 20:20:32,281: INFO]: Logging file start
+[2024-09-29 20:20:33,066: INFO]: yaml: config/bike_config.yaml loaded successfully
+[2024-09-29 20:20:33,068: INFO]: yaml: params/bike_params.yaml loaded successfully
+[2024-09-29 20:20:33,068: INFO]: created directory at: data/bike
+[2024-09-29 20:20:33,069: INFO]: created directory at: data/bike/data_split
+[2024-09-29 20:23:45,785: INFO]: Logging file start
+[2024-09-29 20:23:46,767: INFO]: yaml: config/bike_config.yaml loaded successfully
+[2024-09-29 20:23:46,769: INFO]: yaml: params/bike_params.yaml loaded successfully
+[2024-09-29 20:23:46,770: INFO]: created directory at: data/bike
+[2024-09-29 20:23:46,770: INFO]: created directory at: data/bike/data_split
+[2024-09-29 20:24:57,185: INFO]: yaml: config/bike_config.yaml loaded successfully
+[2024-09-29 20:24:57,191: INFO]: yaml: params/bike_params.yaml loaded successfully
+[2024-09-29 20:24:57,200: INFO]: created directory at: data/bike
+[2024-09-29 20:24:57,203: INFO]: created directory at: data/bike/data_split
+[2024-09-29 20:25:09,259: INFO]: Logging file start
+[2024-09-29 20:25:10,022: INFO]: yaml: config/bike_config.yaml loaded successfully
+[2024-09-29 20:25:10,024: INFO]: yaml: params/bike_params.yaml loaded successfully
+[2024-09-29 20:25:10,024: INFO]: created directory at: data/bike
+[2024-09-29 20:25:10,025: INFO]: created directory at: data/bike/data_split
+[2024-09-29 20:29:03,976: INFO]: Logging file start
+[2024-09-29 20:29:04,750: INFO]: yaml: config/bike_config.yaml loaded successfully
+[2024-09-29 20:29:04,752: INFO]: yaml: params/bike_params.yaml loaded successfully
+[2024-09-29 20:29:04,752: INFO]: created directory at: data/bike
+[2024-09-29 20:29:04,752: INFO]: created directory at: data/bike/data_split
+[2024-09-29 20:29:30,007: INFO]: Logging file start
+[2024-09-29 20:29:30,736: INFO]: yaml: config/bike_config.yaml loaded successfully
+[2024-09-29 20:29:30,737: INFO]: yaml: params/bike_params.yaml loaded successfully
+[2024-09-29 20:29:30,738: INFO]: created directory at: data/bike
+[2024-09-29 20:29:30,739: INFO]: created directory at: data/bike/data_split
+[2024-09-29 20:30:26,940: INFO]: Logging file start
+[2024-09-29 20:30:28,537: INFO]: >>>>>> stage Bike data ingestion config started <<<<<<
+[2024-09-29 20:30:28,539: INFO]: yaml: config/bike_config.yaml loaded successfully
+[2024-09-29 20:30:28,540: INFO]: yaml: params/bike_params.yaml loaded successfully
+[2024-09-29 20:30:28,540: INFO]: created directory at: data/bike
+[2024-09-29 20:30:28,540: INFO]: created directory at: data/bike/data_ingestion
+[2024-09-29 20:30:28,982: INFO]: >>>>>> stage Bike data ingestion config completed <<<<<<
+
+x======x
+[2024-09-29 20:30:28,982: INFO]: >>>>>> stage Bike Feature engeenering started <<<<<<
+[2024-09-29 20:30:28,983: INFO]: yaml: config/bike_config.yaml loaded successfully
+[2024-09-29 20:30:28,984: INFO]: yaml: params/bike_params.yaml loaded successfully
+[2024-09-29 20:30:28,984: INFO]: created directory at: data/bike
+[2024-09-29 20:30:28,984: INFO]: created directory at: data/bike/feature_engeenering
+[2024-09-29 20:30:29,734: INFO]: >>>>>> stage Bike Feature engeenering completed <<<<<<
+
+x======x
+[2024-09-29 20:30:29,734: INFO]: >>>>>> stage Bike Data Split started <<<<<<
+[2024-09-29 20:30:29,736: INFO]: yaml: config/bike_config.yaml loaded successfully
+[2024-09-29 20:30:29,736: INFO]: yaml: params/bike_params.yaml loaded successfully
+[2024-09-29 20:30:29,736: INFO]: created directory at: data/bike
+[2024-09-29 20:30:29,736: INFO]: created directory at: data/bike/data_split
+[2024-09-29 20:30:29,967: INFO]: >>>>>> stage Bike Data Split completed <<<<<<
+
+x======x
+[2024-09-29 20:30:29,967: INFO]: >>>>>> stage Bike Model Tunning started <<<<<<
+[2024-09-29 20:30:29,968: INFO]: yaml: config/bike_config.yaml loaded successfully
+[2024-09-29 20:30:29,969: INFO]: yaml: params/bike_params.yaml loaded successfully
+[2024-09-29 20:30:29,969: INFO]: created directory at: data/bike
+[2024-09-29 20:30:29,969: INFO]: created directory at: data/bike/bike_tune
+[2024-09-29 20:30:30,368: INFO]: HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+[2024-09-29 20:30:30,371: INFO]: Accessing as Vicky7873
+[2024-09-29 20:30:30,807: INFO]: HTTP Request: GET https://dagshub.com/api/v1/repos/Vicky7873/95Mobiles "HTTP/1.1 200 OK"
+[2024-09-29 20:30:30,808: INFO]: Initialized MLflow to track repo "Vicky7873/95Mobiles"
+[2024-09-29 20:30:30,808: INFO]: Repository Vicky7873/95Mobiles initialized!
+[2024-09-29 20:39:58,726: INFO]: >>>>>> stage Bike Model Tunning completed <<<<<<
+
+x======x
+[2024-09-29 20:39:58,727: INFO]: >>>>>> stage Bike Model eval started <<<<<<
+[2024-09-29 20:39:58,733: INFO]: yaml: config/bike_config.yaml loaded successfully
+[2024-09-29 20:39:58,736: INFO]: yaml: params/bike_params.yaml loaded successfully
+[2024-09-29 20:39:58,736: INFO]: created directory at: data/bike
+[2024-09-29 20:39:58,736: INFO]: created directory at: data/bike/model_eval
+[2024-09-29 20:39:59,148: INFO]: HTTP Request: GET https://dagshub.com/api/v1/repos/Vicky7873/95Mobiles "HTTP/1.1 200 OK"
+[2024-09-29 20:39:59,154: INFO]: Initialized MLflow to track repo "Vicky7873/95Mobiles"
+[2024-09-29 20:39:59,155: INFO]: Repository Vicky7873/95Mobiles initialized!
+[2024-09-29 20:40:02,012: INFO]: >>>>>> stage Bike Model eval completed <<<<<<
+
+x======x
+[2024-09-29 20:40:38,066: INFO]: Logging file start
+[2024-09-29 20:40:38,229: INFO]: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.29.22:8080
+[2024-09-29 20:40:38,229: INFO]: [33mPress CTRL+C to quit[0m
+[2024-09-29 20:40:38,229: INFO]:  * Restarting with stat
+[2024-09-29 20:40:38,813: INFO]: Logging file start
+[2024-09-29 20:40:38,926: WARNING]:  * Debugger is active!
+[2024-09-29 20:40:38,935: INFO]:  * Debugger PIN: 138-279-406
+[2024-09-29 20:40:44,406: INFO]: 192.168.29.22 - - [29/Sep/2024 20:40:44] "GET / HTTP/1.1" 200 -
+[2024-09-29 20:40:47,029: INFO]: 192.168.29.22 - - [29/Sep/2024 20:40:47] "GET /bike/ HTTP/1.1" 200 -
+[2024-09-29 20:41:00,707: INFO]: 192.168.29.22 - - [29/Sep/2024 20:41:00] "[35m[1mPOST /bike/predict HTTP/1.1[0m" 500 -
+[2024-09-29 20:41:00,735: INFO]: 192.168.29.22 - - [29/Sep/2024 20:41:00] "[36mGET /bike/predict?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[2024-09-29 20:41:00,737: INFO]: 192.168.29.22 - - [29/Sep/2024 20:41:00] "[36mGET /bike/predict?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[2024-09-29 20:54:45,071: INFO]: Logging file start
+[2024-09-29 20:54:46,677: INFO]: >>>>>> stage Bike data ingestion config started <<<<<<
+[2024-09-29 20:54:46,679: INFO]: yaml: config/bike_config.yaml loaded successfully
+[2024-09-29 20:54:46,680: INFO]: yaml: params/bike_params.yaml loaded successfully
+[2024-09-29 20:54:46,680: INFO]: created directory at: data/bike
+[2024-09-29 20:54:46,680: INFO]: created directory at: data/bike/data_ingestion
+[2024-09-29 20:54:47,064: INFO]: >>>>>> stage Bike data ingestion config completed <<<<<<
+
+x======x
+[2024-09-29 20:54:47,064: INFO]: >>>>>> stage Bike Feature engeenering started <<<<<<
+[2024-09-29 20:54:47,067: INFO]: yaml: config/bike_config.yaml loaded successfully
+[2024-09-29 20:54:47,068: INFO]: yaml: params/bike_params.yaml loaded successfully
+[2024-09-29 20:54:47,068: INFO]: created directory at: data/bike
+[2024-09-29 20:54:47,069: INFO]: created directory at: data/bike/feature_engeenering
+[2024-09-29 20:54:47,814: INFO]: >>>>>> stage Bike Feature engeenering completed <<<<<<
+
+x======x
+[2024-09-29 20:54:47,814: INFO]: >>>>>> stage Bike Data Split started <<<<<<
+[2024-09-29 20:54:47,815: INFO]: yaml: config/bike_config.yaml loaded successfully
+[2024-09-29 20:54:47,816: INFO]: yaml: params/bike_params.yaml loaded successfully
+[2024-09-29 20:54:47,816: INFO]: created directory at: data/bike
+[2024-09-29 20:54:47,816: INFO]: created directory at: data/bike/data_split
+[2024-09-29 20:54:48,023: INFO]: >>>>>> stage Bike Data Split completed <<<<<<
+
+x======x
+[2024-09-29 20:54:48,023: INFO]: >>>>>> stage Bike Model Tunning started <<<<<<
+[2024-09-29 20:54:48,024: INFO]: yaml: config/bike_config.yaml loaded successfully
+[2024-09-29 20:54:48,025: INFO]: yaml: params/bike_params.yaml loaded successfully
+[2024-09-29 20:54:48,025: INFO]: created directory at: data/bike
+[2024-09-29 20:54:48,025: INFO]: created directory at: data/bike/bike_tune
+[2024-09-29 20:54:48,367: INFO]: HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+[2024-09-29 20:54:48,370: INFO]: Accessing as Vicky7873
+[2024-09-29 20:54:48,759: INFO]: HTTP Request: GET https://dagshub.com/api/v1/repos/Vicky7873/95Mobiles "HTTP/1.1 200 OK"
+[2024-09-29 20:54:48,766: INFO]: Initialized MLflow to track repo "Vicky7873/95Mobiles"
+[2024-09-29 20:54:48,767: INFO]: Repository Vicky7873/95Mobiles initialized!
+[2024-09-29 21:04:26,124: INFO]: >>>>>> stage Bike Model Tunning completed <<<<<<
+
+x======x
+[2024-09-29 21:04:26,126: INFO]: >>>>>> stage Bike Model eval started <<<<<<
+[2024-09-29 21:04:26,132: INFO]: yaml: config/bike_config.yaml loaded successfully
+[2024-09-29 21:04:26,136: INFO]: yaml: params/bike_params.yaml loaded successfully
+[2024-09-29 21:04:26,137: INFO]: created directory at: data/bike
+[2024-09-29 21:04:26,137: INFO]: created directory at: data/bike/model_eval
+[2024-09-29 21:04:26,542: INFO]: HTTP Request: GET https://dagshub.com/api/v1/repos/Vicky7873/95Mobiles "HTTP/1.1 200 OK"
+[2024-09-29 21:04:26,545: INFO]: Initialized MLflow to track repo "Vicky7873/95Mobiles"
+[2024-09-29 21:04:26,546: INFO]: Repository Vicky7873/95Mobiles initialized!
+[2024-09-29 21:04:29,200: INFO]: >>>>>> stage Bike Model eval completed <<<<<<
+
+x======x
+[2024-09-29 21:04:37,680: INFO]: Logging file start
+[2024-09-29 21:04:37,689: INFO]: yaml: config/bike_config.yaml loaded successfully
+[2024-09-29 21:04:37,697: INFO]: created directory at: data/bike/data_ingestion
+[2024-09-29 21:13:55,382: INFO]: Logging file start
+[2024-09-29 21:28:58,347: INFO]: yaml: config/bike_config.yaml loaded successfully
+[2024-09-29 21:28:58,356: INFO]: yaml: params/bike_params.yaml loaded successfully
+[2024-09-29 21:28:58,360: INFO]: created directory at: data/bike
+[2024-09-29 21:28:58,367: INFO]: created directory at: data/bike/model_training
+[2024-09-29 21:29:33,371: INFO]: Logging file start
+[2024-09-29 21:29:34,585: INFO]: yaml: config/bike_config.yaml loaded successfully
+[2024-09-29 21:29:34,586: INFO]: yaml: params/bike_params.yaml loaded successfully
+[2024-09-29 21:29:34,586: INFO]: created directory at: data/bike
+[2024-09-29 21:29:34,587: INFO]: created directory at: data/bike/model_training
+[2024-09-29 22:10:18,066: INFO]: Logging file start
+[2024-09-29 22:10:20,016: INFO]: >>>>>> stage Bike data ingestion config started <<<<<<
+[2024-09-29 22:10:20,018: INFO]: yaml: config/bike_config.yaml loaded successfully
+[2024-09-29 22:10:20,019: INFO]: yaml: params/bike_params.yaml loaded successfully
+[2024-09-29 22:10:20,020: INFO]: created directory at: data/bike
+[2024-09-29 22:10:20,020: INFO]: created directory at: data/bike/data_ingestion
+[2024-09-29 22:10:20,503: INFO]: >>>>>> stage Bike data ingestion config completed <<<<<<
+
+x======x
+[2024-09-29 22:10:20,503: INFO]: >>>>>> stage Bike Feature engeenering started <<<<<<
+[2024-09-29 22:10:20,504: INFO]: yaml: config/bike_config.yaml loaded successfully
+[2024-09-29 22:10:20,505: INFO]: yaml: params/bike_params.yaml loaded successfully
+[2024-09-29 22:10:20,505: INFO]: created directory at: data/bike
+[2024-09-29 22:10:20,506: INFO]: created directory at: data/bike/feature_engeenering
+[2024-09-29 22:10:21,256: INFO]: >>>>>> stage Bike Feature engeenering completed <<<<<<
+
+x======x
+[2024-09-29 22:10:21,256: INFO]: >>>>>> stage Bike Data Split started <<<<<<
+[2024-09-29 22:10:21,257: INFO]: yaml: config/bike_config.yaml loaded successfully
+[2024-09-29 22:10:21,258: INFO]: yaml: params/bike_params.yaml loaded successfully
+[2024-09-29 22:10:21,258: INFO]: created directory at: data/bike
+[2024-09-29 22:10:21,258: INFO]: created directory at: data/bike/data_split
+[2024-09-29 22:10:21,470: INFO]: >>>>>> stage Bike Data Split completed <<<<<<
+
+x======x
+[2024-09-29 22:10:21,470: INFO]: >>>>>> stage Bike Model Tunning started <<<<<<
+[2024-09-29 22:10:21,472: INFO]: yaml: config/bike_config.yaml loaded successfully
+[2024-09-29 22:10:21,472: INFO]: yaml: params/bike_params.yaml loaded successfully
+[2024-09-29 22:10:21,472: INFO]: created directory at: data/bike
+[2024-09-29 22:10:21,472: INFO]: created directory at: data/bike/bike_tune
+[2024-09-29 22:10:21,899: INFO]: HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+[2024-09-29 22:10:21,902: INFO]: Accessing as Vicky7873
+[2024-09-29 22:10:22,308: INFO]: HTTP Request: GET https://dagshub.com/api/v1/repos/Vicky7873/95Mobiles "HTTP/1.1 200 OK"
+[2024-09-29 22:10:22,310: INFO]: Initialized MLflow to track repo "Vicky7873/95Mobiles"
+[2024-09-29 22:10:22,310: INFO]: Repository Vicky7873/95Mobiles initialized!
+[2024-09-29 22:17:11,945: INFO]: >>>>>> stage Bike Model Tunning completed <<<<<<
+
+x======x
+[2024-09-29 22:17:11,947: INFO]: >>>>>> stage Bike Model eval started <<<<<<
+[2024-09-29 22:17:11,951: INFO]: yaml: config/bike_config.yaml loaded successfully
+[2024-09-29 22:17:11,952: INFO]: yaml: params/bike_params.yaml loaded successfully
+[2024-09-29 22:17:11,953: INFO]: created directory at: data/bike
+[2024-09-29 22:17:11,953: INFO]: created directory at: data/bike/model_eval
+[2024-09-29 22:17:12,358: INFO]: HTTP Request: GET https://dagshub.com/api/v1/repos/Vicky7873/95Mobiles "HTTP/1.1 200 OK"
+[2024-09-29 22:17:12,367: INFO]: Initialized MLflow to track repo "Vicky7873/95Mobiles"
+[2024-09-29 22:17:12,367: INFO]: Repository Vicky7873/95Mobiles initialized!
+[2024-09-29 22:21:26,891: INFO]: Logging file start
+[2024-09-29 22:21:27,909: INFO]: yaml: config/bike_config.yaml loaded successfully
+[2024-09-29 22:21:27,910: INFO]: yaml: params/bike_params.yaml loaded successfully
+[2024-09-29 22:21:27,911: INFO]: created directory at: data/bike
+[2024-09-29 22:21:27,911: INFO]: created directory at: data/bike/data_split
+[2024-09-29 22:24:36,913: INFO]: Logging file start
+[2024-09-29 22:24:38,577: INFO]: yaml: config/bike_config.yaml loaded successfully
+[2024-09-29 22:24:38,580: INFO]: yaml: params/bike_params.yaml loaded successfully
+[2024-09-29 22:24:38,580: INFO]: created directory at: data/bike
+[2024-09-29 22:24:38,581: INFO]: created directory at: data/bike/bike_tune
+[2024-09-29 22:24:38,930: INFO]: HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+[2024-09-29 22:24:38,935: INFO]: Accessing as Vicky7873
+[2024-09-29 22:24:39,396: INFO]: HTTP Request: GET https://dagshub.com/api/v1/repos/Vicky7873/95Mobiles "HTTP/1.1 200 OK"
+[2024-09-29 22:24:39,399: INFO]: Initialized MLflow to track repo "Vicky7873/95Mobiles"
+[2024-09-29 22:24:39,401: INFO]: Repository Vicky7873/95Mobiles initialized!
+[2024-09-29 22:27:08,108: INFO]: Logging file start
+[2024-09-29 22:27:09,581: INFO]: >>>>>> stage Bike data ingestion config started <<<<<<
+[2024-09-29 22:27:09,582: INFO]: yaml: config/bike_config.yaml loaded successfully
+[2024-09-29 22:27:09,583: INFO]: yaml: params/bike_params.yaml loaded successfully
+[2024-09-29 22:27:09,583: INFO]: created directory at: data/bike
+[2024-09-29 22:27:09,583: INFO]: created directory at: data/bike/data_ingestion
+[2024-09-29 22:27:10,077: INFO]: >>>>>> stage Bike data ingestion config completed <<<<<<
+
+x======x
+[2024-09-29 22:27:10,077: INFO]: >>>>>> stage Bike Feature engeenering started <<<<<<
+[2024-09-29 22:27:10,081: INFO]: yaml: config/bike_config.yaml loaded successfully
+[2024-09-29 22:27:10,082: INFO]: yaml: params/bike_params.yaml loaded successfully
+[2024-09-29 22:27:10,082: INFO]: created directory at: data/bike
+[2024-09-29 22:27:10,082: INFO]: created directory at: data/bike/feature_engeenering
+[2024-09-29 22:27:10,808: INFO]: >>>>>> stage Bike Feature engeenering completed <<<<<<
+
+x======x
+[2024-09-29 22:27:10,808: INFO]: >>>>>> stage Bike Data Split started <<<<<<
+[2024-09-29 22:27:10,810: INFO]: yaml: config/bike_config.yaml loaded successfully
+[2024-09-29 22:27:10,810: INFO]: yaml: params/bike_params.yaml loaded successfully
+[2024-09-29 22:27:10,810: INFO]: created directory at: data/bike
+[2024-09-29 22:27:10,810: INFO]: created directory at: data/bike/data_split
+[2024-09-29 22:27:11,025: INFO]: >>>>>> stage Bike Data Split completed <<<<<<
+
+x======x
+[2024-09-29 22:27:11,025: INFO]: >>>>>> stage Bike Model Tunning started <<<<<<
+[2024-09-29 22:27:11,027: INFO]: yaml: config/bike_config.yaml loaded successfully
+[2024-09-29 22:27:11,027: INFO]: yaml: params/bike_params.yaml loaded successfully
+[2024-09-29 22:27:11,027: INFO]: created directory at: data/bike
+[2024-09-29 22:27:11,027: INFO]: created directory at: data/bike/bike_tune
+[2024-09-29 22:27:11,464: INFO]: HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+[2024-09-29 22:27:11,466: INFO]: Accessing as Vicky7873
+[2024-09-29 22:27:11,836: INFO]: HTTP Request: GET https://dagshub.com/api/v1/repos/Vicky7873/95Mobiles "HTTP/1.1 200 OK"
+[2024-09-29 22:27:11,837: INFO]: Initialized MLflow to track repo "Vicky7873/95Mobiles"
+[2024-09-29 22:27:11,838: INFO]: Repository Vicky7873/95Mobiles initialized!
+[2024-09-29 22:33:50,868: INFO]: >>>>>> stage Bike Model Tunning completed <<<<<<
+
+x======x
+[2024-09-29 22:33:50,870: INFO]: >>>>>> stage Bike Model eval started <<<<<<
+[2024-09-29 22:33:50,878: INFO]: yaml: config/bike_config.yaml loaded successfully
+[2024-09-29 22:33:50,880: INFO]: yaml: params/bike_params.yaml loaded successfully
+[2024-09-29 22:33:50,880: INFO]: created directory at: data/bike
+[2024-09-29 22:33:50,881: INFO]: created directory at: data/bike/model_eval
+[2024-09-29 22:33:51,434: INFO]: HTTP Request: GET https://dagshub.com/api/v1/repos/Vicky7873/95Mobiles "HTTP/1.1 200 OK"
+[2024-09-29 22:33:51,438: INFO]: Initialized MLflow to track repo "Vicky7873/95Mobiles"
+[2024-09-29 22:33:51,438: INFO]: Repository Vicky7873/95Mobiles initialized!
+[2024-09-29 22:33:54,611: INFO]: >>>>>> stage Bike Model eval completed <<<<<<
+
+x======x
+[2024-09-29 22:34:13,499: INFO]: Logging file start
+[2024-09-29 22:35:16,442: INFO]: Logging file start
+[2024-09-29 22:35:16,614: INFO]: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.29.22:8080
+[2024-09-29 22:35:16,615: INFO]: [33mPress CTRL+C to quit[0m
+[2024-09-29 22:35:16,615: INFO]:  * Restarting with stat
+[2024-09-29 22:35:17,230: INFO]: Logging file start
+[2024-09-29 22:35:17,333: WARNING]:  * Debugger is active!
+[2024-09-29 22:35:17,344: INFO]:  * Debugger PIN: 138-279-406
+[2024-09-29 22:35:21,213: INFO]: 192.168.29.22 - - [29/Sep/2024 22:35:21] "GET / HTTP/1.1" 200 -
+[2024-09-29 22:35:25,928: INFO]: 192.168.29.22 - - [29/Sep/2024 22:35:25] "GET /bike/ HTTP/1.1" 200 -
+[2024-09-29 22:35:46,042: INFO]: 192.168.29.22 - - [29/Sep/2024 22:35:46] "[35m[1mPOST /bike/predict HTTP/1.1[0m" 500 -
+[2024-09-29 22:35:46,061: INFO]: 192.168.29.22 - - [29/Sep/2024 22:35:46] "[36mGET /bike/predict?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[2024-09-29 22:35:46,063: INFO]: 192.168.29.22 - - [29/Sep/2024 22:35:46] "[36mGET /bike/predict?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[2024-09-29 22:36:44,705: INFO]: yaml: config/bike_config.yaml loaded successfully
+[2024-09-29 22:36:44,709: INFO]: yaml: params/bike_params.yaml loaded successfully
+[2024-09-29 22:36:44,712: INFO]: created directory at: data/bike
+[2024-09-29 22:36:44,715: INFO]: created directory at: data/bike/model_training
+[2024-09-29 22:38:14,813: INFO]: yaml: config/bike_config.yaml loaded successfully
+[2024-09-29 22:38:14,819: INFO]: yaml: params/bike_params.yaml loaded successfully
+[2024-09-29 22:38:14,821: INFO]: created directory at: data/bike
+[2024-09-29 22:38:14,822: INFO]: created directory at: data/bike/data_split
+[2024-09-29 22:39:16,895: INFO]: yaml: config/bike_config.yaml loaded successfully
+[2024-09-29 22:39:16,898: INFO]: yaml: params/bike_params.yaml loaded successfully
+[2024-09-29 22:39:16,898: INFO]: created directory at: data/bike
+[2024-09-29 22:39:16,899: INFO]: created directory at: data/bike/data_split
+[2024-09-29 22:39:49,269: INFO]: yaml: config/bike_config.yaml loaded successfully
+[2024-09-29 22:39:49,275: INFO]: yaml: params/bike_params.yaml loaded successfully
+[2024-09-29 22:39:49,276: INFO]: created directory at: data/bike
+[2024-09-29 22:39:49,277: INFO]: created directory at: data/bike/data_split
+[2024-09-29 22:40:07,296: INFO]: yaml: config/bike_config.yaml loaded successfully
+[2024-09-29 22:40:07,300: INFO]: yaml: params/bike_params.yaml loaded successfully
+[2024-09-29 22:40:07,301: INFO]: created directory at: data/bike
+[2024-09-29 22:40:07,302: INFO]: created directory at: data/bike/data_split
+[2024-09-29 22:40:36,509: INFO]: yaml: config/bike_config.yaml loaded successfully
+[2024-09-29 22:40:36,511: INFO]: yaml: params/bike_params.yaml loaded successfully
+[2024-09-29 22:40:36,512: INFO]: created directory at: data/bike
+[2024-09-29 22:40:36,512: INFO]: created directory at: data/bike/data_split
+[2024-09-29 22:41:03,802: INFO]: yaml: config/bike_config.yaml loaded successfully
+[2024-09-29 22:41:03,805: INFO]: yaml: params/bike_params.yaml loaded successfully
+[2024-09-29 22:41:03,806: INFO]: created directory at: data/bike
+[2024-09-29 22:41:03,808: INFO]: created directory at: data/bike/data_split
+[2024-09-29 22:42:13,527: INFO]: yaml: config/bike_config.yaml loaded successfully
+[2024-09-29 22:42:13,532: INFO]: yaml: params/bike_params.yaml loaded successfully
+[2024-09-29 22:42:13,533: INFO]: created directory at: data/bike
+[2024-09-29 22:42:13,534: INFO]: created directory at: data/bike/data_split
+[2024-09-29 22:44:01,847: INFO]: yaml: config/bike_config.yaml loaded successfully
+[2024-09-29 22:44:01,850: INFO]: yaml: params/bike_params.yaml loaded successfully
+[2024-09-29 22:44:01,850: INFO]: created directory at: data/bike
+[2024-09-29 22:44:01,851: INFO]: created directory at: data/bike/data_split
+[2024-09-29 22:46:23,400: INFO]: Logging file start
+[2024-09-29 22:46:25,310: INFO]: >>>>>> stage Bike data ingestion config started <<<<<<
+[2024-09-29 22:46:25,312: INFO]: yaml: config/bike_config.yaml loaded successfully
+[2024-09-29 22:46:25,313: INFO]: yaml: params/bike_params.yaml loaded successfully
+[2024-09-29 22:46:25,313: INFO]: created directory at: data/bike
+[2024-09-29 22:46:25,313: INFO]: created directory at: data/bike/data_ingestion
+[2024-09-29 22:46:25,683: INFO]: >>>>>> stage Bike data ingestion config completed <<<<<<
+
+x======x
+[2024-09-29 22:46:25,683: INFO]: >>>>>> stage Bike Feature engeenering started <<<<<<
+[2024-09-29 22:46:25,685: INFO]: yaml: config/bike_config.yaml loaded successfully
+[2024-09-29 22:46:25,685: INFO]: yaml: params/bike_params.yaml loaded successfully
+[2024-09-29 22:46:25,685: INFO]: created directory at: data/bike
+[2024-09-29 22:46:25,685: INFO]: created directory at: data/bike/feature_engeenering
+[2024-09-29 22:46:26,445: INFO]: >>>>>> stage Bike Feature engeenering completed <<<<<<
+
+x======x
+[2024-09-29 22:46:26,445: INFO]: >>>>>> stage Bike Data Split started <<<<<<
+[2024-09-29 22:46:26,447: INFO]: yaml: config/bike_config.yaml loaded successfully
+[2024-09-29 22:46:26,447: INFO]: yaml: params/bike_params.yaml loaded successfully
+[2024-09-29 22:46:26,447: INFO]: created directory at: data/bike
+[2024-09-29 22:46:26,447: INFO]: created directory at: data/bike/data_split
+[2024-09-29 22:46:26,650: INFO]: >>>>>> stage Bike Data Split completed <<<<<<
+
+x======x
+[2024-09-29 22:46:26,650: INFO]: >>>>>> stage Bike Model Tunning started <<<<<<
+[2024-09-29 22:46:26,651: INFO]: yaml: config/bike_config.yaml loaded successfully
+[2024-09-29 22:46:26,652: INFO]: yaml: params/bike_params.yaml loaded successfully
+[2024-09-29 22:46:26,652: INFO]: created directory at: data/bike
+[2024-09-29 22:46:26,652: INFO]: created directory at: data/bike/bike_tune
+[2024-09-29 22:46:26,991: INFO]: HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+[2024-09-29 22:46:26,999: INFO]: Accessing as Vicky7873
+[2024-09-29 22:46:27,460: INFO]: HTTP Request: GET https://dagshub.com/api/v1/repos/Vicky7873/95Mobiles "HTTP/1.1 200 OK"
+[2024-09-29 22:46:27,462: INFO]: Initialized MLflow to track repo "Vicky7873/95Mobiles"
+[2024-09-29 22:46:27,462: INFO]: Repository Vicky7873/95Mobiles initialized!
+[2024-09-29 22:47:06,010: INFO]: Logging file start
+[2024-09-29 22:47:07,491: INFO]: >>>>>> stage Bike data ingestion config started <<<<<<
+[2024-09-29 22:47:07,493: INFO]: yaml: config/bike_config.yaml loaded successfully
+[2024-09-29 22:47:07,493: INFO]: yaml: params/bike_params.yaml loaded successfully
+[2024-09-29 22:47:07,494: INFO]: created directory at: data/bike
+[2024-09-29 22:47:07,494: INFO]: created directory at: data/bike/data_ingestion
+[2024-09-29 22:47:07,593: INFO]: >>>>>> stage Bike data ingestion config completed <<<<<<
+
+x======x
+[2024-09-29 22:47:07,593: INFO]: >>>>>> stage Bike Feature engeenering started <<<<<<
+[2024-09-29 22:47:07,595: INFO]: yaml: config/bike_config.yaml loaded successfully
+[2024-09-29 22:47:07,595: INFO]: yaml: params/bike_params.yaml loaded successfully
+[2024-09-29 22:47:07,596: INFO]: created directory at: data/bike
+[2024-09-29 22:47:07,596: INFO]: created directory at: data/bike/feature_engeenering
+[2024-09-29 22:47:08,310: INFO]: >>>>>> stage Bike Feature engeenering completed <<<<<<
+
+x======x
+[2024-09-29 22:47:08,310: INFO]: >>>>>> stage Bike Data Split started <<<<<<
+[2024-09-29 22:47:08,311: INFO]: yaml: config/bike_config.yaml loaded successfully
+[2024-09-29 22:47:08,312: INFO]: yaml: params/bike_params.yaml loaded successfully
+[2024-09-29 22:47:08,312: INFO]: created directory at: data/bike
+[2024-09-29 22:47:08,312: INFO]: created directory at: data/bike/data_split
+[2024-09-29 22:47:08,515: INFO]: >>>>>> stage Bike Data Split completed <<<<<<
+
+x======x
+[2024-09-29 22:47:08,515: INFO]: >>>>>> stage Bike Model Tunning started <<<<<<
+[2024-09-29 22:47:08,516: INFO]: yaml: config/bike_config.yaml loaded successfully
+[2024-09-29 22:47:08,517: INFO]: yaml: params/bike_params.yaml loaded successfully
+[2024-09-29 22:47:08,517: INFO]: created directory at: data/bike
+[2024-09-29 22:47:08,517: INFO]: created directory at: data/bike/bike_tune
+[2024-09-29 22:47:08,934: INFO]: HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+[2024-09-29 22:47:08,937: INFO]: Accessing as Vicky7873
+[2024-09-29 22:47:09,315: INFO]: HTTP Request: GET https://dagshub.com/api/v1/repos/Vicky7873/95Mobiles "HTTP/1.1 200 OK"
+[2024-09-29 22:47:09,320: INFO]: Initialized MLflow to track repo "Vicky7873/95Mobiles"
+[2024-09-29 22:47:09,321: INFO]: Repository Vicky7873/95Mobiles initialized!
+[2024-09-29 22:48:08,383: INFO]: Logging file start
+[2024-09-29 22:48:09,873: INFO]: >>>>>> stage Bike data ingestion config started <<<<<<
+[2024-09-29 22:48:09,875: INFO]: yaml: config/bike_config.yaml loaded successfully
+[2024-09-29 22:48:09,875: INFO]: yaml: params/bike_params.yaml loaded successfully
+[2024-09-29 22:48:09,875: INFO]: created directory at: data/bike
+[2024-09-29 22:48:09,875: INFO]: created directory at: data/bike/data_ingestion
+[2024-09-29 22:48:09,970: INFO]: >>>>>> stage Bike data ingestion config completed <<<<<<
+
+x======x
+[2024-09-29 22:48:09,970: INFO]: >>>>>> stage Bike Feature engeenering started <<<<<<
+[2024-09-29 22:48:09,972: INFO]: yaml: config/bike_config.yaml loaded successfully
+[2024-09-29 22:48:09,972: INFO]: yaml: params/bike_params.yaml loaded successfully
+[2024-09-29 22:48:09,972: INFO]: created directory at: data/bike
+[2024-09-29 22:48:09,972: INFO]: created directory at: data/bike/feature_engeenering
+[2024-09-29 22:48:10,692: INFO]: >>>>>> stage Bike Feature engeenering completed <<<<<<
+
+x======x
+[2024-09-29 22:48:10,692: INFO]: >>>>>> stage Bike Data Split started <<<<<<
+[2024-09-29 22:48:10,694: INFO]: yaml: config/bike_config.yaml loaded successfully
+[2024-09-29 22:48:10,694: INFO]: yaml: params/bike_params.yaml loaded successfully
+[2024-09-29 22:48:10,694: INFO]: created directory at: data/bike
+[2024-09-29 22:48:10,694: INFO]: created directory at: data/bike/data_split
+[2024-09-29 22:48:10,965: INFO]: >>>>>> stage Bike Data Split completed <<<<<<
+
+x======x
+[2024-09-29 22:48:10,965: INFO]: >>>>>> stage Bike Model Tunning started <<<<<<
+[2024-09-29 22:48:10,966: INFO]: yaml: config/bike_config.yaml loaded successfully
+[2024-09-29 22:48:10,967: INFO]: yaml: params/bike_params.yaml loaded successfully
+[2024-09-29 22:48:10,967: INFO]: created directory at: data/bike
+[2024-09-29 22:48:10,967: INFO]: created directory at: data/bike/bike_tune
+[2024-09-29 22:48:11,395: INFO]: HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+[2024-09-29 22:48:11,398: INFO]: Accessing as Vicky7873
+[2024-09-29 22:48:11,806: INFO]: HTTP Request: GET https://dagshub.com/api/v1/repos/Vicky7873/95Mobiles "HTTP/1.1 200 OK"
+[2024-09-29 22:48:11,809: INFO]: Initialized MLflow to track repo "Vicky7873/95Mobiles"
+[2024-09-29 22:48:11,809: INFO]: Repository Vicky7873/95Mobiles initialized!
+[2024-09-29 22:55:45,435: INFO]: >>>>>> stage Bike Model Tunning completed <<<<<<
+
+x======x
+[2024-09-29 22:55:45,435: INFO]: >>>>>> stage Bike Model eval started <<<<<<
+[2024-09-29 22:55:45,441: INFO]: yaml: config/bike_config.yaml loaded successfully
+[2024-09-29 22:55:45,444: INFO]: yaml: params/bike_params.yaml loaded successfully
+[2024-09-29 22:55:45,445: INFO]: created directory at: data/bike
+[2024-09-29 22:55:45,445: INFO]: created directory at: data/bike/model_eval
+[2024-09-29 22:55:45,950: INFO]: HTTP Request: GET https://dagshub.com/api/v1/repos/Vicky7873/95Mobiles "HTTP/1.1 200 OK"
+[2024-09-29 22:55:45,953: INFO]: Initialized MLflow to track repo "Vicky7873/95Mobiles"
+[2024-09-29 22:55:45,954: INFO]: Repository Vicky7873/95Mobiles initialized!
+[2024-09-29 22:55:48,225: INFO]: >>>>>> stage Bike Model eval completed <<<<<<
+
+x======x
+[2024-09-29 22:56:45,199: INFO]: Logging file start
+[2024-09-29 22:56:46,692: INFO]: >>>>>> stage Bike data ingestion config started <<<<<<
+[2024-09-29 22:56:46,694: INFO]: yaml: config/bike_config.yaml loaded successfully
+[2024-09-29 22:56:46,694: INFO]: yaml: params/bike_params.yaml loaded successfully
+[2024-09-29 22:56:46,695: INFO]: created directory at: data/bike
+[2024-09-29 22:56:46,695: INFO]: created directory at: data/bike/data_ingestion
+[2024-09-29 22:56:47,047: INFO]: >>>>>> stage Bike data ingestion config completed <<<<<<
+
+x======x
+[2024-09-29 22:56:47,047: INFO]: >>>>>> stage Bike Feature engeenering started <<<<<<
+[2024-09-29 22:56:47,049: INFO]: yaml: config/bike_config.yaml loaded successfully
+[2024-09-29 22:56:47,049: INFO]: yaml: params/bike_params.yaml loaded successfully
+[2024-09-29 22:56:47,049: INFO]: created directory at: data/bike
+[2024-09-29 22:56:47,050: INFO]: created directory at: data/bike/feature_engeenering
+[2024-09-29 22:56:47,782: INFO]: >>>>>> stage Bike Feature engeenering completed <<<<<<
+
+x======x
+[2024-09-29 22:56:47,782: INFO]: >>>>>> stage Bike Data Split started <<<<<<
+[2024-09-29 22:56:47,784: INFO]: yaml: config/bike_config.yaml loaded successfully
+[2024-09-29 22:56:47,784: INFO]: yaml: params/bike_params.yaml loaded successfully
+[2024-09-29 22:56:47,784: INFO]: created directory at: data/bike
+[2024-09-29 22:56:47,784: INFO]: created directory at: data/bike/data_split
+[2024-09-29 22:56:48,015: INFO]: >>>>>> stage Bike Data Split completed <<<<<<
+
+x======x
+[2024-09-29 22:56:48,015: INFO]: >>>>>> stage Bike Model Tunning started <<<<<<
+[2024-09-29 22:56:48,017: INFO]: yaml: config/bike_config.yaml loaded successfully
+[2024-09-29 22:56:48,018: INFO]: yaml: params/bike_params.yaml loaded successfully
+[2024-09-29 22:56:48,018: INFO]: created directory at: data/bike
+[2024-09-29 22:56:48,018: INFO]: created directory at: data/bike/bike_tune
+[2024-09-29 22:56:48,354: INFO]: HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+[2024-09-29 22:56:48,358: INFO]: Accessing as Vicky7873
+[2024-09-29 22:56:48,748: INFO]: HTTP Request: GET https://dagshub.com/api/v1/repos/Vicky7873/95Mobiles "HTTP/1.1 200 OK"
+[2024-09-29 22:56:48,749: INFO]: Initialized MLflow to track repo "Vicky7873/95Mobiles"
+[2024-09-29 22:56:48,749: INFO]: Repository Vicky7873/95Mobiles initialized!
+[2024-09-29 23:04:19,894: INFO]: >>>>>> stage Bike Model Tunning completed <<<<<<
+
+x======x
+[2024-09-29 23:04:19,895: INFO]: >>>>>> stage Bike Model eval started <<<<<<
+[2024-09-29 23:04:19,902: INFO]: yaml: config/bike_config.yaml loaded successfully
+[2024-09-29 23:04:19,905: INFO]: yaml: params/bike_params.yaml loaded successfully
+[2024-09-29 23:04:19,905: INFO]: created directory at: data/bike
+[2024-09-29 23:04:19,905: INFO]: created directory at: data/bike/model_eval
+[2024-09-29 23:04:20,313: INFO]: HTTP Request: GET https://dagshub.com/api/v1/repos/Vicky7873/95Mobiles "HTTP/1.1 200 OK"
+[2024-09-29 23:04:20,320: INFO]: Initialized MLflow to track repo "Vicky7873/95Mobiles"
+[2024-09-29 23:04:20,321: INFO]: Repository Vicky7873/95Mobiles initialized!
+[2024-09-29 23:04:22,868: INFO]: >>>>>> stage Bike Model eval completed <<<<<<
+
+x======x
+[2024-09-29 23:04:31,317: INFO]: Logging file start
+[2024-09-29 23:04:31,456: INFO]: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.29.22:8080
+[2024-09-29 23:04:31,456: INFO]: [33mPress CTRL+C to quit[0m
+[2024-09-29 23:04:31,457: INFO]:  * Restarting with stat
+[2024-09-29 23:04:32,053: INFO]: Logging file start
+[2024-09-29 23:04:32,160: WARNING]:  * Debugger is active!
+[2024-09-29 23:04:32,167: INFO]:  * Debugger PIN: 138-279-406
+[2024-09-29 23:04:37,245: INFO]: 192.168.29.22 - - [29/Sep/2024 23:04:37] "GET / HTTP/1.1" 200 -
+[2024-09-29 23:04:39,735: INFO]: 192.168.29.22 - - [29/Sep/2024 23:04:39] "GET /bike/ HTTP/1.1" 200 -
+[2024-09-29 23:05:02,953: INFO]: 192.168.29.22 - - [29/Sep/2024 23:05:02] "[35m[1mPOST /bike/predict HTTP/1.1[0m" 500 -
+[2024-09-29 23:05:02,978: INFO]: 192.168.29.22 - - [29/Sep/2024 23:05:02] "[36mGET /bike/predict?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[2024-09-29 23:05:02,978: INFO]: 192.168.29.22 - - [29/Sep/2024 23:05:02] "[36mGET /bike/predict?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[2024-09-29 23:41:11,290: INFO]: Logging file start
+[2024-09-29 23:41:11,478: INFO]: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.29.22:8080
+[2024-09-29 23:41:11,478: INFO]: [33mPress CTRL+C to quit[0m
+[2024-09-29 23:41:11,479: INFO]:  * Restarting with stat
+[2024-09-29 23:41:12,039: INFO]: Logging file start
+[2024-09-29 23:41:12,149: WARNING]:  * Debugger is active!
+[2024-09-29 23:41:12,162: INFO]:  * Debugger PIN: 138-279-406
+[2024-09-29 23:41:16,222: INFO]: 192.168.29.22 - - [29/Sep/2024 23:41:16] "GET / HTTP/1.1" 200 -
+[2024-09-29 23:41:18,208: INFO]: 192.168.29.22 - - [29/Sep/2024 23:41:18] "GET /bike/ HTTP/1.1" 200 -
+[2024-09-29 23:41:47,564: INFO]: 192.168.29.22 - - [29/Sep/2024 23:41:47] "[35m[1mPOST /bike/predict HTTP/1.1[0m" 500 -
+[2024-09-29 23:41:47,596: INFO]: 192.168.29.22 - - [29/Sep/2024 23:41:47] "[36mGET /bike/predict?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[2024-09-29 23:41:47,597: INFO]: 192.168.29.22 - - [29/Sep/2024 23:41:47] "[36mGET /bike/predict?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[2024-09-29 23:47:54,580: INFO]:  * Detected change in '/Users/bhikipallai/Desktop/Projects/95Mobiles/src/bike/applications/bike.py', reloading
+[2024-09-29 23:47:54,790: INFO]:  * Restarting with stat
+[2024-09-29 23:47:55,930: INFO]: Logging file start
+[2024-09-29 23:47:56,119: WARNING]:  * Debugger is active!
+[2024-09-29 23:47:56,130: INFO]:  * Debugger PIN: 138-279-406
+[2024-09-29 23:48:46,747: INFO]:  * Detected change in '/Users/bhikipallai/Desktop/Projects/95Mobiles/src/bike/applications/bike.py', reloading
+[2024-09-29 23:48:46,902: INFO]:  * Restarting with stat
+[2024-09-29 23:48:47,810: INFO]: Logging file start
+[2024-09-29 23:48:47,941: WARNING]:  * Debugger is active!
+[2024-09-29 23:48:47,947: INFO]:  * Debugger PIN: 138-279-406
+[2024-09-29 23:48:54,965: INFO]: Logging file start
+[2024-09-29 23:48:55,108: INFO]: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.29.22:8080
+[2024-09-29 23:48:55,108: INFO]: [33mPress CTRL+C to quit[0m
+[2024-09-29 23:48:55,110: INFO]:  * Restarting with stat
+[2024-09-29 23:48:55,743: INFO]: Logging file start
+[2024-09-29 23:48:55,850: WARNING]:  * Debugger is active!
+[2024-09-29 23:48:55,859: INFO]:  * Debugger PIN: 138-279-406
+[2024-09-29 23:49:01,893: INFO]: 192.168.29.22 - - [29/Sep/2024 23:49:01] "GET / HTTP/1.1" 200 -
+[2024-09-29 23:49:06,141: INFO]: 192.168.29.22 - - [29/Sep/2024 23:49:06] "GET /bike/ HTTP/1.1" 200 -
+[2024-09-29 23:49:24,968: INFO]: 192.168.29.22 - - [29/Sep/2024 23:49:24] "[35m[1mPOST /bike/predict HTTP/1.1[0m" 500 -
+[2024-09-29 23:49:24,988: INFO]: 192.168.29.22 - - [29/Sep/2024 23:49:24] "[36mGET /bike/predict?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[2024-09-29 23:49:24,988: INFO]: 192.168.29.22 - - [29/Sep/2024 23:49:24] "[36mGET /bike/predict?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[2024-09-29 23:50:15,222: INFO]:  * Detected change in '/Users/bhikipallai/Desktop/Projects/95Mobiles/src/bike/applications/bike.py', reloading
+[2024-09-29 23:50:15,366: INFO]:  * Restarting with stat
+[2024-09-29 23:50:16,262: INFO]: Logging file start
+[2024-09-29 23:50:16,408: WARNING]:  * Debugger is active!
+[2024-09-29 23:50:16,417: INFO]:  * Debugger PIN: 138-279-406
+[2024-09-29 23:50:20,163: INFO]: Logging file start
+[2024-09-29 23:50:20,274: INFO]: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.29.22:8080
+[2024-09-29 23:50:20,274: INFO]: [33mPress CTRL+C to quit[0m
+[2024-09-29 23:50:20,275: INFO]:  * Restarting with stat
+[2024-09-29 23:50:20,885: INFO]: Logging file start
+[2024-09-29 23:50:20,989: WARNING]:  * Debugger is active!
+[2024-09-29 23:50:20,995: INFO]:  * Debugger PIN: 138-279-406
+[2024-09-29 23:50:23,956: INFO]: 192.168.29.22 - - [29/Sep/2024 23:50:23] "GET / HTTP/1.1" 200 -
+[2024-09-29 23:50:28,150: INFO]: 192.168.29.22 - - [29/Sep/2024 23:50:28] "GET /bike/ HTTP/1.1" 200 -
+[2024-09-29 23:50:42,496: INFO]: 192.168.29.22 - - [29/Sep/2024 23:50:42] "POST /bike/predict HTTP/1.1" 200 -
+[2024-09-29 23:50:49,958: INFO]: 192.168.29.22 - - [29/Sep/2024 23:50:49] "[33mGET /bike/bike.html HTTP/1.1[0m" 404 -
+[2024-09-29 23:51:08,766: INFO]:  * Detected change in '/Users/bhikipallai/Desktop/Projects/95Mobiles/src/bike/applications/bike.py', reloading
+[2024-09-29 23:51:08,885: INFO]:  * Restarting with stat
+[2024-09-29 23:51:09,703: INFO]: Logging file start
+[2024-09-29 23:51:09,850: WARNING]:  * Debugger is active!
+[2024-09-29 23:51:09,857: INFO]:  * Debugger PIN: 138-279-406
+[2024-09-29 23:51:34,988: INFO]: Logging file start
+[2024-09-29 23:51:35,139: INFO]: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.29.22:8080
+[2024-09-29 23:51:35,140: INFO]: [33mPress CTRL+C to quit[0m
+[2024-09-29 23:51:35,140: INFO]:  * Restarting with stat
+[2024-09-29 23:51:35,718: INFO]: Logging file start
+[2024-09-29 23:51:35,814: WARNING]:  * Debugger is active!
+[2024-09-29 23:51:35,820: INFO]:  * Debugger PIN: 138-279-406
+[2024-09-29 23:51:42,082: INFO]: 192.168.29.22 - - [29/Sep/2024 23:51:42] "GET / HTTP/1.1" 200 -
+[2024-09-29 23:51:43,678: INFO]: 192.168.29.22 - - [29/Sep/2024 23:51:43] "GET /bike/ HTTP/1.1" 200 -
+[2024-09-29 23:51:59,141: INFO]: 192.168.29.22 - - [29/Sep/2024 23:51:59] "POST /bike/predict HTTP/1.1" 200 -
+[2024-09-29 23:52:01,026: INFO]: 192.168.29.22 - - [29/Sep/2024 23:52:01] "[33mGET /bike/bike_index.html HTTP/1.1[0m" 404 -
+[2024-09-29 23:52:52,542: INFO]: Logging file start
+[2024-09-29 23:52:52,687: INFO]: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.29.22:8080
+[2024-09-29 23:52:52,687: INFO]: [33mPress CTRL+C to quit[0m
+[2024-09-29 23:52:52,688: INFO]:  * Restarting with stat
+[2024-09-29 23:52:53,268: INFO]: Logging file start
+[2024-09-29 23:52:53,377: WARNING]:  * Debugger is active!
+[2024-09-29 23:52:53,386: INFO]:  * Debugger PIN: 138-279-406
+[2024-09-29 23:52:56,343: INFO]: 192.168.29.22 - - [29/Sep/2024 23:52:56] "GET / HTTP/1.1" 200 -
+[2024-09-29 23:52:58,070: INFO]: 192.168.29.22 - - [29/Sep/2024 23:52:58] "GET /bike/ HTTP/1.1" 200 -
+[2024-09-29 23:53:14,998: INFO]: 192.168.29.22 - - [29/Sep/2024 23:53:14] "[33mPOST /predict HTTP/1.1[0m" 404 -
+[2024-09-29 23:53:59,029: INFO]: 192.168.29.22 - - [29/Sep/2024 23:53:59] "[33mPOST /predict HTTP/1.1[0m" 404 -
+[2024-09-29 23:54:19,139: INFO]: Logging file start
+[2024-09-29 23:54:19,281: INFO]: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.29.22:8080
+[2024-09-29 23:54:19,281: INFO]: [33mPress CTRL+C to quit[0m
+[2024-09-29 23:54:19,282: INFO]:  * Restarting with stat
+[2024-09-29 23:54:19,879: INFO]: Logging file start
+[2024-09-29 23:54:19,990: WARNING]:  * Debugger is active!
+[2024-09-29 23:54:19,999: INFO]:  * Debugger PIN: 138-279-406
+[2024-09-29 23:54:28,418: INFO]: 192.168.29.22 - - [29/Sep/2024 23:54:28] "GET / HTTP/1.1" 200 -
+[2024-09-29 23:54:32,086: INFO]: 192.168.29.22 - - [29/Sep/2024 23:54:32] "GET /bike/ HTTP/1.1" 200 -
+[2024-09-29 23:54:47,731: INFO]: 192.168.29.22 - - [29/Sep/2024 23:54:47] "POST /bike/predict HTTP/1.1" 200 -
+[2024-09-29 23:54:50,092: INFO]: 192.168.29.22 - - [29/Sep/2024 23:54:50] "[33mGET /bike/bike_index.html HTTP/1.1[0m" 404 -
+[2024-09-29 23:57:14,217: INFO]: 192.168.29.22 - - [29/Sep/2024 23:57:14] "POST /bike/predict HTTP/1.1" 200 -
+[2024-09-29 23:57:18,410: INFO]: 192.168.29.22 - - [29/Sep/2024 23:57:18] "[33mGET /bike/bike_index.html HTTP/1.1[0m" 404 -
+[2024-09-29 23:58:05,906: INFO]: Logging file start
+[2024-09-29 23:58:06,063: INFO]: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.29.22:8080
+[2024-09-29 23:58:06,064: INFO]: [33mPress CTRL+C to quit[0m
+[2024-09-29 23:58:06,064: INFO]:  * Restarting with stat
+[2024-09-29 23:58:06,621: INFO]: Logging file start
+[2024-09-29 23:58:06,726: WARNING]:  * Debugger is active!
+[2024-09-29 23:58:06,733: INFO]:  * Debugger PIN: 138-279-406
+[2024-09-29 23:58:12,795: INFO]: 192.168.29.22 - - [29/Sep/2024 23:58:12] "POST /bike/predict HTTP/1.1" 200 -
+[2024-09-29 23:58:13,908: INFO]: 192.168.29.22 - - [29/Sep/2024 23:58:13] "[33mGET /predict HTTP/1.1[0m" 404 -
+[2024-09-29 23:58:21,168: INFO]: 192.168.29.22 - - [29/Sep/2024 23:58:21] "[33mGET /predict/bike HTTP/1.1[0m" 404 -
+[2024-09-29 23:58:26,069: INFO]: 192.168.29.22 - - [29/Sep/2024 23:58:26] "GET /bike/ HTTP/1.1" 200 -
+[2024-09-29 23:58:44,327: INFO]: 192.168.29.22 - - [29/Sep/2024 23:58:44] "[33mGET /predict HTTP/1.1[0m" 404 -
+[2024-09-29 23:58:52,422: INFO]: Logging file start
+[2024-09-29 23:58:52,587: INFO]: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.29.22:8080
+[2024-09-29 23:58:52,587: INFO]: [33mPress CTRL+C to quit[0m
+[2024-09-29 23:58:52,587: INFO]:  * Restarting with stat
+[2024-09-29 23:58:53,119: INFO]: Logging file start
+[2024-09-29 23:58:53,214: WARNING]:  * Debugger is active!
+[2024-09-29 23:58:53,223: INFO]:  * Debugger PIN: 138-279-406
+[2024-09-29 23:59:03,492: INFO]: 192.168.29.22 - - [29/Sep/2024 23:59:03] "[33mGET /bike/bike_index.html HTTP/1.1[0m" 404 -
+[2024-09-29 23:59:08,399: INFO]: 192.168.29.22 - - [29/Sep/2024 23:59:08] "POST /bike/predict HTTP/1.1" 200 -
+[2024-09-29 23:59:09,596: INFO]: 192.168.29.22 - - [29/Sep/2024 23:59:09] "GET /bike/ HTTP/1.1" 200 -
+[2024-09-29 23:59:37,000: INFO]: 192.168.29.22 - - [29/Sep/2024 23:59:37] "POST /bike/predict HTTP/1.1" 200 -
+[2024-09-29 23:59:38,684: INFO]: 192.168.29.22 - - [29/Sep/2024 23:59:38] "GET /bike/ HTTP/1.1" 200 -
