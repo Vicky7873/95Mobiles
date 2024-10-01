@@ -14,7 +14,7 @@
             justify-content: center;
             align-items: center;
             height: 100vh;
-            overflow: hidden;
+            overflow-y: auto; /* Enable vertical scrolling */
         }
 
         .container {
@@ -25,6 +25,8 @@
             backdrop-filter: blur(10px);
             max-width: 600px;
             width: 100%;
+            max-height: 90vh; /* Limit height for scroll */
+            overflow-y: auto; /* Enable scroll within container */
             text-align: center;
         }
 
@@ -167,3 +169,4 @@
 
 </body>
 </html>
+

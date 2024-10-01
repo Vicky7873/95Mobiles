@@ -1807,3 +1807,162 @@ x======x
 [2024-10-01 13:33:58,796: INFO]: >>>>>> stage Car model training completed <<<<<<
 
 x======x
+[2024-10-01 15:14:32,895: INFO]: Logging file start
+[2024-10-01 15:14:33,114: INFO]: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.141.15:8080
+[2024-10-01 15:14:33,114: INFO]: [33mPress CTRL+C to quit[0m
+[2024-10-01 15:14:33,116: INFO]:  * Restarting with stat
+[2024-10-01 15:14:33,738: INFO]: Logging file start
+[2024-10-01 15:14:33,852: WARNING]:  * Debugger is active!
+[2024-10-01 15:14:33,862: INFO]:  * Debugger PIN: 138-279-406
+[2024-10-01 15:14:40,958: INFO]: 192.168.141.15 - - [01/Oct/2024 15:14:40] "GET / HTTP/1.1" 200 -
+[2024-10-01 15:14:41,029: INFO]: 192.168.141.15 - - [01/Oct/2024 15:14:41] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[2024-10-01 15:14:43,110: INFO]: 192.168.141.15 - - [01/Oct/2024 15:14:43] "[33mGET /car.html HTTP/1.1[0m" 404 -
+[2024-10-01 15:15:38,183: INFO]: Logging file start
+[2024-10-01 15:15:38,338: INFO]: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.141.15:8080
+[2024-10-01 15:15:38,339: INFO]: [33mPress CTRL+C to quit[0m
+[2024-10-01 15:15:38,339: INFO]:  * Restarting with stat
+[2024-10-01 15:15:39,041: INFO]: Logging file start
+[2024-10-01 15:15:39,154: WARNING]:  * Debugger is active!
+[2024-10-01 15:15:39,162: INFO]:  * Debugger PIN: 138-279-406
+[2024-10-01 15:15:43,250: INFO]: 192.168.141.15 - - [01/Oct/2024 15:15:43] "[33mGET /car.html HTTP/1.1[0m" 404 -
+[2024-10-01 15:15:44,929: INFO]: 192.168.141.15 - - [01/Oct/2024 15:15:44] "[33mGET /car.html HTTP/1.1[0m" 404 -
+[2024-10-01 15:16:18,185: INFO]: Logging file start
+[2024-10-01 15:16:18,364: INFO]: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.141.15:8080
+[2024-10-01 15:16:18,364: INFO]: [33mPress CTRL+C to quit[0m
+[2024-10-01 15:16:18,365: INFO]:  * Restarting with stat
+[2024-10-01 15:16:18,974: INFO]: Logging file start
+[2024-10-01 15:16:19,097: WARNING]:  * Debugger is active!
+[2024-10-01 15:16:19,118: INFO]:  * Debugger PIN: 138-279-406
+[2024-10-01 15:16:23,095: INFO]: 192.168.141.15 - - [01/Oct/2024 15:16:23] "GET / HTTP/1.1" 200 -
+[2024-10-01 15:16:28,380: INFO]: 192.168.141.15 - - [01/Oct/2024 15:16:28] "[32mGET /car HTTP/1.1[0m" 308 -
+[2024-10-01 15:16:28,388: INFO]: 192.168.141.15 - - [01/Oct/2024 15:16:28] "GET /car/ HTTP/1.1" 200 -
+[2024-10-01 15:17:21,810: INFO]: 192.168.141.15 - - [01/Oct/2024 15:17:21] "[35m[1mPOST /car/predict HTTP/1.1[0m" 500 -
+[2024-10-01 15:17:21,833: INFO]: 192.168.141.15 - - [01/Oct/2024 15:17:21] "GET /car/predict?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+[2024-10-01 15:17:21,834: INFO]: 192.168.141.15 - - [01/Oct/2024 15:17:21] "GET /car/predict?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+[2024-10-01 15:17:21,875: INFO]: 192.168.141.15 - - [01/Oct/2024 15:17:21] "GET /car/predict?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+[2024-10-01 15:18:15,744: INFO]:  * Detected change in '/Users/bhikipallai/Desktop/Projects/95Mobiles/src/car/application/car.py', reloading
+[2024-10-01 15:18:15,879: INFO]:  * Restarting with stat
+[2024-10-01 15:18:16,856: INFO]: Logging file start
+[2024-10-01 15:18:17,005: WARNING]:  * Debugger is active!
+[2024-10-01 15:18:17,012: INFO]:  * Debugger PIN: 138-279-406
+[2024-10-01 15:18:20,787: INFO]: Logging file start
+[2024-10-01 15:18:20,908: INFO]: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.141.15:8080
+[2024-10-01 15:18:20,908: INFO]: [33mPress CTRL+C to quit[0m
+[2024-10-01 15:18:20,909: INFO]:  * Restarting with stat
+[2024-10-01 15:18:21,541: INFO]: Logging file start
+[2024-10-01 15:18:21,663: WARNING]:  * Debugger is active!
+[2024-10-01 15:18:21,670: INFO]:  * Debugger PIN: 138-279-406
+[2024-10-01 15:18:25,232: INFO]: 192.168.141.15 - - [01/Oct/2024 15:18:25] "GET / HTTP/1.1" 200 -
+[2024-10-01 15:18:28,609: INFO]: 192.168.141.15 - - [01/Oct/2024 15:18:28] "GET /car/ HTTP/1.1" 200 -
+[2024-10-01 15:18:37,692: INFO]: 192.168.141.15 - - [01/Oct/2024 15:18:37] "[35m[1mPOST /car/predict HTTP/1.1[0m" 500 -
+[2024-10-01 15:18:37,711: INFO]: 192.168.141.15 - - [01/Oct/2024 15:18:37] "[36mGET /car/predict?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[2024-10-01 15:18:37,712: INFO]: 192.168.141.15 - - [01/Oct/2024 15:18:37] "[36mGET /car/predict?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[2024-10-01 15:19:40,159: INFO]: Logging file start
+[2024-10-01 15:19:40,319: INFO]: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.141.15:8080
+[2024-10-01 15:19:40,319: INFO]: [33mPress CTRL+C to quit[0m
+[2024-10-01 15:19:40,321: INFO]:  * Restarting with stat
+[2024-10-01 15:19:40,952: INFO]: Logging file start
+[2024-10-01 15:19:41,065: WARNING]:  * Debugger is active!
+[2024-10-01 15:19:41,074: INFO]:  * Debugger PIN: 138-279-406
+[2024-10-01 15:19:43,931: INFO]: 192.168.141.15 - - [01/Oct/2024 15:19:43] "GET / HTTP/1.1" 200 -
+[2024-10-01 15:19:47,537: INFO]: 192.168.141.15 - - [01/Oct/2024 15:19:47] "GET /car/ HTTP/1.1" 200 -
+[2024-10-01 15:19:57,957: INFO]: 192.168.141.15 - - [01/Oct/2024 15:19:57] "[35m[1mPOST /car/predict HTTP/1.1[0m" 500 -
+[2024-10-01 15:19:57,973: INFO]: 192.168.141.15 - - [01/Oct/2024 15:19:57] "[36mGET /car/predict?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[2024-10-01 15:19:57,976: INFO]: 192.168.141.15 - - [01/Oct/2024 15:19:57] "[36mGET /car/predict?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[2024-10-01 15:20:36,872: INFO]:  * Detected change in '/Users/bhikipallai/Desktop/Projects/95Mobiles/src/car/application/car.py', reloading
+[2024-10-01 15:20:37,032: INFO]:  * Restarting with stat
+[2024-10-01 15:20:38,002: INFO]: Logging file start
+[2024-10-01 15:20:38,207: WARNING]:  * Debugger is active!
+[2024-10-01 15:20:38,218: INFO]:  * Debugger PIN: 138-279-406
+[2024-10-01 15:21:54,184: INFO]:  * Detected change in '/Users/bhikipallai/Desktop/Projects/95Mobiles/src/car/application/car.py', reloading
+[2024-10-01 15:21:54,339: INFO]:  * Restarting with stat
+[2024-10-01 15:21:55,288: INFO]: Logging file start
+[2024-10-01 15:21:55,452: WARNING]:  * Debugger is active!
+[2024-10-01 15:21:55,462: INFO]:  * Debugger PIN: 138-279-406
+[2024-10-01 15:21:58,958: INFO]: Logging file start
+[2024-10-01 15:21:59,080: INFO]: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.141.15:8080
+[2024-10-01 15:21:59,080: INFO]: [33mPress CTRL+C to quit[0m
+[2024-10-01 15:21:59,081: INFO]:  * Restarting with stat
+[2024-10-01 15:21:59,712: INFO]: Logging file start
+[2024-10-01 15:21:59,835: WARNING]:  * Debugger is active!
+[2024-10-01 15:21:59,844: INFO]:  * Debugger PIN: 138-279-406
+[2024-10-01 15:22:03,218: INFO]: 192.168.141.15 - - [01/Oct/2024 15:22:03] "GET / HTTP/1.1" 200 -
+[2024-10-01 15:22:05,138: INFO]: 192.168.141.15 - - [01/Oct/2024 15:22:05] "GET /car/ HTTP/1.1" 200 -
+[2024-10-01 15:22:14,840: INFO]: 192.168.141.15 - - [01/Oct/2024 15:22:14] "[35m[1mPOST /car/predict HTTP/1.1[0m" 500 -
+[2024-10-01 15:22:14,857: INFO]: 192.168.141.15 - - [01/Oct/2024 15:22:14] "[36mGET /car/predict?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[2024-10-01 15:22:14,861: INFO]: 192.168.141.15 - - [01/Oct/2024 15:22:14] "[36mGET /car/predict?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[2024-10-01 15:23:35,268: INFO]:  * Detected change in '/Users/bhikipallai/Desktop/Projects/95Mobiles/src/car/application/car.py', reloading
+[2024-10-01 15:23:35,408: INFO]:  * Restarting with stat
+[2024-10-01 15:23:36,459: INFO]: Logging file start
+[2024-10-01 15:23:36,626: WARNING]:  * Debugger is active!
+[2024-10-01 15:23:36,635: INFO]:  * Debugger PIN: 138-279-406
+[2024-10-01 15:23:41,746: INFO]: Logging file start
+[2024-10-01 15:23:41,890: INFO]: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.141.15:8080
+[2024-10-01 15:23:41,891: INFO]: [33mPress CTRL+C to quit[0m
+[2024-10-01 15:23:41,892: INFO]:  * Restarting with stat
+[2024-10-01 15:23:42,571: INFO]: Logging file start
+[2024-10-01 15:23:42,697: WARNING]:  * Debugger is active!
+[2024-10-01 15:23:42,709: INFO]:  * Debugger PIN: 138-279-406
+[2024-10-01 15:23:56,288: INFO]: 192.168.141.15 - - [01/Oct/2024 15:23:56] "GET / HTTP/1.1" 200 -
+[2024-10-01 15:23:58,501: INFO]: 192.168.141.15 - - [01/Oct/2024 15:23:58] "GET /car/ HTTP/1.1" 200 -
+[2024-10-01 15:24:07,787: INFO]: 192.168.141.15 - - [01/Oct/2024 15:24:07] "POST /car/predict HTTP/1.1" 200 -
+[2024-10-01 15:25:14,642: INFO]: Logging file start
+[2024-10-01 15:25:14,795: INFO]: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.141.15:8080
+[2024-10-01 15:25:14,795: INFO]: [33mPress CTRL+C to quit[0m
+[2024-10-01 15:25:14,796: INFO]:  * Restarting with stat
+[2024-10-01 15:25:15,410: INFO]: Logging file start
+[2024-10-01 15:25:15,543: WARNING]:  * Debugger is active!
+[2024-10-01 15:25:15,553: INFO]:  * Debugger PIN: 138-279-406
+[2024-10-01 15:25:18,882: INFO]: 192.168.141.15 - - [01/Oct/2024 15:25:18] "GET / HTTP/1.1" 200 -
+[2024-10-01 15:25:21,304: INFO]: 192.168.141.15 - - [01/Oct/2024 15:25:21] "GET /car/ HTTP/1.1" 200 -
+[2024-10-01 15:25:32,653: INFO]: 192.168.141.15 - - [01/Oct/2024 15:25:32] "POST /car/predict HTTP/1.1" 200 -
+[2024-10-01 15:25:34,204: INFO]: 192.168.141.15 - - [01/Oct/2024 15:25:34] "GET / HTTP/1.1" 200 -
+[2024-10-01 15:26:32,572: INFO]: 192.168.141.15 - - [01/Oct/2024 15:26:32] "GET /car/ HTTP/1.1" 200 -
+[2024-10-01 15:26:36,973: INFO]: 192.168.141.15 - - [01/Oct/2024 15:26:36] "GET / HTTP/1.1" 200 -
+[2024-10-01 15:26:45,268: INFO]: 192.168.141.15 - - [01/Oct/2024 15:26:45] "[32mGET /bike HTTP/1.1[0m" 308 -
+[2024-10-01 15:26:45,274: INFO]: 192.168.141.15 - - [01/Oct/2024 15:26:45] "GET /bike/ HTTP/1.1" 200 -
+[2024-10-01 20:24:33,590: INFO]: Logging file start
+[2024-10-01 20:24:33,783: INFO]: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.29.22:8080
+[2024-10-01 20:24:33,784: INFO]: [33mPress CTRL+C to quit[0m
+[2024-10-01 20:24:33,784: INFO]:  * Restarting with stat
+[2024-10-01 20:24:34,322: INFO]: Logging file start
+[2024-10-01 20:24:34,442: WARNING]:  * Debugger is active!
+[2024-10-01 20:24:34,452: INFO]:  * Debugger PIN: 138-279-406
+[2024-10-01 20:24:37,731: INFO]: 192.168.29.22 - - [01/Oct/2024 20:24:37] "GET / HTTP/1.1" 200 -
+[2024-10-01 20:24:39,695: INFO]: 192.168.29.22 - - [01/Oct/2024 20:24:39] "GET /bike/ HTTP/1.1" 200 -
+[2024-10-01 20:24:59,678: INFO]: 192.168.29.22 - - [01/Oct/2024 20:24:59] "POST /bike/predict HTTP/1.1" 200 -
+[2024-10-01 20:25:08,137: INFO]: 192.168.29.22 - - [01/Oct/2024 20:25:08] "GET /bike/ HTTP/1.1" 200 -
+[2024-10-01 20:25:19,280: INFO]: 192.168.29.22 - - [01/Oct/2024 20:25:19] "[32mGET /car HTTP/1.1[0m" 308 -
+[2024-10-01 20:25:19,289: INFO]: 192.168.29.22 - - [01/Oct/2024 20:25:19] "GET /car/ HTTP/1.1" 200 -
+[2024-10-01 20:25:29,228: INFO]: 192.168.29.22 - - [01/Oct/2024 20:25:29] "POST /car/predict HTTP/1.1" 200 -
+[2024-10-01 20:25:31,113: INFO]: 192.168.29.22 - - [01/Oct/2024 20:25:31] "[32mGET /car HTTP/1.1[0m" 308 -
+[2024-10-01 20:25:31,122: INFO]: 192.168.29.22 - - [01/Oct/2024 20:25:31] "GET /car/ HTTP/1.1" 200 -
+[2024-10-01 21:10:27,552: INFO]: 192.168.29.22 - - [01/Oct/2024 21:10:27] "GET /bike/ HTTP/1.1" 200 -
+[2024-10-01 21:10:31,612: INFO]: 192.168.29.22 - - [01/Oct/2024 21:10:31] "GET /car/ HTTP/1.1" 200 -
