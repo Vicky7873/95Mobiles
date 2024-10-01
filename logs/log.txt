@@ -1561,3 +1561,68 @@ x======x
 [2024-10-01 10:06:03,941: INFO]: >>>>>> stage Car Feature Eng completed <<<<<<
 
 x======x
+[2024-10-01 10:48:37,647: INFO]: Logging file start
+[2024-10-01 11:04:57,235: INFO]: yaml: config/car_config.yaml loaded successfully
+[2024-10-01 11:04:57,243: INFO]: yaml: params/car_params.yaml loaded successfully
+[2024-10-01 11:04:57,246: INFO]: created directory at: data
+[2024-10-01 11:04:57,248: INFO]: created directory at: data/car/data_split
+[2024-10-01 11:06:39,141: INFO]: yaml: config/car_config.yaml loaded successfully
+[2024-10-01 11:06:39,144: INFO]: yaml: params/car_params.yaml loaded successfully
+[2024-10-01 11:06:39,144: INFO]: created directory at: data
+[2024-10-01 11:06:39,145: INFO]: created directory at: data/car/data_split
+[2024-10-01 11:06:58,298: INFO]: Logging file start
+[2024-10-01 11:06:59,457: INFO]: yaml: config/car_config.yaml loaded successfully
+[2024-10-01 11:06:59,458: INFO]: yaml: params/car_params.yaml loaded successfully
+[2024-10-01 11:06:59,458: INFO]: created directory at: data
+[2024-10-01 11:06:59,459: INFO]: created directory at: data/car/data_split
+[2024-10-01 11:15:07,275: INFO]: yaml: config/car_config.yaml loaded successfully
+[2024-10-01 11:15:07,277: INFO]: yaml: params/car_params.yaml loaded successfully
+[2024-10-01 11:15:07,277: INFO]: created directory at: data
+[2024-10-01 11:15:07,277: INFO]: created directory at: data/car/data_split
+[2024-10-01 11:15:19,887: INFO]: yaml: config/car_config.yaml loaded successfully
+[2024-10-01 11:15:19,890: INFO]: yaml: params/car_params.yaml loaded successfully
+[2024-10-01 11:15:19,890: INFO]: created directory at: data
+[2024-10-01 11:15:19,891: INFO]: created directory at: data/car/data_split
+[2024-10-01 11:15:27,431: INFO]: yaml: config/car_config.yaml loaded successfully
+[2024-10-01 11:15:27,432: INFO]: yaml: params/car_params.yaml loaded successfully
+[2024-10-01 11:15:27,433: INFO]: created directory at: data
+[2024-10-01 11:15:27,433: INFO]: created directory at: data/car/data_split
+[2024-10-01 11:15:37,991: INFO]: yaml: config/car_config.yaml loaded successfully
+[2024-10-01 11:15:37,993: INFO]: yaml: params/car_params.yaml loaded successfully
+[2024-10-01 11:15:37,994: INFO]: created directory at: data
+[2024-10-01 11:15:37,994: INFO]: created directory at: data/car/data_split
+[2024-10-01 11:16:08,065: INFO]: Logging file start
+[2024-10-01 11:16:09,114: INFO]: yaml: config/car_config.yaml loaded successfully
+[2024-10-01 11:16:09,116: INFO]: yaml: params/car_params.yaml loaded successfully
+[2024-10-01 11:16:09,116: INFO]: created directory at: data
+[2024-10-01 11:16:09,117: INFO]: created directory at: data/car/data_split
+[2024-10-01 11:16:33,087: INFO]: Logging file start
+[2024-10-01 11:16:33,864: INFO]: yaml: config/car_config.yaml loaded successfully
+[2024-10-01 11:16:33,865: INFO]: yaml: params/car_params.yaml loaded successfully
+[2024-10-01 11:16:33,865: INFO]: created directory at: data
+[2024-10-01 11:16:33,866: INFO]: created directory at: data/car/data_split
+[2024-10-01 11:30:32,622: INFO]: Logging file start
+[2024-10-01 11:30:33,329: INFO]: >>>>>> stage Car data ingestion started <<<<<<
+[2024-10-01 11:30:33,330: INFO]: yaml: config/car_config.yaml loaded successfully
+[2024-10-01 11:30:33,331: INFO]: yaml: params/car_params.yaml loaded successfully
+[2024-10-01 11:30:33,331: INFO]: created directory at: data
+[2024-10-01 11:30:33,331: INFO]: created directory at: data/car/data_ingestion
+[2024-10-01 11:30:35,742: INFO]: >>>>>> stage Car data ingestion completed <<<<<<
+
+x======x
+[2024-10-01 11:30:35,742: INFO]: >>>>>> stage Car Feature Eng started <<<<<<
+[2024-10-01 11:30:35,745: INFO]: yaml: config/car_config.yaml loaded successfully
+[2024-10-01 11:30:35,745: INFO]: yaml: params/car_params.yaml loaded successfully
+[2024-10-01 11:30:35,746: INFO]: created directory at: data
+[2024-10-01 11:30:35,746: INFO]: created directory at: data/car/car_fe
+[2024-10-01 11:30:35,778: INFO]: >>>>>> stage Car Feature Eng completed <<<<<<
+
+x======x
+[2024-10-01 11:30:35,778: INFO]: >>>>>> stage Car data split started <<<<<<
+[2024-10-01 11:30:35,778: INFO]: yaml: config/car_config.yaml loaded successfully
+[2024-10-01 11:30:35,779: INFO]: yaml: params/car_params.yaml loaded successfully
+[2024-10-01 11:30:35,779: INFO]: created directory at: data
+[2024-10-01 11:30:35,779: INFO]: created directory at: data/car/data_split
+[2024-10-01 11:30:35,813: INFO]: >>>>>> stage Car data split completed <<<<<<
+
+x======x

@@ -13,3 +13,15 @@ class CarFeatureEngConfig:
     root_dir: Path
     raw_data_path: Path
     clean_data: Path
+
+
+@dataclass(frozen=True)
+class CarDatSPlitConfig:
+    root_dir: Path
+    clean_data: Path
+    X_train: Path
+    X_test: Path
+    y_train: Path
+    y_test: Path
+    test_size: float
+    random_state: int

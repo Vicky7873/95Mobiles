@@ -9,3 +9,11 @@ car_fe:
   root_dir: data/car/car_fe
   raw_data_path: data/car/data_ingestion/car.csv
   clean_data: data/car/car_fe/car_clean.csv
+
+car_data_split:
+  root_dir: data/car/data_split
+  clean_data: data/car/car_fe/car_clean.csv
+  X_train: data/car/data_split/X_train.csv
+  X_test: data/car/data_split/X_test.csv
+  y_train: data/car/data_split/y_train.csv
+  y_test: data/car/data_split/y_test.csv
