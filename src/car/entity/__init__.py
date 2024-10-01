@@ -43,3 +43,15 @@ class CarModelConfig:
     bootstrap: list[bool]
     oob_score: list[bool]
     splitter: list[str]
+
+
+
+@dataclass(frozen=True)
+class CarModelevalConfig:
+    root_dir: Path
+    X_train: Path
+    X_test: Path
+    y_train:Path
+    y_test: Path
+    model_for_train: Path
+    save_score: Path
