@@ -29,3 +29,6 @@ pip install -r requirements.txt
 4. data splitting done
 5. Hyper parameter tuninng with mlflow
 ![alt text](image-5.png)
+6. model evaluatuion done with mlflow
+![alt text](image-6.png)
+7. 
