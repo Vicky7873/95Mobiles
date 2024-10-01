@@ -1491,3 +1491,35 @@ x======x
 [2024-09-30 00:03:17,930: INFO]: Logging file start
 [2024-09-30 00:03:18,024: WARNING]:  * Debugger is active!
 [2024-09-30 00:03:18,034: INFO]:  * Debugger PIN: 138-279-406
+[2024-10-01 08:14:04,595: INFO]: Logging file start
+[2024-10-01 08:23:09,410: INFO]: yaml: config/car_config.yaml loaded successfully
+[2024-10-01 08:23:09,491: INFO]: yaml: params/car_params.yaml loaded successfully
+[2024-10-01 08:23:09,492: INFO]: created directory at: data
+[2024-10-01 08:23:09,494: INFO]: created directory at: data/car/data_ingestion
+[2024-10-01 08:35:45,728: INFO]: Logging file start
+[2024-10-01 08:35:45,728: INFO]: >>>>>> stage Car data ingestion started <<<<<<
+[2024-10-01 08:35:45,729: INFO]: yaml: config/car_config.yaml loaded successfully
+[2024-10-01 08:35:45,730: INFO]: yaml: params/car_params.yaml loaded successfully
+[2024-10-01 08:35:45,730: INFO]: created directory at: data
+[2024-10-01 08:35:45,730: INFO]: created directory at: data/car/data_ingestion
+[2024-10-01 08:35:46,076: INFO]: >>>>>> stage Car data ingestion completed <<<<<<
+
+x======x
+[2024-10-01 08:42:42,467: INFO]: Logging file start
+[2024-10-01 08:42:42,467: INFO]: >>>>>> stage Car data ingestion started <<<<<<
+[2024-10-01 08:42:42,467: INFO]: yaml: config/car_config.yaml loaded successfully
+[2024-10-01 08:42:42,468: INFO]: yaml: params/car_params.yaml loaded successfully
+[2024-10-01 08:42:42,468: INFO]: created directory at: data
+[2024-10-01 08:42:42,468: INFO]: created directory at: data/car/data_ingestion
+[2024-10-01 08:42:43,265: INFO]: >>>>>> stage Car data ingestion completed <<<<<<
+
+x======x
+[2024-10-01 08:47:00,855: INFO]: Logging file start
+[2024-10-01 08:47:00,855: INFO]: >>>>>> stage Car data ingestion started <<<<<<
+[2024-10-01 08:47:00,856: INFO]: yaml: config/car_config.yaml loaded successfully
+[2024-10-01 08:47:00,856: INFO]: yaml: params/car_params.yaml loaded successfully
+[2024-10-01 08:47:00,856: INFO]: created directory at: data
+[2024-10-01 08:47:00,856: INFO]: created directory at: data/car/data_ingestion
+[2024-10-01 08:47:00,936: INFO]: >>>>>> stage Car data ingestion completed <<<<<<
+
+x======x

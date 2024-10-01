@@ -1,0 +1,6 @@
+data_root: data
+
+data_ingestion:
+  root_dir: data/car/data_ingestion
+  download_uri: "https://raw.githubusercontent.com/Vicky7873/data/refs/heads/main/CAR%20DETAILS%20FROM%20CAR%20DEKHO.csv"
+  raw_data_path: data/car/data_ingestion/car.csv
