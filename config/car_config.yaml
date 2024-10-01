@@ -17,3 +17,12 @@ car_data_split:
   X_test: data/car/data_split/X_test.csv
   y_train: data/car/data_split/y_train.csv
   y_test: data/car/data_split/y_test.csv
+
+Model_Building:
+  root_dir: data/car/Model_training
+  X_train: data/car/data_split/X_train.csv
+  X_test: data/car/data_split/X_test.csv
+  y_train: data/car/data_split/y_train.csv
+  y_test: data/car/data_split/y_test.csv
+  model_save: data/car/Model_training/best_model.pkl
+  model_for_train: models/car_best_model.pkl

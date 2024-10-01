@@ -25,3 +25,21 @@ class CarDatSPlitConfig:
     y_test: Path
     test_size: float
     random_state: int
+
+
+
+@dataclass(frozen=True)
+class CarModelConfig:
+    root_dir: Path
+    X_train: Path
+    X_test: Path
+    y_train:Path
+    y_test: Path
+    model_save: Path
+    model_for_train: Path
+    fit_intercept: list[bool]
+    n_estimators: list [int]
+    criterion: list[str]
+    bootstrap: list[bool]
+    oob_score: list[bool]
+    splitter: list[str]

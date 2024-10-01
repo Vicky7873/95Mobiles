@@ -1,6 +1,6 @@
 from src.car.utils.common import read_yaml,create_directory
 from src.car.constants import *
-from src.car.entity import CarDataIngestionConfig,CarFeatureEngConfig,CarDatSPlitConfig
+from src.car.entity import CarDataIngestionConfig,CarFeatureEngConfig,CarDatSPlitConfig,CarModelConfig
 
 
 class ConfigurationManger:
@@ -54,3 +54,29 @@ class ConfigurationManger:
         )
 
         return get_ds
+    
+
+
+    def get_model_trained(self) -> CarModelConfig:
+        config = self.config.Model_Building
+        params = self.params.grid
+
+        create_directory([config.root_dir])
+
+        model_train = CarModelConfig(
+            root_dir=config.root_dir,
+            X_train=config.X_train,
+            X_test=config.X_test,
+            y_train=config.y_train,
+            y_test=config.y_test,
+            model_save = config.model_save,
+            model_for_train = config.model_for_train,
+            fit_intercept = params.fit_intercept,
+            n_estimators = params.n_estimators,
+            criterion = params.criterion,
+            bootstrap = params.bootstrap,
+            oob_score = params.oob_score,
+            splitter = params.splitter
+        )
+
+        return model_train

@@ -1,3 +1,11 @@
 split:
   test_size: 0.21
   random_state: 21
+
+grid:
+  fit_intercept: [False,True]
+  n_estimators: [11,17,9]
+  criterion: ["squared_error", "absolute_error", "friedman_mse", "poisson"]
+  bootstrap: [True,False]
+  oob_score: [True,False]
+  splitter: ["best","random"]

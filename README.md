@@ -23,3 +23,9 @@ pip install -r requirements.txt
 
 
 # Car price prediction
+1. Exp done for end to end
+2. data ingestion for bike done
+3. feature eng done
+4. data splitting done
+5. Hyper parameter tuninng with mlflow
+![alt text](image-5.png)

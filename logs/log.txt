@@ -1626,3 +1626,105 @@ x======x
 [2024-10-01 11:30:35,813: INFO]: >>>>>> stage Car data split completed <<<<<<
 
 x======x
+[2024-10-01 12:12:04,483: INFO]: Logging file start
+[2024-10-01 12:36:26,011: INFO]: yaml: config/car_config.yaml loaded successfully
+[2024-10-01 12:36:26,016: INFO]: yaml: params/car_params.yaml loaded successfully
+[2024-10-01 12:36:26,018: INFO]: created directory at: data
+[2024-10-01 12:36:26,018: INFO]: created directory at: data/car/Model_training
+[2024-10-01 12:38:27,604: INFO]: yaml: config/car_config.yaml loaded successfully
+[2024-10-01 12:38:27,607: INFO]: yaml: params/car_params.yaml loaded successfully
+[2024-10-01 12:38:27,608: INFO]: created directory at: data
+[2024-10-01 12:38:27,609: INFO]: created directory at: data/car/Model_training
+[2024-10-01 12:39:56,430: INFO]: yaml: config/car_config.yaml loaded successfully
+[2024-10-01 12:39:56,434: INFO]: yaml: params/car_params.yaml loaded successfully
+[2024-10-01 12:39:56,435: INFO]: created directory at: data
+[2024-10-01 12:39:56,435: INFO]: created directory at: data/car/Model_training
+[2024-10-01 12:40:55,217: INFO]: yaml: config/car_config.yaml loaded successfully
+[2024-10-01 12:40:55,219: INFO]: yaml: params/car_params.yaml loaded successfully
+[2024-10-01 12:40:55,220: INFO]: created directory at: data
+[2024-10-01 12:40:55,220: INFO]: created directory at: data/car/Model_training
+[2024-10-01 12:46:49,229: INFO]: Logging file start
+[2024-10-01 12:46:51,044: INFO]: yaml: config/car_config.yaml loaded successfully
+[2024-10-01 12:46:51,047: INFO]: yaml: params/car_params.yaml loaded successfully
+[2024-10-01 12:46:51,047: INFO]: created directory at: data
+[2024-10-01 12:46:51,048: INFO]: created directory at: data/car/Model_training
+[2024-10-01 12:46:51,415: INFO]: HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+[2024-10-01 12:46:51,421: INFO]: Accessing as Vicky7873
+[2024-10-01 12:46:51,826: INFO]: HTTP Request: GET https://dagshub.com/api/v1/repos/Vicky7873/95Mobiles "HTTP/1.1 200 OK"
+[2024-10-01 12:46:51,830: INFO]: Initialized MLflow to track repo "Vicky7873/95Mobiles"
+[2024-10-01 12:46:51,832: INFO]: Repository Vicky7873/95Mobiles initialized!
+[2024-10-01 12:48:15,262: INFO]: Logging file start
+[2024-10-01 12:48:16,813: INFO]: yaml: config/car_config.yaml loaded successfully
+[2024-10-01 12:48:16,816: INFO]: yaml: params/car_params.yaml loaded successfully
+[2024-10-01 12:48:16,817: INFO]: created directory at: data
+[2024-10-01 12:48:16,817: INFO]: created directory at: data/car/Model_training
+[2024-10-01 12:48:17,882: INFO]: HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+[2024-10-01 12:48:17,889: INFO]: Accessing as Vicky7873
+[2024-10-01 12:48:18,302: INFO]: HTTP Request: GET https://dagshub.com/api/v1/repos/Vicky7873/95Mobiles "HTTP/1.1 200 OK"
+[2024-10-01 12:48:18,304: INFO]: Initialized MLflow to track repo "Vicky7873/95Mobiles"
+[2024-10-01 12:48:18,306: INFO]: Repository Vicky7873/95Mobiles initialized!
+[2024-10-01 12:49:39,037: INFO]: yaml: config/car_config.yaml loaded successfully
+[2024-10-01 12:49:39,040: INFO]: yaml: params/car_params.yaml loaded successfully
+[2024-10-01 12:49:39,041: INFO]: created directory at: data
+[2024-10-01 12:49:39,042: INFO]: created directory at: data/car/Model_training
+[2024-10-01 12:49:40,274: INFO]: HTTP Request: GET https://dagshub.com/api/v1/repos/Vicky7873/95Mobiles "HTTP/1.1 200 OK"
+[2024-10-01 12:49:40,278: INFO]: Initialized MLflow to track repo "Vicky7873/95Mobiles"
+[2024-10-01 12:49:40,279: INFO]: Repository Vicky7873/95Mobiles initialized!
+[2024-10-01 12:51:41,005: INFO]: Logging file start
+[2024-10-01 12:51:42,350: INFO]: yaml: config/car_config.yaml loaded successfully
+[2024-10-01 12:51:42,352: INFO]: yaml: params/car_params.yaml loaded successfully
+[2024-10-01 12:51:42,353: INFO]: created directory at: data
+[2024-10-01 12:51:42,353: INFO]: created directory at: data/car/Model_training
+[2024-10-01 12:51:42,720: INFO]: HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+[2024-10-01 12:51:42,727: INFO]: Accessing as Vicky7873
+[2024-10-01 12:51:43,125: INFO]: HTTP Request: GET https://dagshub.com/api/v1/repos/Vicky7873/95Mobiles "HTTP/1.1 200 OK"
+[2024-10-01 12:51:43,129: INFO]: Initialized MLflow to track repo "Vicky7873/95Mobiles"
+[2024-10-01 12:51:43,130: INFO]: Repository Vicky7873/95Mobiles initialized!
+[2024-10-01 12:53:03,636: INFO]: Logging file start
+[2024-10-01 12:53:04,957: INFO]: yaml: config/car_config.yaml loaded successfully
+[2024-10-01 12:53:04,959: INFO]: yaml: params/car_params.yaml loaded successfully
+[2024-10-01 12:53:04,959: INFO]: created directory at: data
+[2024-10-01 12:53:04,959: INFO]: created directory at: data/car/Model_training
+[2024-10-01 12:53:05,309: INFO]: HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+[2024-10-01 12:53:05,317: INFO]: Accessing as Vicky7873
+[2024-10-01 12:53:05,720: INFO]: HTTP Request: GET https://dagshub.com/api/v1/repos/Vicky7873/95Mobiles "HTTP/1.1 200 OK"
+[2024-10-01 12:53:05,723: INFO]: Initialized MLflow to track repo "Vicky7873/95Mobiles"
+[2024-10-01 12:53:05,725: INFO]: Repository Vicky7873/95Mobiles initialized!
+[2024-10-01 13:01:13,228: INFO]: Logging file start
+[2024-10-01 13:01:14,621: INFO]: >>>>>> stage Car data ingestion started <<<<<<
+[2024-10-01 13:01:14,622: INFO]: yaml: config/car_config.yaml loaded successfully
+[2024-10-01 13:01:14,623: INFO]: yaml: params/car_params.yaml loaded successfully
+[2024-10-01 13:01:14,623: INFO]: created directory at: data
+[2024-10-01 13:01:14,623: INFO]: created directory at: data/car/data_ingestion
+[2024-10-01 13:01:15,166: INFO]: >>>>>> stage Car data ingestion completed <<<<<<
+
+x======x
+[2024-10-01 13:01:15,166: INFO]: >>>>>> stage Car Feature Eng started <<<<<<
+[2024-10-01 13:01:15,170: INFO]: yaml: config/car_config.yaml loaded successfully
+[2024-10-01 13:01:15,172: INFO]: yaml: params/car_params.yaml loaded successfully
+[2024-10-01 13:01:15,173: INFO]: created directory at: data
+[2024-10-01 13:01:15,173: INFO]: created directory at: data/car/car_fe
+[2024-10-01 13:01:15,229: INFO]: >>>>>> stage Car Feature Eng completed <<<<<<
+
+x======x
+[2024-10-01 13:01:15,229: INFO]: >>>>>> stage Car data split started <<<<<<
+[2024-10-01 13:01:15,230: INFO]: yaml: config/car_config.yaml loaded successfully
+[2024-10-01 13:01:15,231: INFO]: yaml: params/car_params.yaml loaded successfully
+[2024-10-01 13:01:15,231: INFO]: created directory at: data
+[2024-10-01 13:01:15,231: INFO]: created directory at: data/car/data_split
+[2024-10-01 13:01:15,268: INFO]: >>>>>> stage Car data split completed <<<<<<
+
+x======x
+[2024-10-01 13:01:15,268: INFO]: >>>>>> stage Car model training started <<<<<<
+[2024-10-01 13:01:15,269: INFO]: yaml: config/car_config.yaml loaded successfully
+[2024-10-01 13:01:15,270: INFO]: yaml: params/car_params.yaml loaded successfully
+[2024-10-01 13:01:15,270: INFO]: created directory at: data
+[2024-10-01 13:01:15,271: INFO]: created directory at: data/car/Model_training
+[2024-10-01 13:01:15,641: INFO]: HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+[2024-10-01 13:01:15,652: INFO]: Accessing as Vicky7873
+[2024-10-01 13:01:16,194: INFO]: HTTP Request: GET https://dagshub.com/api/v1/repos/Vicky7873/95Mobiles "HTTP/1.1 200 OK"
+[2024-10-01 13:01:16,199: INFO]: Initialized MLflow to track repo "Vicky7873/95Mobiles"
+[2024-10-01 13:01:16,200: INFO]: Repository Vicky7873/95Mobiles initialized!
+[2024-10-01 13:02:19,408: INFO]: >>>>>> stage Car model training completed <<<<<<
+
+x======x
