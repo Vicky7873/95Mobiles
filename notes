@@ -1,0 +1,10 @@
+error1: (95m) bhikipallai@Bhikis-MacBook-Air 95Mobiles % python main_pipe/car_main.py
+Traceback (most recent call last):
+  File "/Users/bhikipallai/Desktop/Projects/95Mobiles/main_pipe/car_main.py", line 1, in <module>
+    from src.car.pipelines.st_01_car_data_ingestion import car_data_ingestion_pipeline
+ModuleNotFoundError: No module named 'src'
+
+reason: When you run python main_pipe/car_main.py, Python doesn't know where to find the src package.
+solution: python -m main_pipe.car_main is like saying:
+"Hey Python, run car_main.py inside the main_pipe package, and make sure you know where src is."
+By using -m, you're helping Python understand your project structure and find the necessary packages.

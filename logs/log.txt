@@ -1523,3 +1523,41 @@ x======x
 [2024-10-01 08:47:00,936: INFO]: >>>>>> stage Car data ingestion completed <<<<<<
 
 x======x
+[2024-10-01 09:40:17,872: INFO]: Logging file start
+[2024-10-01 09:54:36,837: INFO]: yaml: config/car_config.yaml loaded successfully
+[2024-10-01 09:54:36,842: INFO]: yaml: params/car_params.yaml loaded successfully
+[2024-10-01 09:54:36,843: INFO]: created directory at: data
+[2024-10-01 09:54:36,844: INFO]: created directory at: data/car/car_fe
+[2024-10-01 09:55:07,889: INFO]: yaml: config/car_config.yaml loaded successfully
+[2024-10-01 09:55:07,890: INFO]: yaml: params/car_params.yaml loaded successfully
+[2024-10-01 09:55:07,891: INFO]: created directory at: data
+[2024-10-01 09:55:07,892: INFO]: created directory at: data/car/car_fe
+[2024-10-01 09:56:37,450: INFO]: yaml: config/car_config.yaml loaded successfully
+[2024-10-01 09:56:37,453: INFO]: yaml: params/car_params.yaml loaded successfully
+[2024-10-01 09:56:37,454: INFO]: created directory at: data
+[2024-10-01 09:56:37,454: INFO]: created directory at: data/car/car_fe
+[2024-10-01 09:57:05,327: INFO]: yaml: config/car_config.yaml loaded successfully
+[2024-10-01 09:57:05,329: INFO]: yaml: params/car_params.yaml loaded successfully
+[2024-10-01 09:57:05,329: INFO]: created directory at: data
+[2024-10-01 09:57:05,330: INFO]: created directory at: data/car/car_fe
+[2024-10-01 09:58:15,409: INFO]: yaml: config/car_config.yaml loaded successfully
+[2024-10-01 09:58:15,410: INFO]: yaml: params/car_params.yaml loaded successfully
+[2024-10-01 09:58:15,411: INFO]: created directory at: data
+[2024-10-01 09:58:15,411: INFO]: created directory at: data/car/car_fe
+[2024-10-01 10:06:02,515: INFO]: Logging file start
+[2024-10-01 10:06:03,450: INFO]: >>>>>> stage Car data ingestion started <<<<<<
+[2024-10-01 10:06:03,451: INFO]: yaml: config/car_config.yaml loaded successfully
+[2024-10-01 10:06:03,453: INFO]: yaml: params/car_params.yaml loaded successfully
+[2024-10-01 10:06:03,453: INFO]: created directory at: data
+[2024-10-01 10:06:03,453: INFO]: created directory at: data/car/data_ingestion
+[2024-10-01 10:06:03,882: INFO]: >>>>>> stage Car data ingestion completed <<<<<<
+
+x======x
+[2024-10-01 10:06:03,882: INFO]: >>>>>> stage Car Feature Eng started <<<<<<
+[2024-10-01 10:06:03,883: INFO]: yaml: config/car_config.yaml loaded successfully
+[2024-10-01 10:06:03,884: INFO]: yaml: params/car_params.yaml loaded successfully
+[2024-10-01 10:06:03,884: INFO]: created directory at: data
+[2024-10-01 10:06:03,884: INFO]: created directory at: data/car/car_fe
+[2024-10-01 10:06:03,941: INFO]: >>>>>> stage Car Feature Eng completed <<<<<<
+
+x======x

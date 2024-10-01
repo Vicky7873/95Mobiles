@@ -1,6 +1,6 @@
 from src.car.utils.common import read_yaml,create_directory
 from src.car.constants import *
-from src.car.entity import CarDataIngestionConfig
+from src.car.entity import CarDataIngestionConfig,CarFeatureEngConfig
 
 
 class ConfigurationManger:
@@ -21,3 +21,15 @@ class ConfigurationManger:
         )
 
         return data_ingestion
+    
+
+    def get_Car_fe(self)-> CarFeatureEngConfig:
+        config = self.config.car_fe
+        create_directory([config.root_dir])
+
+        Car_fe = CarFeatureEngConfig(
+            root_dir=config.root_dir,
+            raw_data_path = config.raw_data_path,
+            clean_data = config.clean_data
+        )
+        return Car_fe
