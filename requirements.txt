@@ -10,4 +10,4 @@ gdown
 mlflow
 dagshub
 dvc
--e.
+-e .

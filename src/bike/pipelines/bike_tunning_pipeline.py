@@ -12,3 +12,14 @@ class Bike_tunning_pipeline:
         BikeModel = BikeTunning(config=bike_config)
         BikeModel.tunned_model()
     
+
+
+STAGE_NAME = "Bike Model Tunning"
+try:
+    logger.info(f">>>>>> stage {STAGE_NAME} started <<<<<<")
+    obj = Bike_tunning_pipeline()
+    obj.main()
+    logger.info(f">>>>>> stage {STAGE_NAME} completed <<<<<<\n\nx======x")
+except Exception as e:
+    logger.Exception(e)
+    raise e

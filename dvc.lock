@@ -1,0 +1,98 @@
+schema: '2.0'
+stages:
+  bike_data_ingestion:
+    cmd: python -m src.bike.pipelines.bike_data_ingestion
+    deps:
+    - path: config/bike_config.yaml
+      hash: md5
+      md5: 3d4badd146b06389099bef5ad35c1d8d
+      size: 1506
+    - path: src/bike/pipelines/bike_data_ingestion.py
+      hash: md5
+      md5: eb46f0f3f15b868e90775310497c39ff
+      size: 845
+    outs:
+    - path: data/bike/data_ingestion/used_bikes.csv
+      hash: md5
+      md5: ff0efd3f6f3a6147df55a53d987e12db
+      size: 2493547
+  bike_data_feature_engeenering:
+    cmd: python -m src.bike.pipelines.bike_feature_eng
+    deps:
+    - path: config/bike_config.yaml
+      hash: md5
+      md5: 3d4badd146b06389099bef5ad35c1d8d
+      size: 1506
+    - path: src/bike/pipelines/bike_feature_eng.py
+      hash: md5
+      md5: 8aafb6b25abb574658bcd6c79727a0f5
+      size: 921
+    outs:
+    - path: data/bike/feature_engeenering/clean_bike.csv
+      hash: md5
+      md5: 34af602866e65b58202d371daefe2dc4
+      size: 2216976
+  bike_data_split:
+    cmd: python -m src.bike.pipelines.bike_data_splitpipe
+    deps:
+    - path: config/bike_config.yaml
+      hash: md5
+      md5: 3d4badd146b06389099bef5ad35c1d8d
+      size: 1506
+    - path: src/bike/pipelines/bike_data_splitpipe.py
+      hash: md5
+      md5: f40525b801154e24217ffb831015e0b9
+      size: 741
+    params:
+      params/bike_params.yaml:
+        split.random_state: 21
+        split.test_size: 0.2
+    outs:
+    - path: data/bike/data_split/X_test.csv
+      hash: md5
+      md5: 404bd8d37ab85192024afb476445ce2a
+      size: 350153
+    - path: data/bike/data_split/X_train.csv
+      hash: md5
+      md5: ac31a597f7bde11b286fb6c555217ec8
+      size: 1400440
+    - path: data/bike/data_split/y_test.csv
+      hash: md5
+      md5: cb439767be7ea9903e97bfc4b9fac02c
+      size: 53373
+    - path: data/bike/data_split/y_train.csv
+      hash: md5
+      md5: 14a9b1089c5c38c030f2ce85132161c7
+      size: 213229
+  bike_hyper_tune:
+    cmd: python -m src.bike.pipelines.bike_tunning_pipeline
+    deps:
+    - path: config/bike_config.yaml
+      hash: md5
+      md5: 3d4badd146b06389099bef5ad35c1d8d
+      size: 1506
+    - path: src/bike/pipelines/bike_tunning_pipeline.py
+      hash: md5
+      md5: d66a81580830e0ab0c52df0bc47ea00f
+      size: 691
+    outs:
+    - path: data/bike/bike_tune/tunned_model.pkl
+      hash: md5
+      md5: 6204824ab8867b3210d541389661019e
+      size: 1336614
+  bike_model_eval:
+    cmd: python -m src.bike.pipelines.bike_tunning_pipeline
+    deps:
+    - path: config/bike_config.yaml
+      hash: md5
+      md5: 3d4badd146b06389099bef5ad35c1d8d
+      size: 1506
+    - path: src/bike/pipelines/bike_tunning_pipeline.py
+      hash: md5
+      md5: d66a81580830e0ab0c52df0bc47ea00f
+      size: 691
+    outs:
+    - path: data/bike/model_eval/score.json
+      hash: md5
+      md5: ce2d429d442bfb3f0ba8c4725bd8ec77
+      size: 77

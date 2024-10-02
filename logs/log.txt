@@ -1966,3 +1966,144 @@ x======x
 [2024-10-01 20:25:31,122: INFO]: 192.168.29.22 - - [01/Oct/2024 20:25:31] "GET /car/ HTTP/1.1" 200 -
 [2024-10-01 21:10:27,552: INFO]: 192.168.29.22 - - [01/Oct/2024 21:10:27] "GET /bike/ HTTP/1.1" 200 -
 [2024-10-01 21:10:31,612: INFO]: 192.168.29.22 - - [01/Oct/2024 21:10:31] "GET /car/ HTTP/1.1" 200 -
+[2024-10-01 21:40:31,391: INFO]: Logging file start
+[2024-10-01 21:40:31,469: INFO]: *******************
+[2024-10-01 21:40:31,469: INFO]: >>>>>>>>>stage  Bike Data Ingestion Started<<<<<<<<
+[2024-10-01 21:40:31,471: INFO]: yaml: config/bike_config.yaml loaded successfully
+[2024-10-01 21:40:31,473: INFO]: yaml: params/bike_params.yaml loaded successfully
+[2024-10-01 21:40:31,473: INFO]: created directory at: data/bike
+[2024-10-01 21:40:31,473: INFO]: created directory at: data/bike/data_ingestion
+[2024-10-01 21:40:32,640: INFO]: >>>>>> stage  Bike Data Ingestion completed <<<<<<
+
+x======x
+[2024-10-02 18:54:45,212: INFO]: Logging file start
+[2024-10-02 18:54:46,304: INFO]: *******************
+[2024-10-02 18:54:46,304: INFO]: >>>>>>>>>stage Bike Feature engeenering Started<<<<<<<<
+[2024-10-02 18:54:46,306: INFO]: yaml: config/bike_config.yaml loaded successfully
+[2024-10-02 18:54:46,307: INFO]: yaml: params/bike_params.yaml loaded successfully
+[2024-10-02 18:54:46,308: INFO]: created directory at: data/bike
+[2024-10-02 18:54:46,308: INFO]: created directory at: data/bike/data_split
+[2024-10-02 18:54:46,308: ERROR]: [Errno 2] No such file or directory: 'data/bike/feature_engeenering/clean_bike.csv'
+Traceback (most recent call last):
+  File "/Users/bhikipallai/Desktop/Projects/95Mobiles/src/bike/pipelines/bike_data_splitpipe.py", line 22, in <module>
+    obj.main()
+  File "/Users/bhikipallai/Desktop/Projects/95Mobiles/src/bike/pipelines/bike_data_splitpipe.py", line 13, in main
+    split.split_data()
+  File "/Users/bhikipallai/Desktop/Projects/95Mobiles/src/bike/components/bike_data_split.py", line 10, in split_data
+    df = pd.read_csv(self.config.feature_eng_data)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Applications/anaconda3/envs/95m/lib/python3.12/site-packages/pandas/io/parsers/readers.py", line 1026, in read_csv
+    return _read(filepath_or_buffer, kwds)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Applications/anaconda3/envs/95m/lib/python3.12/site-packages/pandas/io/parsers/readers.py", line 620, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Applications/anaconda3/envs/95m/lib/python3.12/site-packages/pandas/io/parsers/readers.py", line 1620, in __init__
+    self._engine = self._make_engine(f, self.engine)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Applications/anaconda3/envs/95m/lib/python3.12/site-packages/pandas/io/parsers/readers.py", line 1880, in _make_engine
+    self.handles = get_handle(
+                   ^^^^^^^^^^^
+  File "/Applications/anaconda3/envs/95m/lib/python3.12/site-packages/pandas/io/common.py", line 873, in get_handle
+    handle = open(
+             ^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'data/bike/feature_engeenering/clean_bike.csv'
+[2024-10-02 18:57:13,056: INFO]: Logging file start
+[2024-10-02 18:57:13,796: INFO]: *******************
+[2024-10-02 18:57:13,796: INFO]: >>>>>>>>>stage Bike Feature engeenering Started<<<<<<<<
+[2024-10-02 18:57:13,798: INFO]: yaml: config/bike_config.yaml loaded successfully
+[2024-10-02 18:57:13,798: INFO]: yaml: params/bike_params.yaml loaded successfully
+[2024-10-02 18:57:13,798: INFO]: created directory at: data/bike
+[2024-10-02 18:57:13,798: INFO]: created directory at: data/bike/data_split
+[2024-10-02 18:57:13,799: ERROR]: [Errno 2] No such file or directory: 'data/bike/feature_engeenering/clean_bike.csv'
+Traceback (most recent call last):
+  File "/Users/bhikipallai/Desktop/Projects/95Mobiles/src/bike/pipelines/bike_data_splitpipe.py", line 22, in <module>
+    obj.main()
+  File "/Users/bhikipallai/Desktop/Projects/95Mobiles/src/bike/pipelines/bike_data_splitpipe.py", line 13, in main
+    split.split_data()
+  File "/Users/bhikipallai/Desktop/Projects/95Mobiles/src/bike/components/bike_data_split.py", line 10, in split_data
+    df = pd.read_csv(self.config.feature_eng_data)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Applications/anaconda3/envs/95m/lib/python3.12/site-packages/pandas/io/parsers/readers.py", line 1026, in read_csv
+    return _read(filepath_or_buffer, kwds)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Applications/anaconda3/envs/95m/lib/python3.12/site-packages/pandas/io/parsers/readers.py", line 620, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Applications/anaconda3/envs/95m/lib/python3.12/site-packages/pandas/io/parsers/readers.py", line 1620, in __init__
+    self._engine = self._make_engine(f, self.engine)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Applications/anaconda3/envs/95m/lib/python3.12/site-packages/pandas/io/parsers/readers.py", line 1880, in _make_engine
+    self.handles = get_handle(
+                   ^^^^^^^^^^^
+  File "/Applications/anaconda3/envs/95m/lib/python3.12/site-packages/pandas/io/common.py", line 873, in get_handle
+    handle = open(
+             ^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'data/bike/feature_engeenering/clean_bike.csv'
+[2024-10-02 19:03:16,259: INFO]: Logging file start
+[2024-10-02 19:03:17,362: INFO]: yaml: config/bike_config.yaml loaded successfully
+[2024-10-02 19:03:17,364: INFO]: yaml: params/bike_params.yaml loaded successfully
+[2024-10-02 19:03:17,364: INFO]: created directory at: data/bike
+[2024-10-02 19:03:17,365: INFO]: created directory at: data/bike/feature_engeenering
+[2024-10-02 19:05:46,996: INFO]: Logging file start
+[2024-10-02 20:02:16,166: INFO]: Logging file start
+[2024-10-02 20:02:16,167: INFO]: *******************
+[2024-10-02 20:02:16,167: INFO]: >>>>>>>>>stage Bike Feature engeenering Started<<<<<<<<
+[2024-10-02 20:02:16,168: INFO]: yaml: config/bike_config.yaml loaded successfully
+[2024-10-02 20:02:16,170: INFO]: yaml: params/bike_params.yaml loaded successfully
+[2024-10-02 20:02:16,170: INFO]: created directory at: data/bike
+[2024-10-02 20:02:16,170: INFO]: created directory at: data/bike/feature_engeenering
+[2024-10-02 20:02:16,897: INFO]: >>>>>> stage Bike Feature engeenering completed <<<<<<
+
+x======x
+[2024-10-02 20:29:10,261: INFO]: Logging file start
+[2024-10-02 20:33:41,026: INFO]: Logging file start
+[2024-10-02 20:34:12,105: INFO]: Logging file start
+[2024-10-02 20:36:21,961: INFO]: Logging file start
+[2024-10-02 20:36:22,708: INFO]: >>>>>> stage Bike Data Split started <<<<<<
+[2024-10-02 20:36:22,710: INFO]: yaml: config/bike_config.yaml loaded successfully
+[2024-10-02 20:36:22,712: INFO]: yaml: params/bike_params.yaml loaded successfully
+[2024-10-02 20:36:22,712: INFO]: created directory at: data/bike
+[2024-10-02 20:36:22,712: INFO]: created directory at: data/bike/data_split
+[2024-10-02 20:36:22,966: INFO]: >>>>>> stage Bike Data Split completed <<<<<<
+
+x======x
+[2024-10-02 20:42:48,789: INFO]: Logging file start
+[2024-10-02 20:42:48,789: INFO]: >>>>>> stage Bike Model Tunning started <<<<<<
+[2024-10-02 20:42:48,791: INFO]: yaml: config/bike_config.yaml loaded successfully
+[2024-10-02 20:42:48,793: INFO]: yaml: params/bike_params.yaml loaded successfully
+[2024-10-02 20:42:48,793: INFO]: created directory at: data/bike
+[2024-10-02 20:42:48,793: INFO]: created directory at: data/bike/bike_tune
+[2024-10-02 20:42:49,178: INFO]: HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+[2024-10-02 20:42:49,187: INFO]: Accessing as Vicky7873
+[2024-10-02 20:42:49,617: INFO]: HTTP Request: GET https://dagshub.com/api/v1/repos/Vicky7873/95Mobiles "HTTP/1.1 200 OK"
+[2024-10-02 20:42:49,620: INFO]: Initialized MLflow to track repo "Vicky7873/95Mobiles"
+[2024-10-02 20:42:49,620: INFO]: Repository Vicky7873/95Mobiles initialized!
+[2024-10-02 20:50:17,074: INFO]: >>>>>> stage Bike Model Tunning completed <<<<<<
+
+x======x
+[2024-10-02 20:55:29,156: INFO]: Logging file start
+[2024-10-02 20:55:29,156: INFO]: >>>>>> stage Bike Model Tunning started <<<<<<
+[2024-10-02 20:55:29,158: INFO]: yaml: config/bike_config.yaml loaded successfully
+[2024-10-02 20:55:29,160: INFO]: yaml: params/bike_params.yaml loaded successfully
+[2024-10-02 20:55:29,160: INFO]: created directory at: data/bike
+[2024-10-02 20:55:29,160: INFO]: created directory at: data/bike/bike_tune
+[2024-10-02 20:55:29,541: INFO]: HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+[2024-10-02 20:55:29,550: INFO]: Accessing as Vicky7873
+[2024-10-02 20:55:29,986: INFO]: HTTP Request: GET https://dagshub.com/api/v1/repos/Vicky7873/95Mobiles "HTTP/1.1 200 OK"
+[2024-10-02 20:55:29,992: INFO]: Initialized MLflow to track repo "Vicky7873/95Mobiles"
+[2024-10-02 20:55:29,994: INFO]: Repository Vicky7873/95Mobiles initialized!
+[2024-10-02 20:56:44,342: INFO]: Logging file start
+[2024-10-02 20:56:46,006: INFO]: yaml: config/bike_config.yaml loaded successfully
+[2024-10-02 20:56:46,009: INFO]: yaml: params/bike_params.yaml loaded successfully
+[2024-10-02 20:56:46,009: INFO]: created directory at: data/bike
+[2024-10-02 20:56:46,010: INFO]: created directory at: data/bike/model_eval
+[2024-10-02 20:56:46,506: INFO]: HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+[2024-10-02 20:56:46,512: INFO]: Accessing as Vicky7873
+[2024-10-02 20:56:47,016: INFO]: HTTP Request: GET https://dagshub.com/api/v1/repos/Vicky7873/95Mobiles "HTTP/1.1 200 OK"
+[2024-10-02 20:56:47,019: INFO]: Initialized MLflow to track repo "Vicky7873/95Mobiles"
+[2024-10-02 20:56:47,021: INFO]: Repository Vicky7873/95Mobiles initialized!
+[2024-10-02 21:04:10,318: WARNING]: Retrying (Retry(total=4, connect=5, read=4, redirect=5, status=5)) after connection broken by 'RemoteDisconnected('Remote end closed connection without response')': /Vicky7873/95Mobiles.mlflow/api/2.0/mlflow/runs/log-metric
+[2024-10-02 21:05:23,601: INFO]: >>>>>> stage Bike Model Tunning completed <<<<<<
+
+x======x

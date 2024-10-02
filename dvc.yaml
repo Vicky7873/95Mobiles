@@ -1,8 +1,49 @@
 stages:
   bike_data_ingestion:
-    cmd: python src/bike/pipelines/bike_data_ingestion.py
-    deps: 
+    cmd: python -m src.bike.pipelines.bike_data_ingestion
+    deps:
       - src/bike/pipelines/bike_data_ingestion.py
       - config/bike_config.yaml
     outs:
       - data/bike/data_ingestion/used_bikes.csv
+
+  bike_data_feature_engeenering:
+    cmd: python -m src.bike.pipelines.bike_feature_eng
+    deps:
+      - src/bike/pipelines/bike_feature_eng.py
+      - config/bike_config.yaml
+    outs:
+      - data/bike/feature_engeenering/clean_bike.csv
+  
+  bike_data_split:
+    cmd: python -m src.bike.pipelines.bike_data_splitpipe
+    deps:
+      - src/bike/pipelines/bike_data_splitpipe.py
+      - config/bike_config.yaml
+    params:
+        - params/bike_params.yaml:  # Explicitly reference the correct params file
+          - split.test_size
+          - split.random_state
+    outs:
+      - data/bike/data_split/X_train.csv
+      - data/bike/data_split/X_test.csv
+      - data/bike/data_split/y_train.csv
+      - data/bike/data_split/y_test.csv
+
+  bike_hyper_tune:
+    cmd: python -m src.bike.pipelines.bike_tunning_pipeline
+    deps: 
+      - src/bike/pipelines/bike_tunning_pipeline.py
+      - config/bike_config.yaml
+    outs:
+      - data/bike/bike_tune/tunned_model.pkl
+
+  
+  bike_model_eval:
+    cmd: python -m src.bike.pipelines.bike_tunning_pipeline
+    deps:
+      - src/bike/pipelines/bike_tunning_pipeline.py
+      - config/bike_config.yaml
+    outs:
+      - data/bike/model_eval/score.json
+
