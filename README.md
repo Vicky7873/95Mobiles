@@ -41,5 +41,14 @@ pip install -r requirements.txt
 
 
 # Add git hooks
+## git hook cmds
+1. cd .git/hooks
+2. nano pre-commit
+save ->control+o, press enter then control+x for exist
+3.#!/bin/bash
 
+echo "Pre-commit hook triggered."
+dvc repro
+status=$?
+##### Check
 
