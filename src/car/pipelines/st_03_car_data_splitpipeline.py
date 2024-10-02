@@ -12,3 +12,14 @@ class CarDatSplit_pipeline:
         car_split = CarDataSplit(config=split_config)
         car_split.save_the_split()
         car_split.remove_unwanted_cols()
+
+
+STAGE_NAME = "Car data split"
+try:
+    logger.info(f">>>>>> stage {STAGE_NAME} started <<<<<<")
+    obj = CarDatSplit_pipeline()
+    obj.main()
+    logger.info(f">>>>>> stage {STAGE_NAME} completed <<<<<<\n\nx======x")
+except Exception as e:
+    logger.Exception(e)
+    raise e

@@ -96,3 +96,124 @@ stages:
       hash: md5
       md5: ce2d429d442bfb3f0ba8c4725bd8ec77
       size: 77
+  car_data_ingestion:
+    cmd: python -m src.car.pipelines.st_01_car_data_ingestion
+    deps:
+    - path: config/car_config.yaml
+      hash: md5
+      md5: 8f4a38e1545df1686232276d0e6f0c0b
+      size: 1257
+    - path: src/car/pipelines/st_01_car_data_ingestion.py
+      hash: md5
+      md5: 720ebd4f6bfefa37cbe9016b432ccec1
+      size: 701
+    outs:
+    - path: data/car/data_ingestion/car.csv
+      hash: md5
+      md5: 92770bca1b81e9339def909673097b97
+      size: 354635
+  car_feature_eng:
+    cmd: python -m src.car.pipelines.st_02_carFe_pipeline
+    deps:
+    - path: config/car_config.yaml
+      hash: md5
+      md5: 8f4a38e1545df1686232276d0e6f0c0b
+      size: 1257
+    - path: src/car/pipelines/st_02_carFe_pipeline.py
+      hash: md5
+      md5: 001d1bba8cb1abb3d487a0e6f7a845c5
+      size: 642
+    outs:
+    - path: data/car/car_fe/car_clean.csv
+      hash: md5
+      md5: b191fd4a7e10dd325ed8ea74a50de401
+      size: 274135
+  car_data_split:
+    cmd: python -m src.car.pipelines.st_03_car_data_splitpipeline
+    deps:
+    - path: config/car_config.yaml
+      hash: md5
+      md5: 8f4a38e1545df1686232276d0e6f0c0b
+      size: 1257
+    - path: src/car/pipelines/st_03_car_data_splitpipeline.py
+      hash: md5
+      md5: 05f37715a6adcec8e0b4432aaf41f359
+      size: 725
+    params:
+      params/car_params.yaml:
+        split.random_state: 21
+        split.test_size: 0.21
+    outs:
+    - path: data/car/data_split/X_test.csv
+      hash: md5
+      md5: bd53a26b8ff73c9b3119012c472255fc
+      size: 46389
+    - path: data/car/data_split/X_train.csv
+      hash: md5
+      md5: a013b43074231a1a5600e04ef8318f91
+      size: 173980
+    - path: data/car/data_split/y_test.csv
+      hash: md5
+      md5: 7f354c6bbd06f39744b91b7b3929fb18
+      size: 6412
+    - path: data/car/data_split/y_train.csv
+      hash: md5
+      md5: c592dbf8ff85a721468296e72249079d
+      size: 24050
+  car_model_training:
+    cmd:
+    - python -m src.car.pipelines.st_04_car_Model_training
+    - cp data/car/Model_training/best_model.pkl models/car_best_model.pkl
+    deps:
+    - path: config/car_config.yaml
+      hash: md5
+      md5: 8f4a38e1545df1686232276d0e6f0c0b
+      size: 1257
+    - path: src/car/pipelines/st_04_car_Model_training.py
+      hash: md5
+      md5: 6c85319d23613ee34dcbb81c6f42fee5
+      size: 746
+    params:
+      params/car_params.yaml:
+        grid.bootstrap:
+        - true
+        - false
+        grid.criterion:
+        - squared_error
+        - absolute_error
+        - friedman_mse
+        - poisson
+        grid.fit_intercept:
+        - false
+        - true
+        grid.n_estimators:
+        - 11
+        - 17
+        - 9
+        grid.oob_score:
+        - true
+        - false
+        grid.splitter:
+        - best
+        - random
+    outs:
+    - path: data/car/Model_training/best_model.pkl
+      hash: md5
+      md5: 4bd4c0e5bf62685ebe2c2e734f612964
+      size: 4132849
+  car_model_eval:
+    cmd: python -m src.car.pipelines.st_05_model_eval_pipeline
+    deps:
+    - path: config/car_config.yaml
+      hash: md5
+      md5: 8f4a38e1545df1686232276d0e6f0c0b
+      size: 1257
+    - path: src/car/pipelines/st_05_model_eval_pipeline.py
+      hash: md5
+      md5: 6f1d54caae82100f60f5c5f2b5341018
+      size: 677
+    outs:
+    - path: data/car/model_eval/car_score.json
+      hash: md5
+      md5: b038c599b57e64f4ca6b1f037ce929ed
+      size: 83

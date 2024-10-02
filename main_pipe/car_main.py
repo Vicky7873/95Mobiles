@@ -50,7 +50,7 @@ except Exception as e:
     raise e
 
 
-STAGE_NAME = "Car model training"
+STAGE_NAME = "Car model eval"
 try:
     logger.info(f">>>>>> stage {STAGE_NAME} started <<<<<<")
     obj = CarModelEvalPipeline()

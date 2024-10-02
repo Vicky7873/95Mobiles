@@ -47,3 +47,67 @@ stages:
     outs:
       - data/bike/model_eval/score.json
 
+  
+  car_data_ingestion:
+    cmd: python -m src.car.pipelines.st_01_car_data_ingestion
+    deps:
+      - src/car/pipelines/st_01_car_data_ingestion.py
+      - config/car_config.yaml
+    outs:
+      - data/car/data_ingestion/car.csv
+
+  car_feature_eng:
+    cmd: python -m src.car.pipelines.st_02_carFe_pipeline
+    deps:
+      - src/car/pipelines/st_02_carFe_pipeline.py
+      - config/car_config.yaml
+    outs:
+      - data/car/car_fe/car_clean.csv
+
+  car_data_split:
+    cmd: python -m src.car.pipelines.st_03_car_data_splitpipeline
+    deps:
+      - src/car/pipelines/st_03_car_data_splitpipeline.py
+      - config/car_config.yaml
+    params:
+      - params/car_params.yaml:
+        - split.test_size
+        - split.random_state
+    outs:
+      - data/car/data_split/X_train.csv
+      - data/car/data_split/X_test.csv
+      - data/car/data_split/y_train.csv
+      - data/car/data_split/y_test.csv
+
+
+  car_model_training:
+    cmd:
+      - python -m src.car.pipelines.st_04_car_Model_training
+      - cp data/car/Model_training/best_model.pkl models/car_best_model.pkl
+    deps: 
+      - src/car/pipelines/st_04_car_Model_training.py
+      - config/car_config.yaml
+    params: 
+      - params/car_params.yaml:
+        - grid.fit_intercept
+        - grid.n_estimators
+        - grid.criterion
+        - grid.bootstrap
+        - grid.oob_score
+        - grid.splitter
+    outs:
+     - data/car/Model_training/best_model.pkl
+    #  - models/car_best_model.pkl
+
+
+  car_model_eval:
+    cmd: python -m src.car.pipelines.st_05_model_eval_pipeline
+    deps:
+      - src/car/pipelines/st_05_model_eval_pipeline.py
+      - config/car_config.yaml
+    outs:
+      - data/car/model_eval/car_score.json
+  
+
+
+

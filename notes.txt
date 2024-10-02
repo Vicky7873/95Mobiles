@@ -65,3 +65,35 @@ solution: python -m main_pipe.car_main is like saying:
 By using -m, you're helping Python understand your project structure and find the necessary packages.
 
 ##################################################################
+
+Error: x======x
+ERROR: failed to reproduce 'car_model_training': output 'models/car_best_model.pkl' is already tracked by SCM (e.g. Git).
+You can remove it from Git, then add to DVC.
+To stop tracking from Git:
+git rm -r --cached 'models/car_best_model.pkl'
+git commit -m "stop tracking models/car_best_model.pkl"
+
+in dvc repro facing the issue
+
+solution approach: copy the models from data to models folder
+
+car_model_training:
+    cmd:
+      - python -m src.car.pipelines.st_04_car_Model_training
+      - cp data/car/Model_training/best_model.pkl models/car_best_model.pkl
+    deps: 
+      - src/car/pipelines/st_04_car_Model_training.py
+      - config/car_config.yaml
+    params: 
+      - params/car_params.yaml:
+        - grid.fit_intercept
+        - grid.n_estimators
+        - grid.criterion
+        - grid.bootstrap
+        - grid.oob_score
+        - grid.splitter
+    outs:
+     - data/car/Model_training/best_model.pkl
+    #  - models/car_best_model.pkl
+
+ ##########################################################################   
