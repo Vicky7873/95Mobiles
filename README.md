@@ -45,11 +45,22 @@ pip install -r requirements.txt
 1. cd .git/hooks
 2. nano pre-commit
 save ->control+o, press enter then control+x for exist
-3.#!/bin/bash
+ just add the below script
+
+#!/bin/bash
 
 echo "Pre-commit hook triggered."
 dvc repro
 status=$?
-##### Check  
 
+# Check if dvc repro succeeded
+if [ $status -ne 0 ]; then
+  echo "dvc repro failed with status $status. Commit aborted."
+  exit 1  # Abort the commit
+else
+  echo "dvc repro completed successfully."
+fi
+
+
+push the changes
 
