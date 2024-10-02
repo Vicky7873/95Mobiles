@@ -31,4 +31,15 @@ pip install -r requirements.txt
 ![alt text](image-5.png)
 6. model evaluatuion done with mlflow
 ![alt text](image-6.png)
-7. 
+7. Application added
+
+# DVC 
+1. dvc init
+2. dvc status
+3. dvc dag
+4. dvc repro
+
+
+# Add git hooks
+
+
