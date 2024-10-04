@@ -67,8 +67,9 @@ push the changes
 # Dockerize
 1. # Dockerize 
 ### run this project in local docker
-1. docker build -t cfc .
+1. docker build -t 95m .
 cfc is my docker image name
-2. docker run -p 8080:8080 cfc
+2. docker run -p 8080:8080 95m
+![alt text](image-7.png)
 
 
