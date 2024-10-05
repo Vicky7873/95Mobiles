@@ -11,3 +11,15 @@ class Model_evalPipeline:
         eval_config = config.get_model_eval()
         me = ModelEval(config=eval_config)
         me.model_evl()
+
+
+
+STAGE_NAME = "Laptop model Eval"
+try:
+    logger.info(f">>>>>> stage {STAGE_NAME} started <<<<<<")
+    obj = Model_evalPipeline()
+    obj.main()
+    logger.info(f">>>>>> stage {STAGE_NAME} completed <<<<<<\n\nx======x")
+except Exception as e:
+    logger.Exception(e)
+    raise e

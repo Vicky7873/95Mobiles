@@ -2580,3 +2580,68 @@ x======x
 [2024-10-05 22:30:48,634: INFO]: >>>>>> stage Laptop model Eval completed <<<<<<
 
 x======x
+[2024-10-05 22:37:58,687: INFO]: Logging file start
+[2024-10-05 22:39:14,183: INFO]: Logging file start
+[2024-10-05 22:39:14,183: INFO]: >>>>>> stage Laptop Data Ingestion started <<<<<<
+[2024-10-05 22:39:14,185: INFO]: yaml: config/laptop_config.yaml loaded successfully
+[2024-10-05 22:39:14,186: INFO]: yaml: params/laptop_params.yaml loaded successfully
+[2024-10-05 22:39:14,186: INFO]: created directory at: data
+[2024-10-05 22:39:14,186: INFO]: created directory at: data/laptop/data_ingestion
+[2024-10-05 22:39:14,661: INFO]: >>>>>> stage Laptop Data Ingestion completed <<<<<<
+
+x======x
+[2024-10-05 22:41:13,202: INFO]: Logging file start
+[2024-10-05 22:41:13,202: INFO]: >>>>>> stage Laptop Feature Eng started <<<<<<
+[2024-10-05 22:41:13,204: INFO]: yaml: config/laptop_config.yaml loaded successfully
+[2024-10-05 22:41:13,204: INFO]: yaml: params/laptop_params.yaml loaded successfully
+[2024-10-05 22:41:13,204: INFO]: created directory at: data
+[2024-10-05 22:41:13,204: INFO]: created directory at: data/laptop/feature_eng
+[2024-10-05 22:41:13,241: INFO]: >>>>>> stage Laptop Feature Eng completed <<<<<<
+
+x======x
+[2024-10-05 22:41:42,200: INFO]: Logging file start
+[2024-10-05 22:41:42,200: INFO]: >>>>>> stage Laptop Feature Eng started <<<<<<
+[2024-10-05 22:41:42,202: INFO]: yaml: config/laptop_config.yaml loaded successfully
+[2024-10-05 22:41:42,202: INFO]: yaml: params/laptop_params.yaml loaded successfully
+[2024-10-05 22:41:42,202: INFO]: created directory at: data
+[2024-10-05 22:41:42,202: INFO]: created directory at: data/laptop/feature_eng
+[2024-10-05 22:41:42,235: INFO]: >>>>>> stage Laptop Feature Eng completed <<<<<<
+
+x======x
+[2024-10-05 22:42:36,402: INFO]: Logging file start
+[2024-10-05 22:42:37,156: INFO]: >>>>>> stage Laptop Feature Eng started <<<<<<
+[2024-10-05 22:42:37,157: INFO]: yaml: config/laptop_config.yaml loaded successfully
+[2024-10-05 22:42:37,157: INFO]: yaml: params/laptop_params.yaml loaded successfully
+[2024-10-05 22:42:37,158: INFO]: created directory at: data
+[2024-10-05 22:42:37,158: INFO]: created directory at: data/laptop/data_split
+[2024-10-05 22:42:37,174: INFO]: >>>>>> stage Laptop Feature Eng completed <<<<<<
+
+x======x
+[2024-10-05 22:44:52,528: INFO]: Logging file start
+[2024-10-05 22:44:54,019: INFO]: >>>>>> stage Laptop Feature Eng started <<<<<<
+[2024-10-05 22:44:54,021: INFO]: yaml: config/laptop_config.yaml loaded successfully
+[2024-10-05 22:44:54,021: INFO]: yaml: params/laptop_params.yaml loaded successfully
+[2024-10-05 22:44:54,021: INFO]: created directory at: data
+[2024-10-05 22:44:54,021: INFO]: created directory at: data/laptop/model_train
+[2024-10-05 22:44:54,492: INFO]: HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+[2024-10-05 22:44:54,501: INFO]: Accessing as Vicky7873
+[2024-10-05 22:44:55,256: INFO]: HTTP Request: GET https://dagshub.com/api/v1/repos/Vicky7873/95Mobiles "HTTP/1.1 200 OK"
+[2024-10-05 22:44:55,261: INFO]: Initialized MLflow to track repo "Vicky7873/95Mobiles"
+[2024-10-05 22:44:55,262: INFO]: Repository Vicky7873/95Mobiles initialized!
+[2024-10-05 22:46:06,838: INFO]: >>>>>> stage Laptop Feature Eng completed <<<<<<
+
+x======x
+[2024-10-05 22:46:07,194: INFO]: Logging file start
+[2024-10-05 22:46:08,520: INFO]: >>>>>> stage Laptop model Eval started <<<<<<
+[2024-10-05 22:46:08,522: INFO]: yaml: config/laptop_config.yaml loaded successfully
+[2024-10-05 22:46:08,522: INFO]: yaml: params/laptop_params.yaml loaded successfully
+[2024-10-05 22:46:08,522: INFO]: created directory at: data
+[2024-10-05 22:46:08,522: INFO]: created directory at: data/laptop/model_eval
+[2024-10-05 22:46:09,021: INFO]: HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+[2024-10-05 22:46:09,030: INFO]: Accessing as Vicky7873
+[2024-10-05 22:46:09,419: INFO]: HTTP Request: GET https://dagshub.com/api/v1/repos/Vicky7873/95Mobiles "HTTP/1.1 200 OK"
+[2024-10-05 22:46:09,420: INFO]: Initialized MLflow to track repo "Vicky7873/95Mobiles"
+[2024-10-05 22:46:09,421: INFO]: Repository Vicky7873/95Mobiles initialized!
+[2024-10-05 22:46:11,908: INFO]: >>>>>> stage Laptop model Eval completed <<<<<<
+
+x======x

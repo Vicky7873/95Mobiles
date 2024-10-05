@@ -107,6 +107,61 @@ stages:
       - config/car_config.yaml
     outs:
       - data/car/model_eval/car_score.json
+
+
+
+  laptop_data_ingestion:
+    cmd: python -m src.laptop.pipelines.st_01_laptop_data_ingestion
+    deps:
+      - src/laptop/pipelines/st_01_laptop_data_ingestion.py
+      - config/laptop_config.yaml
+    outs:
+      - data/laptop/data_ingestion/laptop.csv
+
+
+  laptop_feature_eng:
+    cmd: python -m src.laptop.pipelines.st_02_laptop_data_fe
+    deps:
+      - src/laptop/pipelines/st_02_laptop_data_fe.py
+      - config/laptop_config.yaml
+    outs:
+      - data/laptop/feature_eng/laptop_cleaned.csv
+
+
+  laptop_data_split:
+    cmd: python -m src.laptop.pipelines.st_03_laptop_data_split
+    deps:
+      - src/laptop/pipelines/st_03_laptop_data_split.py
+      - config/laptop_config.yaml
+    params:
+      - params/laptop_params.yaml:
+        - split.test_size
+        - split.random_state
+    outs:
+      - data/laptop/data_split/X_train.csv
+      - data/laptop/data_split/X_test.csv
+      - data/laptop/data_split/y_train.csv
+      - data/laptop/data_split/y_test.csv
+
+
+  laptop_model_training:
+    cmd: 
+      - python -m src.laptop.pipelines.st_04_laptop_model_train
+      - cp data/laptop/model_train/laptop_model.pkl models/laptop_model.pkl
+    deps:
+      - src/laptop/pipelines/st_04_laptop_model_train.py
+      - config/laptop_config.yaml
+    outs:
+      - data/laptop/model_train/laptop_model.pkl
+
+
+  laptop_model_eval:
+    cmd: python -m src.laptop.pipelines.st_05_laptop_model_eval
+    deps:
+      - src/laptop/pipelines/st_05_laptop_model_eval.py
+      - config/laptop_config.yaml
+    outs:
+      - data/laptop/model_eval/score.json
   
 
 

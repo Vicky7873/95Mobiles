@@ -14,3 +14,14 @@ class Laptop_fe_pipeline:
         laptop.drop_and_rename_cols_change_cols_value()
         laptop.transform_data()
         laptop.save_data()
+
+
+STAGE_NAME = "Laptop Feature Eng"
+try:
+    logger.info(f">>>>>> stage {STAGE_NAME} started <<<<<<")
+    obj = Laptop_fe_pipeline()
+    obj.main()
+    logger.info(f">>>>>> stage {STAGE_NAME} completed <<<<<<\n\nx======x")
+except Exception as e:
+    logger.Exception(e)
+    raise e

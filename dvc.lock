@@ -217,3 +217,101 @@ stages:
       hash: md5
       md5: b038c599b57e64f4ca6b1f037ce929ed
       size: 83
+  laptop_data_ingestion:
+    cmd: python -m src.laptop.pipelines.st_01_laptop_data_ingestion
+    deps:
+    - path: config/laptop_config.yaml
+      hash: md5
+      md5: b7883ea272ca63d373d1c82ce7aebcd0
+      size: 1338
+    - path: src/laptop/pipelines/st_01_laptop_data_ingestion.py
+      hash: md5
+      md5: 787639326e928571f1ec9ccdfbfb691c
+      size: 727
+    outs:
+    - path: data/laptop/data_ingestion/laptop.csv
+      hash: md5
+      md5: 95a8aab979bb59105fa4d1c8c402dce4
+      size: 198100
+  laptop_feature_eng:
+    cmd: python -m src.laptop.pipelines.st_02_laptop_data_fe
+    deps:
+    - path: config/laptop_config.yaml
+      hash: md5
+      md5: b7883ea272ca63d373d1c82ce7aebcd0
+      size: 1338
+    - path: src/laptop/pipelines/st_02_laptop_data_fe.py
+      hash: md5
+      md5: c40ea1b6e8166bb2598b1e930720a50b
+      size: 784
+    outs:
+    - path: data/laptop/feature_eng/laptop_cleaned.csv
+      hash: md5
+      md5: 95a8d7560100dd45459b1aa5f56e6083
+      size: 98649
+  laptop_data_split:
+    cmd: python -m src.laptop.pipelines.st_03_laptop_data_split
+    deps:
+    - path: config/laptop_config.yaml
+      hash: md5
+      md5: b7883ea272ca63d373d1c82ce7aebcd0
+      size: 1338
+    - path: src/laptop/pipelines/st_03_laptop_data_split.py
+      hash: md5
+      md5: f32002237875c65c23272ada3b4fe6cc
+      size: 800
+    params:
+      params/laptop_params.yaml:
+        split.random_state: 21
+        split.test_size: 0.2
+    outs:
+    - path: data/laptop/data_split/X_test.csv
+      hash: md5
+      md5: d9a97aa2391e62905f7d64a4ce533434
+      size: 1476
+    - path: data/laptop/data_split/X_train.csv
+      hash: md5
+      md5: 494486709df81f1de3adf0765176ed0d
+      size: 84820
+    - path: data/laptop/data_split/y_test.csv
+      hash: md5
+      md5: 5f3a9871e8c1e4d4c1302ab0960439fc
+      size: 275
+    - path: data/laptop/data_split/y_train.csv
+      hash: md5
+      md5: e3c6b96bc0d3616a6b31364c117baf3d
+      size: 16458
+  laptop_model_training:
+    cmd:
+    - python -m src.laptop.pipelines.st_04_laptop_model_train
+    - cp data/laptop/model_train/laptop_model.pkl models/laptop_model.pkl
+    deps:
+    - path: config/laptop_config.yaml
+      hash: md5
+      md5: b7883ea272ca63d373d1c82ce7aebcd0
+      size: 1338
+    - path: src/laptop/pipelines/st_04_laptop_model_train.py
+      hash: md5
+      md5: 8b414261ba441f95761bb74c7193648f
+      size: 749
+    outs:
+    - path: data/laptop/model_train/laptop_model.pkl
+      hash: md5
+      md5: aede31b35335a031a94eea40f29d2b63
+      size: 2452121
+  laptop_model_eval:
+    cmd: python -m src.laptop.pipelines.st_05_laptop_model_eval
+    deps:
+    - path: config/laptop_config.yaml
+      hash: md5
+      md5: b7883ea272ca63d373d1c82ce7aebcd0
+      size: 1338
+    - path: src/laptop/pipelines/st_05_laptop_model_eval.py
+      hash: md5
+      md5: 65492e564b1b81f374d7eb66898c6b04
+      size: 674
+    outs:
+    - path: data/laptop/model_eval/score.json
+      hash: md5
+      md5: 937efa91bb7b0c676402ae54d05b9945
+      size: 83
