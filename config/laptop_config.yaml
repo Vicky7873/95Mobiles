@@ -4,3 +4,9 @@ data_ingestion:
   root_dir: data/laptop/data_ingestion
   download_url: 'https://raw.githubusercontent.com/Vicky7873/data/main/laptop_price.csv'
   laptop_raw_data: data/laptop/data_ingestion/laptop.csv
+
+
+feature_eng:
+  root_dir: data/laptop/feature_eng
+  laptop_raw_data: data/laptop/data_ingestion/laptop.csv
+  laptop_cleaned_data: data/laptop/feature_eng/laptop_cleaned.csv

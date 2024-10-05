@@ -2228,3 +2228,37 @@ x======x
 [2024-10-05 12:23:54,570: INFO]: >>>>>> stage Laptop Data Ingestion completed <<<<<<
 
 x======x
+[2024-10-05 12:49:17,135: INFO]: Logging file start
+[2024-10-05 14:27:12,166: INFO]: yaml: config/laptop_config.yaml loaded successfully
+[2024-10-05 14:27:12,176: INFO]: created directory at: data
+[2024-10-05 14:27:12,178: INFO]: created directory at: data/laptop/feature_eng
+[2024-10-05 14:27:43,480: INFO]: yaml: config/laptop_config.yaml loaded successfully
+[2024-10-05 14:27:43,482: INFO]: created directory at: data
+[2024-10-05 14:27:43,483: INFO]: created directory at: data/laptop/feature_eng
+[2024-10-05 14:28:03,155: INFO]: yaml: config/laptop_config.yaml loaded successfully
+[2024-10-05 14:28:03,155: INFO]: created directory at: data
+[2024-10-05 14:28:03,156: INFO]: created directory at: data/laptop/feature_eng
+[2024-10-05 14:28:13,685: INFO]: yaml: config/laptop_config.yaml loaded successfully
+[2024-10-05 14:28:13,686: INFO]: created directory at: data
+[2024-10-05 14:28:13,686: INFO]: created directory at: data/laptop/feature_eng
+[2024-10-05 14:30:59,168: INFO]: yaml: config/laptop_config.yaml loaded successfully
+[2024-10-05 14:30:59,169: INFO]: created directory at: data
+[2024-10-05 14:30:59,169: INFO]: created directory at: data/laptop/feature_eng
+[2024-10-05 14:31:06,221: INFO]: yaml: config/laptop_config.yaml loaded successfully
+[2024-10-05 14:31:06,223: INFO]: created directory at: data
+[2024-10-05 14:31:06,224: INFO]: created directory at: data/laptop/feature_eng
+[2024-10-05 14:36:29,659: INFO]: Logging file start
+[2024-10-05 14:36:30,179: INFO]: >>>>>> stage Laptop Data Ingestion started <<<<<<
+[2024-10-05 14:36:30,179: INFO]: yaml: config/laptop_config.yaml loaded successfully
+[2024-10-05 14:36:30,180: INFO]: created directory at: data
+[2024-10-05 14:36:30,180: INFO]: created directory at: data/laptop/data_ingestion
+[2024-10-05 14:36:30,642: INFO]: >>>>>> stage Laptop Data Ingestion completed <<<<<<
+
+x======x
+[2024-10-05 14:36:30,643: INFO]: >>>>>> stage Laptop Feature Eng started <<<<<<
+[2024-10-05 14:36:30,645: INFO]: yaml: config/laptop_config.yaml loaded successfully
+[2024-10-05 14:36:30,646: INFO]: created directory at: data
+[2024-10-05 14:36:30,646: INFO]: created directory at: data/laptop/feature_eng
+[2024-10-05 14:36:30,730: INFO]: >>>>>> stage Laptop Feature Eng completed <<<<<<
+
+x======x

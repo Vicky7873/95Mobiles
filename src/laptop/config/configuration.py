@@ -1,6 +1,6 @@
 from src.laptop.constants import *
 from src.laptop.utils.common import read_yaml,create_directory
-from src.laptop.entity import LaptopDataIngestionConfig
+from src.laptop.entity import LaptopDataIngestionConfig,Laptop_feConfig
 
 
 class ConfigurationManger:
@@ -19,4 +19,18 @@ class ConfigurationManger:
         )
 
         return laptopdata
+    
+
+
+    def get_Fe_config(self)->Laptop_feConfig:
+        config = self.config.feature_eng
+        create_directory([config.root_dir])
+
+        model_feconfig = Laptop_feConfig(
+            root_dir=config.root_dir,
+            laptop_raw_data = config.laptop_raw_data,
+            laptop_cleaned_data = config.laptop_cleaned_data
+        )
+
+        return model_feconfig
 
