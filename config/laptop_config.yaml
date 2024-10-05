@@ -19,3 +19,14 @@ data_split:
   X_test: data/laptop/data_split/X_test.csv
   y_train: data/laptop/data_split/y_train.csv
   y_test: data/laptop/data_split/y_test.csv
+
+
+
+Model_train:
+  root_dir: data/laptop/model_train
+  X_train: data/laptop/data_split/X_train.csv
+  X_test: data/laptop/data_split/X_test.csv
+  y_train: data/laptop/data_split/y_train.csv
+  y_test: data/laptop/data_split/y_test.csv
+  saved_model: data/laptop/model_train/laptop_model.pkl
+  model_for_train: models/laptop_model.pkl

@@ -2373,3 +2373,131 @@ x======x
 [2024-10-05 19:04:43,804: INFO]: >>>>>> stage Laptop Feature Eng completed <<<<<<
 
 x======x
+[2024-10-05 20:11:35,443: INFO]: Logging file start
+[2024-10-05 20:37:41,237: INFO]: yaml: config/laptop_config.yaml loaded successfully
+[2024-10-05 20:37:41,240: INFO]: yaml: params/laptop_params.yaml loaded successfully
+[2024-10-05 20:37:41,246: INFO]: created directory at: data
+[2024-10-05 20:37:41,281: INFO]: created directory at: data/laptop/model_train
+[2024-10-05 20:37:41,703: INFO]: HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+[2024-10-05 20:37:41,713: INFO]: Accessing as Vicky7873
+[2024-10-05 20:37:42,195: INFO]: HTTP Request: GET https://dagshub.com/api/v1/repos/Vicky7873/95Mobiles "HTTP/1.1 200 OK"
+[2024-10-05 20:37:42,201: INFO]: Initialized MLflow to track repo "Vicky7873/95Mobiles"
+[2024-10-05 20:37:42,203: INFO]: Repository Vicky7873/95Mobiles initialized!
+[2024-10-05 20:38:09,803: INFO]: Logging file start
+[2024-10-05 20:38:11,236: INFO]: yaml: config/laptop_config.yaml loaded successfully
+[2024-10-05 20:38:11,237: INFO]: yaml: params/laptop_params.yaml loaded successfully
+[2024-10-05 20:38:11,238: INFO]: created directory at: data
+[2024-10-05 20:38:11,239: INFO]: created directory at: data/laptop/model_train
+[2024-10-05 20:38:11,647: INFO]: HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+[2024-10-05 20:38:11,657: INFO]: Accessing as Vicky7873
+[2024-10-05 20:38:12,055: INFO]: HTTP Request: GET https://dagshub.com/api/v1/repos/Vicky7873/95Mobiles "HTTP/1.1 200 OK"
+[2024-10-05 20:38:12,058: INFO]: Initialized MLflow to track repo "Vicky7873/95Mobiles"
+[2024-10-05 20:38:12,060: INFO]: Repository Vicky7873/95Mobiles initialized!
+[2024-10-05 20:48:53,405: INFO]: Logging file start
+[2024-10-05 20:48:54,690: INFO]: >>>>>> stage Laptop Data Ingestion started <<<<<<
+[2024-10-05 20:48:54,691: INFO]: yaml: config/laptop_config.yaml loaded successfully
+[2024-10-05 20:48:54,692: INFO]: yaml: params/laptop_params.yaml loaded successfully
+[2024-10-05 20:48:54,692: INFO]: created directory at: data
+[2024-10-05 20:48:54,692: INFO]: created directory at: data/laptop/data_ingestion
+[2024-10-05 20:48:55,080: INFO]: >>>>>> stage Laptop Data Ingestion completed <<<<<<
+
+x======x
+[2024-10-05 20:48:55,080: INFO]: >>>>>> stage Laptop Feature Eng started <<<<<<
+[2024-10-05 20:48:55,082: INFO]: yaml: config/laptop_config.yaml loaded successfully
+[2024-10-05 20:48:55,082: INFO]: yaml: params/laptop_params.yaml loaded successfully
+[2024-10-05 20:48:55,082: INFO]: created directory at: data
+[2024-10-05 20:48:55,082: INFO]: created directory at: data/laptop/feature_eng
+[2024-10-05 20:48:55,129: INFO]: >>>>>> stage Laptop Feature Eng completed <<<<<<
+
+x======x
+[2024-10-05 20:48:55,129: INFO]: >>>>>> stage Laptop Feature Eng started <<<<<<
+[2024-10-05 20:48:55,130: INFO]: yaml: config/laptop_config.yaml loaded successfully
+[2024-10-05 20:48:55,130: INFO]: yaml: params/laptop_params.yaml loaded successfully
+[2024-10-05 20:48:55,130: INFO]: created directory at: data
+[2024-10-05 20:48:55,130: INFO]: created directory at: data/laptop/data_split
+[2024-10-05 20:48:55,141: INFO]: >>>>>> stage Laptop Feature Eng completed <<<<<<
+
+x======x
+[2024-10-05 20:48:55,141: INFO]: >>>>>> stage Laptop Feature Eng started <<<<<<
+[2024-10-05 20:48:55,142: INFO]: yaml: config/laptop_config.yaml loaded successfully
+[2024-10-05 20:48:55,143: INFO]: yaml: params/laptop_params.yaml loaded successfully
+[2024-10-05 20:48:55,143: INFO]: created directory at: data
+[2024-10-05 20:48:55,143: INFO]: created directory at: data/laptop/model_train
+[2024-10-05 20:52:06,993: INFO]: Logging file start
+[2024-10-05 20:52:08,561: INFO]: yaml: config/laptop_config.yaml loaded successfully
+[2024-10-05 20:52:08,563: INFO]: yaml: params/laptop_params.yaml loaded successfully
+[2024-10-05 20:52:08,564: INFO]: created directory at: data
+[2024-10-05 20:52:08,565: INFO]: created directory at: data/laptop/model_train
+[2024-10-05 20:52:08,924: INFO]: HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+[2024-10-05 20:52:08,929: INFO]: Accessing as Vicky7873
+[2024-10-05 20:52:09,336: INFO]: HTTP Request: GET https://dagshub.com/api/v1/repos/Vicky7873/95Mobiles "HTTP/1.1 200 OK"
+[2024-10-05 20:52:09,338: INFO]: Initialized MLflow to track repo "Vicky7873/95Mobiles"
+[2024-10-05 20:52:09,340: INFO]: Repository Vicky7873/95Mobiles initialized!
+[2024-10-05 20:53:31,106: INFO]: Logging file start
+[2024-10-05 20:53:32,197: INFO]: >>>>>> stage Laptop Data Ingestion started <<<<<<
+[2024-10-05 20:53:32,198: INFO]: yaml: config/laptop_config.yaml loaded successfully
+[2024-10-05 20:53:32,199: INFO]: yaml: params/laptop_params.yaml loaded successfully
+[2024-10-05 20:53:32,199: INFO]: created directory at: data
+[2024-10-05 20:53:32,199: INFO]: created directory at: data/laptop/data_ingestion
+[2024-10-05 20:53:32,288: INFO]: >>>>>> stage Laptop Data Ingestion completed <<<<<<
+
+x======x
+[2024-10-05 20:53:32,288: INFO]: >>>>>> stage Laptop Feature Eng started <<<<<<
+[2024-10-05 20:53:32,289: INFO]: yaml: config/laptop_config.yaml loaded successfully
+[2024-10-05 20:53:32,290: INFO]: yaml: params/laptop_params.yaml loaded successfully
+[2024-10-05 20:53:32,290: INFO]: created directory at: data
+[2024-10-05 20:53:32,290: INFO]: created directory at: data/laptop/feature_eng
+[2024-10-05 20:53:32,332: INFO]: >>>>>> stage Laptop Feature Eng completed <<<<<<
+
+x======x
+[2024-10-05 20:53:32,332: INFO]: >>>>>> stage Laptop Feature Eng started <<<<<<
+[2024-10-05 20:53:32,333: INFO]: yaml: config/laptop_config.yaml loaded successfully
+[2024-10-05 20:53:32,333: INFO]: yaml: params/laptop_params.yaml loaded successfully
+[2024-10-05 20:53:32,333: INFO]: created directory at: data
+[2024-10-05 20:53:32,333: INFO]: created directory at: data/laptop/data_split
+[2024-10-05 20:53:32,345: INFO]: >>>>>> stage Laptop Feature Eng completed <<<<<<
+
+x======x
+[2024-10-05 20:53:32,345: INFO]: >>>>>> stage Laptop Feature Eng started <<<<<<
+[2024-10-05 20:53:32,346: INFO]: yaml: config/laptop_config.yaml loaded successfully
+[2024-10-05 20:53:32,347: INFO]: yaml: params/laptop_params.yaml loaded successfully
+[2024-10-05 20:53:32,347: INFO]: created directory at: data
+[2024-10-05 20:53:32,347: INFO]: created directory at: data/laptop/model_train
+[2024-10-05 20:55:20,933: INFO]: Logging file start
+[2024-10-05 20:55:22,039: INFO]: >>>>>> stage Laptop Data Ingestion started <<<<<<
+[2024-10-05 20:55:22,040: INFO]: yaml: config/laptop_config.yaml loaded successfully
+[2024-10-05 20:55:22,041: INFO]: yaml: params/laptop_params.yaml loaded successfully
+[2024-10-05 20:55:22,041: INFO]: created directory at: data
+[2024-10-05 20:55:22,041: INFO]: created directory at: data/laptop/data_ingestion
+[2024-10-05 20:55:22,445: INFO]: >>>>>> stage Laptop Data Ingestion completed <<<<<<
+
+x======x
+[2024-10-05 20:55:22,445: INFO]: >>>>>> stage Laptop Feature Eng started <<<<<<
+[2024-10-05 20:55:22,449: INFO]: yaml: config/laptop_config.yaml loaded successfully
+[2024-10-05 20:55:22,450: INFO]: yaml: params/laptop_params.yaml loaded successfully
+[2024-10-05 20:55:22,451: INFO]: created directory at: data
+[2024-10-05 20:55:22,451: INFO]: created directory at: data/laptop/feature_eng
+[2024-10-05 20:55:22,513: INFO]: >>>>>> stage Laptop Feature Eng completed <<<<<<
+
+x======x
+[2024-10-05 20:55:22,514: INFO]: >>>>>> stage Laptop Feature Eng started <<<<<<
+[2024-10-05 20:55:22,515: INFO]: yaml: config/laptop_config.yaml loaded successfully
+[2024-10-05 20:55:22,515: INFO]: yaml: params/laptop_params.yaml loaded successfully
+[2024-10-05 20:55:22,515: INFO]: created directory at: data
+[2024-10-05 20:55:22,515: INFO]: created directory at: data/laptop/data_split
+[2024-10-05 20:55:22,528: INFO]: >>>>>> stage Laptop Feature Eng completed <<<<<<
+
+x======x
+[2024-10-05 20:55:22,528: INFO]: >>>>>> stage Laptop Feature Eng started <<<<<<
+[2024-10-05 20:55:22,529: INFO]: yaml: config/laptop_config.yaml loaded successfully
+[2024-10-05 20:55:22,529: INFO]: yaml: params/laptop_params.yaml loaded successfully
+[2024-10-05 20:55:22,529: INFO]: created directory at: data
+[2024-10-05 20:55:22,529: INFO]: created directory at: data/laptop/model_train
+[2024-10-05 20:55:22,878: INFO]: HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+[2024-10-05 20:55:22,890: INFO]: Accessing as Vicky7873
+[2024-10-05 20:55:23,329: INFO]: HTTP Request: GET https://dagshub.com/api/v1/repos/Vicky7873/95Mobiles "HTTP/1.1 200 OK"
+[2024-10-05 20:55:23,335: INFO]: Initialized MLflow to track repo "Vicky7873/95Mobiles"
+[2024-10-05 20:55:23,336: INFO]: Repository Vicky7873/95Mobiles initialized!
+[2024-10-05 20:56:35,774: INFO]: >>>>>> stage Laptop Feature Eng completed <<<<<<
+
+x======x

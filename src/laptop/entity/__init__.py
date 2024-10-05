@@ -26,3 +26,13 @@ class Laptop_datasplit:
     y_test: Path
     test_size: float
     random_state: int
+
+@dataclass(frozen=True)
+class ModelTrainingConfig:
+    root_dir: Path
+    X_train: Path
+    X_test: Path
+    y_train: Path
+    y_test: Path
+    saved_model: Path
+    model_for_train: Path

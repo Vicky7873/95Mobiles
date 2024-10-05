@@ -1,6 +1,6 @@
 from src.laptop.constants import *
 from src.laptop.utils.common import read_yaml,create_directory
-from src.laptop.entity import LaptopDataIngestionConfig,Laptop_feConfig,Laptop_datasplit
+from src.laptop.entity import LaptopDataIngestionConfig,Laptop_feConfig,Laptop_datasplit,ModelTrainingConfig
 
 
 class ConfigurationManger:
@@ -54,4 +54,21 @@ class ConfigurationManger:
         )
 
         return model_datasplitConfig
+    
+
+    def get_moel_train(self)->ModelTrainingConfig:
+        config = self.config.Model_train
+        create_directory([config.root_dir])
+
+        model_trainconfig = ModelTrainingConfig(
+            root_dir=config.root_dir,
+            X_train=config.X_train,
+            X_test=config.X_test,
+            y_train=config.y_train,
+            y_test=config.y_test,
+            saved_model=config.saved_model,
+            model_for_train=config.model_for_train
+        )
+
+        return model_trainconfig
 
