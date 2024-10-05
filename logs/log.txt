@@ -2205,3 +2205,26 @@ x======x
 [2024-10-02 23:23:34,419: INFO]: >>>>>> stage Car model eval completed <<<<<<
 
 x======x
+[2024-10-05 12:05:56,809: INFO]: Logging file start
+[2024-10-05 12:13:01,212: INFO]: yaml: config/laptop_config.yaml loaded successfully
+[2024-10-05 12:13:01,214: INFO]: created directory at: data
+[2024-10-05 12:13:01,215: INFO]: created directory at: data/laptop/data_ingestion
+[2024-10-05 12:13:08,429: INFO]: yaml: config/laptop_config.yaml loaded successfully
+[2024-10-05 12:13:08,431: INFO]: created directory at: data
+[2024-10-05 12:13:08,432: INFO]: created directory at: data/laptop/data_ingestion
+[2024-10-05 12:23:35,358: INFO]: Logging file start
+[2024-10-05 12:23:35,358: INFO]: >>>>>> stage Laptop Data Ingestion started <<<<<<
+[2024-10-05 12:23:35,359: INFO]: yaml: config/laptop_config.yaml loaded successfully
+[2024-10-05 12:23:35,360: INFO]: created directory at: data
+[2024-10-05 12:23:35,360: INFO]: created directory at: data/laptop/data_ingestion
+[2024-10-05 12:23:35,734: INFO]: >>>>>> stage Laptop Data Ingestion completed <<<<<<
+
+x======x
+[2024-10-05 12:23:54,477: INFO]: Logging file start
+[2024-10-05 12:23:54,477: INFO]: >>>>>> stage Laptop Data Ingestion started <<<<<<
+[2024-10-05 12:23:54,477: INFO]: yaml: config/laptop_config.yaml loaded successfully
+[2024-10-05 12:23:54,477: INFO]: created directory at: data
+[2024-10-05 12:23:54,477: INFO]: created directory at: data/laptop/data_ingestion
+[2024-10-05 12:23:54,570: INFO]: >>>>>> stage Laptop Data Ingestion completed <<<<<<
+
+x======x
