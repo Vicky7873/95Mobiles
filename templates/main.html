@@ -3,30 +3,39 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>95Mibiles Price Prediction</title>
+    <title>Bhiki Pallai Price Prediction</title>
     <style>
         /* Global Styling */
         body {
             margin: 0;
             padding: 0;
             font-family: 'Poppins', sans-serif;
-            background: linear-gradient(135deg, #89f7fe, #66a6ff);
+            background: linear-gradient(-45deg, #f7b733, #fc4a1a, #1f4037, #99f2c8);
+            background-size: 400% 400%;
+            animation: gradientMove 10s ease infinite;
             display: flex;
             justify-content: center;
             align-items: center;
             height: 100vh;
-            overflow: hidden;
+            overflow: auto;
+        }
+
+        @keyframes gradientMove {
+            0% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+            100% { background-position: 0% 50%; }
         }
 
         .container {
             background: rgba(255, 255, 255, 0.2);
             padding: 40px;
-            border-radius: 20px;
-            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
-            backdrop-filter: blur(10px);
+            border-radius: 25px;
+            box-shadow: 0 15px 40px rgba(0, 0, 0, 0.3);
+            backdrop-filter: blur(12px);
             text-align: center;
-            max-width: 500px;
+            max-width: 600px;
             width: 100%;
+            margin: 20px;
             animation: fadeIn 1.5s ease-in-out;
         }
 
@@ -41,98 +50,97 @@
             }
         }
 
+        /* Logo Styling */
+        .logo {
+            width: 150px;
+            height: auto;
+            margin-bottom: 20px;
+            animation: logoPulse 3s infinite ease-in-out;
+        }
+
+        @keyframes logoPulse {
+            0%, 100% { transform: scale(1); }
+            50% { transform: scale(1.05); }
+        }
+
         h1 {
-            font-size: 3.5rem;
-            margin-bottom: 40px;
+            font-size: 2.5rem;
+            margin-bottom: 20px;
             color: #fff;
             text-transform: uppercase;
             letter-spacing: 3px;
-            text-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
-            animation: pulse 1s infinite;
+            text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
         }
 
-        @keyframes pulse {
-            0% {
-                transform: scale(1);
-            }
-            50% {
-                transform: scale(1.05);
-            }
-            100% {
-                transform: scale(1);
-            }
+        p {
+            color: #fff;
+            font-size: 1rem;
+            margin-bottom: 30px;
+            line-height: 1.5;
         }
 
         .btn {
-            background-color: #3498db;
+            background-color: #fc4a1a;
             color: white;
-            padding: 15px 50px;
-            font-size: 1.5rem;
+            padding: 12px 30px;
+            font-size: 1.2rem;
             font-weight: bold;
             border: none;
-            border-radius: 50px;
+            border-radius: 40px;
             cursor: pointer;
             margin: 20px;
-            box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+            box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.2);
             transition: all 0.4s ease;
-            position: relative;
-            overflow: hidden;
-            z-index: 1;
             text-transform: uppercase;
             letter-spacing: 2px;
+            width: 80%;
         }
 
         .btn:hover {
-            background-color: #5DADE2;
-            transform: translateY(-10px);
-            box-shadow: 0px 20px 30px rgba(0, 0, 0, 0.3);
-        }
-
-        .btn::before {
-            content: "";
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%) scale(0);
-            background-color: rgba(255, 255, 255, 0.5);
-            width: 300%;
-            height: 300%;
-            transition: all 0.6s ease;
-            border-radius: 50%;
-            z-index: -1;
-        }
-
-        .btn:hover::before {
-            transform: translate(-50%, -50%) scale(1);
+            background-color: #f7b733;
+            transform: translateY(-8px);
+            box-shadow: 0px 20px 30px rgba(0, 0, 0, 0.4);
         }
 
         footer {
-            margin-top: 50px;
-            font-size: 1rem;
+            margin-top: 20px;
+            font-size: 0.9rem;
             color: rgba(255, 255, 255, 0.8);
             letter-spacing: 1px;
-            text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
-            animation: fadeInUp 2s ease-in-out;
         }
 
-        @keyframes fadeInUp {
-            from {
-                opacity: 0;
-                transform: translateY(20px);
+        /* Responsive */
+        @media (max-width: 768px) {
+            .container {
+                padding: 20px;
+                max-width: 90%;
             }
-            to {
-                opacity: 1;
-                transform: translateY(0);
+
+            h1 {
+                font-size: 2rem;
+            }
+
+            .btn {
+                width: 100%;
+                padding: 15px 0;
             }
         }
+
     </style>
 </head>
 <body>
     <div class="container">
-        <h1>Vehicle Price Prediction</h1>
+        <!-- Logo -->
+        <img src="/Users/bhikipallai/Desktop/Projects/95Mobiles/templates/bhiki.png" alt="Bhiki Pallai Logo" class="logo">
+
+        <h1>Price Prediction</h1>
+        <p>Before selling, check the price of the product here. Select a category below to begin.</p>
+
         <button class="btn" onclick="location.href='/bike'">Bike Price Prediction</button>
         <button class="btn" onclick="location.href='/car'">Car Price Prediction</button>
-        <footer>&copy; 2024 Vehicle Price Predictor | All rights reserved</footer>
+        <button class="btn" onclick="location.href='/laptop'">Laptop Price Prediction</button>
+
+        <footer>&copy; 2024 Bhiki Pallai | All rights reserved</footer>
     </div>
 </body>
 </html>

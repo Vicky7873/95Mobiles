@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laptop Price Prediction</title>
+    <style>
+        /* General Styles */
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+            background-size: 400% 400%;
+            animation: gradientBG 15s ease infinite;
+            height: 100vh;
+            overflow: auto;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        /* Gradient Background Animation */
+        @keyframes gradientBG {
+            0% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+            100% { background-position: 0% 50%; }
+        }
+
+        /* Scrollable form container */
+        .container {
+            background: rgba(255, 255, 255, 0.9);
+            padding: 40px;
+            border-radius: 15px;
+            box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2);
+            max-width: 500px;
+            width: 100%;
+            height: 90vh; /* Adjust height to fit the screen */
+            overflow-y: auto; /* Add vertical scroll for large forms */
+            backdrop-filter: blur(10px);
+        }
+
+        h2 {
+            text-align: center;
+            margin-bottom: 20px;
+            color: #333;
+            font-size: 24px;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+
+        .form-group {
+            margin-bottom: 20px;
+        }
+
+        label {
+            font-weight: bold;
+            display: block;
+            margin-bottom: 5px;
+            color: #444;
+        }
+
+        input[type="text"], input[type="number"], select {
+            width: 100%;
+            padding: 12px;
+            border-radius: 5px;
+            border: 1px solid #ddd;
+            font-size: 1rem;
+            transition: 0.3s;
+        }
+
+        input[type="text"]:focus, input[type="number"]:focus, select:focus {
+            border-color: #23a6d5;
+            box-shadow: 0 0 10px rgba(35, 166, 213, 0.5);
+            outline: none;
+        }
+
+        /* Button styles */
+        input[type="submit"] {
+            width: 100%;
+            padding: 15px;
+            background-color: #23a6d5;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            font-size: 18px;
+            cursor: pointer;
+            transition: background-color 0.3s ease, transform 0.3s ease;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #23d5ab;
+            transform: translateY(-3px);
+            box-shadow: 0 8px 20px rgba(35, 213, 171, 0.3);
+        }
+
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h2>Laptop Price Prediction</h2>
+    <form action="/laptop/predict" method="POST">
+        
+        <!-- Company -->
+        <div class="form-group">
+            <label for="company">Company</label>
+            <select id="company" name="company" required>
+                <option value="" disabled selected>Select Company</option>
+                <option>Apple</option>
+                <option>HP</option>
+                <option>Acer</option>
+                <option>Asus</option>
+                <option>Dell</option>
+                <option>Lenovo</option>
+                <option>Chuwi</option>
+                <option>MSI</option>
+                <option>Microsoft</option>
+                <option>Toshiba</option>
+                <option>Huawei</option>
+                <option>Xiaomi</option>
+                <option>Vero</option>
+                <option>Razer</option>
+                <option>Mediacom</option>
+                <option>Samsung</option>
+                <option>Google</option>
+                <option>Fujitsu</option>
+                <option>LG</option>
+            </select>
+        </div>
+
+        <!-- Product -->
+        <div class="form-group">
+            <label for="product">Product</label>
+            <input type="text" id="product" name="product" placeholder="Enter product name" required>
+        </div>
+
+        <!-- TypeName -->
+        <div class="form-group">
+            <label for="typename">Type Name</label>
+            <select id="typename" name="typename" required>
+                <option value="" disabled selected>Select Type</option>
+                <option>Ultrabook</option>
+                <option>Notebook</option>
+                <option>Netbook</option>
+                <option>Gaming</option>
+                <option>2 in 1 Convertible</option>
+                <option>Workstation</option>
+            </select>
+        </div>
+
+        <!-- Inches -->
+        <div class="form-group">
+            <label for="inches">Inches</label>
+            <input type="number" id="inches" name="inches" placeholder="Enter screen size in inches" required>
+        </div>
+
+        <!-- Screen Resolution -->
+        <div class="form-group">
+            <label for="screen_resolution">Screen Resolution</label>
+            <select id="screen_resolution" name="screen_resolution" required>
+        <option value="">Select screen resolution</option>
+        <option value="IPS Panel Retina Display 2560x1600">IPS Panel Retina Display 2560x1600</option>
+        <option value="1440x900">1440x900</option>
+        <option value="Full HD 1920x1080">Full HD 1920x1080</option>
+        <option value="IPS Panel Retina Display 2880x1800">IPS Panel Retina Display 2880x1800</option>
+        <option value="1366x768">1366x768</option>
+        <option value="IPS Panel Full HD 1920x1080">IPS Panel Full HD 1920x1080</option>
+        <option value="IPS Panel Retina Display 2304x1440">IPS Panel Retina Display 2304x1440</option>
+        <option value="IPS Panel Full HD / Touchscreen 1920x1080">IPS Panel Full HD / Touchscreen 1920x1080</option>
+        <option value="Full HD / Touchscreen 1920x1080">Full HD / Touchscreen 1920x1080</option>
+        <option value="Touchscreen / Quad HD+ 3200x1800">Touchscreen / Quad HD+ 3200x1800</option>
+        <option value="IPS Panel Touchscreen 1920x1200">IPS Panel Touchscreen 1920x1200</option>
+        <option value="Touchscreen 2256x1504">Touchscreen 2256x1504</option>
+        <option value="Quad HD+ / Touchscreen 3200x1800">Quad HD+ / Touchscreen 3200x1800</option>
+        <option value="IPS Panel 1366x768">IPS Panel 1366x768</option>
+        <option value="IPS Panel 4K Ultra HD / Touchscreen 3840x2160">IPS Panel 4K Ultra HD / Touchscreen 3840x2160</option>
+        <option value="IPS Panel Full HD 2160x1440">IPS Panel Full HD 2160x1440</option>
+        <option value="4K Ultra HD / Touchscreen 3840x2160">4K Ultra HD / Touchscreen 3840x2160</option>
+        <option value="Touchscreen 2560x1440">Touchscreen 2560x1440</option>
+        <option value="1600x900">1600x900</option>
+        <option value="IPS Panel 4K Ultra HD 3840x2160">IPS Panel 4K Ultra HD 3840x2160</option>
+        <option value="4K Ultra HD 3840x2160">4K Ultra HD 3840x2160</option>
+        <option value="Touchscreen 1366x768">Touchscreen 1366x768</option>
+        <option value="IPS Panel Full HD 1366x768">IPS Panel Full HD 1366x768</option>
+        <option value="IPS Panel 2560x1440">IPS Panel 2560x1440</option>
+        <option value="IPS Panel Full HD 2560x1440">IPS Panel Full HD 2560x1440</option>
+        <option value="IPS Panel Retina Display 2736x1824">IPS Panel Retina Display 2736x1824</option>
+        <option value="Touchscreen 2400x1600">Touchscreen 2400x1600</option>
+        <option value="2560x1440">2560x1440</option>
+        <option value="IPS Panel Quad HD+ 2560x1440">IPS Panel Quad HD+ 2560x1440</option>
+        <option value="IPS Panel Quad HD+ 3200x1800">IPS Panel Quad HD+ 3200x1800</option>
+        <option value="IPS Panel Quad HD+ / Touchscreen 3200x1800">IPS Panel Quad HD+ / Touchscreen 3200x1800</option>
+        <option value="IPS Panel Touchscreen 1366x768">IPS Panel Touchscreen 1366x768</option>
+        <option value="1920x1080">1920x1080</option>
+        <option value="IPS Panel Full HD 1920x1200">IPS Panel Full HD 1920x1200</option>
+        <option value="IPS Panel Touchscreen / 4K Ultra HD 3840x2160">IPS Panel Touchscreen / 4K Ultra HD 3840x2160</option>
+        <option value="IPS Panel Touchscreen 2560x1440">IPS Panel Touchscreen 2560x1440</option>
+        <option value="Touchscreen / Full HD 1920x1080">Touchscreen / Full HD 1920x1080</option>
+        <option value="Quad HD+ 3200x1800">Quad HD+ 3200x1800</option>
+        <option value="Touchscreen / 4K Ultra HD 3840x2160">Touchscreen / 4K Ultra HD 3840x2160</option>
+        <option value="IPS Panel Touchscreen 2400x1600">IPS Panel Touchscreen 2400x1600</option>
+    </select>
+        </div>
+
+        <!-- CPU -->
+        <div class="form-group">
+            <label for="cpu">CPU</label>
+            <input type="text" id="cpu" name="cpu" placeholder="Enter CPU model" required>
+        </div>
+
+        <!-- RAM -->
+        <div class="form-group">
+            <label for="ram">RAM</label>
+            <select id="ram" name="ram" required>
+                <option value="" disabled selected>Select RAM</option>
+                <option>8GB</option>
+                <option>16GB</option>
+                <option>4GB</option>
+                <option>2GB</option>
+                <option>12GB</option>
+                <option>6GB</option>
+                <option>32GB</option>
+                <option>24GB</option>
+                <option>64GB</option>
+            </select>
+        </div>
+
+        <!-- Memory -->
+        <div class="form-group">
+            <label for="memory">Memory</label>
+            <select id="memory" name="memory" required>
+        <option value="">Select memory</option>
+        <option value="128GB SSD">128GB SSD</option>
+        <option value="128GB Flash Storage">128GB Flash Storage</option>
+        <option value="256GB SSD">256GB SSD</option>
+        <option value="512GB SSD">512GB SSD</option>
+        <option value="500GB HDD">500GB HDD</option>
+        <option value="256GB Flash Storage">256GB Flash Storage</option>
+        <option value="1TB HDD">1TB HDD</option>
+        <option value="32GB Flash Storage">32GB Flash Storage</option>
+        <option value="128GB SSD + 1TB HDD">128GB SSD + 1TB HDD</option>
+        <option value="256GB SSD + 256GB SSD">256GB SSD + 256GB SSD</option>
+        <option value="64GB Flash Storage">64GB Flash Storage</option>
+        <option value="256GB SSD + 1TB HDD">256GB SSD + 1TB HDD</option>
+        <option value="256GB SSD + 2TB HDD">256GB SSD + 2TB HDD</option>
+        <option value="32GB SSD">32GB SSD</option>
+        <option value="2TB HDD">2TB HDD</option>
+        <option value="64GB SSD">64GB SSD</option>
+        <option value="1.0TB Hybrid">1.0TB Hybrid</option>
+        <option value="512GB SSD + 1TB HDD">512GB SSD + 1TB HDD</option>
+        <option value="1TB SSD">1TB SSD</option>
+        <option value="256GB SSD + 500GB HDD">256GB SSD + 500GB HDD</option>
+        <option value="128GB SSD + 2TB HDD">128GB SSD + 2TB HDD</option>
+        <option value="512GB SSD + 512GB SSD">512GB SSD + 512GB SSD</option>
+        <option value="16GB SSD">16GB SSD</option>
+        <option value="16GB Flash Storage">16GB Flash Storage</option>
+        <option value="512GB SSD + 256GB SSD">512GB SSD + 256GB SSD</option>
+        <option value="512GB SSD + 2TB HDD">512GB SSD + 2TB HDD</option>
+        <option value="64GB Flash Storage + 1TB HDD">64GB Flash Storage + 1TB HDD</option>
+        <option value="180GB SSD">180GB SSD</option>
+        <option value="1TB HDD + 1TB HDD">1TB HDD + 1TB HDD</option>
+        <option value="32GB HDD">32GB HDD</option>
+        <option value="1TB SSD + 1TB HDD">1TB SSD + 1TB HDD</option>
+        <option value="512GB Flash Storage">512GB Flash Storage</option>
+        <option value="128GB HDD">128GB HDD</option>
+        <option value="240GB SSD">240GB SSD</option>
+        <option value="8GB SSD">8GB SSD</option>
+        <option value="508GB Hybrid">508GB Hybrid</option>
+        <option value="1.0TB HDD">1.0TB HDD</option>
+        <option value="512GB SSD + 1.0TB Hybrid">512GB SSD + 1.0TB Hybrid</option>
+        <option value="256GB SSD + 1.0TB Hybrid">256GB SSD + 1.0TB Hybrid</option>
+    </select>
+        </div>
+
+        <!-- GPU -->
+        <div class="form-group">
+            <label for="gpu">GPU</label>
+            <input type="text" id="gpu" name="gpu" placeholder="Enter GPU model" required>
+        </div>
+
+        <!-- Operating System -->
+        <div class="form-group">
+            <label for="opsys">Operating System</label>
+            <select id="opsys" name="opsys" required>
+                <option value="" disabled selected>Select Operating System</option>
+                <option>macOS</option>
+                <option>No OS</option>
+                <option>Windows 10</option>
+                <option>Mac OS X</option>
+                <option>Linux</option>
+                <option>Android</option>
+                <option>Windows 10 S</option>
+                <option>Chrome OS</option>
+                <option>Windows 7</option>
+            </select>
+        </div>
+
+        <!-- Weight -->
+        <div class="form-group">
+            <label for="weight">Weight (kg)</label>
+            <input type="number" step="0.01" id="weight" name="weight" placeholder="Enter weight in kg" required>
+        </div>
+
+        <input type="submit" value="Predict Price">
+    </form>
+</div>
+
+</body>
+</html>

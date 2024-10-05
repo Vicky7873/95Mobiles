@@ -28,7 +28,7 @@ except Exception as e:
     logger.Exception(e)
     raise e
 
-STAGE_NAME = "Laptop Feature Eng"
+STAGE_NAME = "Laptop Data Split"
 try:
     logger.info(f">>>>>> stage {STAGE_NAME} started <<<<<<")
     obj = Laptop_datasplitpipeline()
@@ -40,7 +40,7 @@ except Exception as e:
 
 
 
-STAGE_NAME = "Laptop Feature Eng"
+STAGE_NAME = "Laptop Model Training"
 try:
     logger.info(f">>>>>> stage {STAGE_NAME} started <<<<<<")
     obj = Laptop_ModelTrainPipeline()

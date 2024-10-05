@@ -2645,3 +2645,386 @@ x======x
 [2024-10-05 22:46:11,908: INFO]: >>>>>> stage Laptop model Eval completed <<<<<<
 
 x======x
+[2024-10-06 00:19:48,678: INFO]: Logging file start
+[2024-10-06 00:20:33,933: INFO]: Logging file start
+[2024-10-06 00:20:34,415: INFO]: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.29.172:8080
+[2024-10-06 00:20:34,415: INFO]: [33mPress CTRL+C to quit[0m
+[2024-10-06 00:20:34,416: INFO]:  * Restarting with stat
+[2024-10-06 00:20:34,998: INFO]: Logging file start
+[2024-10-06 00:20:35,105: WARNING]:  * Debugger is active!
+[2024-10-06 00:20:35,115: INFO]:  * Debugger PIN: 138-279-406
+[2024-10-06 00:20:38,523: INFO]: 192.168.29.172 - - [06/Oct/2024 00:20:38] "GET / HTTP/1.1" 200 -
+[2024-10-06 00:20:38,539: INFO]: 192.168.29.172 - - [06/Oct/2024 00:20:38] "[33mGET /Users/bhikipallai/Desktop/Projects/95Mobiles/templates/bhiki.png HTTP/1.1[0m" 404 -
+[2024-10-06 00:20:38,601: INFO]: 192.168.29.172 - - [06/Oct/2024 00:20:38] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[2024-10-06 00:21:00,423: INFO]: 192.168.29.172 - - [06/Oct/2024 00:21:00] "[32mGET /laptop HTTP/1.1[0m" 308 -
+[2024-10-06 00:21:00,434: INFO]: 192.168.29.172 - - [06/Oct/2024 00:21:00] "GET /laptop/ HTTP/1.1" 200 -
+[2024-10-06 00:23:02,640: INFO]: 192.168.29.172 - - [06/Oct/2024 00:23:02] "[33mPOST /predict HTTP/1.1[0m" 404 -
+[2024-10-06 00:26:13,733: INFO]: Logging file start
+[2024-10-06 00:26:13,880: INFO]: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.29.172:8080
+[2024-10-06 00:26:13,880: INFO]: [33mPress CTRL+C to quit[0m
+[2024-10-06 00:26:13,881: INFO]:  * Restarting with stat
+[2024-10-06 00:26:14,449: INFO]: Logging file start
+[2024-10-06 00:26:14,562: WARNING]:  * Debugger is active!
+[2024-10-06 00:26:14,570: INFO]:  * Debugger PIN: 138-279-406
+[2024-10-06 00:26:18,463: INFO]: 192.168.29.172 - - [06/Oct/2024 00:26:18] "GET / HTTP/1.1" 200 -
+[2024-10-06 00:26:18,514: INFO]: 192.168.29.172 - - [06/Oct/2024 00:26:18] "[33mGET /Users/bhikipallai/Desktop/Projects/95Mobiles/templates/bhiki.png HTTP/1.1[0m" 404 -
+[2024-10-06 00:26:23,208: INFO]: 192.168.29.172 - - [06/Oct/2024 00:26:23] "GET /laptop/ HTTP/1.1" 200 -
+[2024-10-06 00:26:46,500: INFO]: 192.168.29.172 - - [06/Oct/2024 00:26:46] "[35m[1mPOST /laptop/predict HTTP/1.1[0m" 500 -
+[2024-10-06 00:26:46,517: INFO]: 192.168.29.172 - - [06/Oct/2024 00:26:46] "GET /laptop/predict?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+[2024-10-06 00:26:46,518: INFO]: 192.168.29.172 - - [06/Oct/2024 00:26:46] "GET /laptop/predict?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+[2024-10-06 00:26:46,547: INFO]: 192.168.29.172 - - [06/Oct/2024 00:26:46] "GET /laptop/predict?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+[2024-10-06 00:27:18,628: INFO]:  * Detected change in '/Users/bhikipallai/Desktop/Projects/95Mobiles/src/laptop/applications/laptop.py', reloading
+[2024-10-06 00:27:18,741: INFO]:  * Restarting with stat
+[2024-10-06 00:27:19,646: INFO]: Logging file start
+[2024-10-06 00:27:19,803: WARNING]:  * Debugger is active!
+[2024-10-06 00:27:19,811: INFO]:  * Debugger PIN: 138-279-406
+[2024-10-06 00:27:25,641: INFO]: Logging file start
+[2024-10-06 00:27:25,757: INFO]: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.29.172:8080
+[2024-10-06 00:27:25,758: INFO]: [33mPress CTRL+C to quit[0m
+[2024-10-06 00:27:25,758: INFO]:  * Restarting with stat
+[2024-10-06 00:27:26,312: INFO]: Logging file start
+[2024-10-06 00:27:26,417: WARNING]:  * Debugger is active!
+[2024-10-06 00:27:26,428: INFO]:  * Debugger PIN: 138-279-406
+[2024-10-06 00:27:31,049: INFO]: 192.168.29.172 - - [06/Oct/2024 00:27:31] "GET / HTTP/1.1" 200 -
+[2024-10-06 00:27:31,104: INFO]: 192.168.29.172 - - [06/Oct/2024 00:27:31] "[33mGET /Users/bhikipallai/Desktop/Projects/95Mobiles/templates/bhiki.png HTTP/1.1[0m" 404 -
+[2024-10-06 00:27:34,496: INFO]: 192.168.29.172 - - [06/Oct/2024 00:27:34] "GET /laptop/ HTTP/1.1" 200 -
+[2024-10-06 00:27:56,576: INFO]: 192.168.29.172 - - [06/Oct/2024 00:27:56] "[35m[1mPOST /laptop/predict HTTP/1.1[0m" 500 -
+[2024-10-06 00:27:56,595: INFO]: 192.168.29.172 - - [06/Oct/2024 00:27:56] "[36mGET /laptop/predict?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[2024-10-06 00:27:56,596: INFO]: 192.168.29.172 - - [06/Oct/2024 00:27:56] "[36mGET /laptop/predict?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[2024-10-06 00:28:54,973: INFO]: yaml: config/laptop_config.yaml loaded successfully
+[2024-10-06 00:28:54,976: INFO]: yaml: params/laptop_params.yaml loaded successfully
+[2024-10-06 00:28:54,978: INFO]: created directory at: data
+[2024-10-06 00:28:54,979: INFO]: created directory at: data/laptop/model_train
+[2024-10-06 00:28:55,460: INFO]: HTTP Request: GET https://dagshub.com/api/v1/repos/Vicky7873/95Mobiles "HTTP/1.1 200 OK"
+[2024-10-06 00:28:55,471: INFO]: Initialized MLflow to track repo "Vicky7873/95Mobiles"
+[2024-10-06 00:28:55,473: INFO]: Repository Vicky7873/95Mobiles initialized!
+[2024-10-06 00:31:28,028: INFO]: Logging file start
+[2024-10-06 00:31:29,034: INFO]: yaml: config/laptop_config.yaml loaded successfully
+[2024-10-06 00:31:29,036: INFO]: yaml: params/laptop_params.yaml loaded successfully
+[2024-10-06 00:31:29,037: INFO]: created directory at: data
+[2024-10-06 00:31:29,037: INFO]: created directory at: data/laptop/data_split
+[2024-10-06 00:31:37,724: INFO]: Logging file start
+[2024-10-06 00:31:39,130: INFO]: yaml: config/laptop_config.yaml loaded successfully
+[2024-10-06 00:31:39,132: INFO]: yaml: params/laptop_params.yaml loaded successfully
+[2024-10-06 00:31:39,132: INFO]: created directory at: data
+[2024-10-06 00:31:39,133: INFO]: created directory at: data/laptop/model_train
+[2024-10-06 00:31:39,566: INFO]: HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+[2024-10-06 00:31:39,571: INFO]: Accessing as Vicky7873
+[2024-10-06 00:31:39,970: INFO]: HTTP Request: GET https://dagshub.com/api/v1/repos/Vicky7873/95Mobiles "HTTP/1.1 200 OK"
+[2024-10-06 00:31:39,977: INFO]: Initialized MLflow to track repo "Vicky7873/95Mobiles"
+[2024-10-06 00:31:39,979: INFO]: Repository Vicky7873/95Mobiles initialized!
+[2024-10-06 00:32:17,182: INFO]:  * Detected change in '/Users/bhikipallai/Desktop/Projects/95Mobiles/src/laptop/components/laptop_datasplit.py', reloading
+[2024-10-06 00:32:17,308: INFO]:  * Restarting with stat
+[2024-10-06 00:32:18,191: INFO]: Logging file start
+[2024-10-06 00:32:18,344: WARNING]:  * Debugger is active!
+[2024-10-06 00:32:18,352: INFO]:  * Debugger PIN: 138-279-406
+[2024-10-06 00:33:40,727: INFO]: Logging file start
+[2024-10-06 00:33:40,728: INFO]: >>>>>> stage Laptop Data Ingestion started <<<<<<
+[2024-10-06 00:33:40,729: INFO]: yaml: config/laptop_config.yaml loaded successfully
+[2024-10-06 00:33:40,730: INFO]: yaml: params/laptop_params.yaml loaded successfully
+[2024-10-06 00:33:40,730: INFO]: created directory at: data
+[2024-10-06 00:33:40,730: INFO]: created directory at: data/laptop/data_ingestion
+[2024-10-06 00:33:41,132: INFO]: >>>>>> stage Laptop Data Ingestion completed <<<<<<
+
+x======x
+[2024-10-06 00:33:41,579: INFO]: >>>>>> stage Laptop Feature Eng started <<<<<<
+[2024-10-06 00:33:41,581: INFO]: yaml: config/laptop_config.yaml loaded successfully
+[2024-10-06 00:33:41,581: INFO]: yaml: params/laptop_params.yaml loaded successfully
+[2024-10-06 00:33:41,581: INFO]: created directory at: data
+[2024-10-06 00:33:41,581: INFO]: created directory at: data/laptop/feature_eng
+[2024-10-06 00:33:41,616: INFO]: >>>>>> stage Laptop Feature Eng completed <<<<<<
+
+x======x
+[2024-10-06 00:33:41,657: INFO]: >>>>>> stage Laptop Feature Eng started <<<<<<
+[2024-10-06 00:33:41,659: INFO]: yaml: config/laptop_config.yaml loaded successfully
+[2024-10-06 00:33:41,659: INFO]: yaml: params/laptop_params.yaml loaded successfully
+[2024-10-06 00:33:41,659: INFO]: created directory at: data
+[2024-10-06 00:33:41,659: INFO]: created directory at: data/laptop/data_split
+[2024-10-06 00:33:41,671: INFO]: >>>>>> stage Laptop Feature Eng completed <<<<<<
+
+x======x
+[2024-10-06 00:33:42,386: INFO]: >>>>>> stage Laptop Feature Eng started <<<<<<
+[2024-10-06 00:33:42,387: INFO]: yaml: config/laptop_config.yaml loaded successfully
+[2024-10-06 00:33:42,387: INFO]: yaml: params/laptop_params.yaml loaded successfully
+[2024-10-06 00:33:42,387: INFO]: created directory at: data
+[2024-10-06 00:33:42,387: INFO]: created directory at: data/laptop/model_train
+[2024-10-06 00:33:42,854: INFO]: HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+[2024-10-06 00:33:42,857: INFO]: Accessing as Vicky7873
+[2024-10-06 00:33:43,368: INFO]: HTTP Request: GET https://dagshub.com/api/v1/repos/Vicky7873/95Mobiles "HTTP/1.1 200 OK"
+[2024-10-06 00:33:43,373: INFO]: Initialized MLflow to track repo "Vicky7873/95Mobiles"
+[2024-10-06 00:33:43,373: INFO]: Repository Vicky7873/95Mobiles initialized!
+[2024-10-06 00:34:24,445: INFO]: >>>>>> stage Laptop Feature Eng completed <<<<<<
+
+x======x
+[2024-10-06 00:34:24,449: INFO]: >>>>>> stage Laptop model Eval started <<<<<<
+[2024-10-06 00:34:24,451: INFO]: yaml: config/laptop_config.yaml loaded successfully
+[2024-10-06 00:34:24,456: INFO]: yaml: params/laptop_params.yaml loaded successfully
+[2024-10-06 00:34:24,457: INFO]: created directory at: data
+[2024-10-06 00:34:24,457: INFO]: created directory at: data/laptop/model_eval
+[2024-10-06 00:34:24,867: INFO]: HTTP Request: GET https://dagshub.com/api/v1/repos/Vicky7873/95Mobiles "HTTP/1.1 200 OK"
+[2024-10-06 00:34:24,869: INFO]: Initialized MLflow to track repo "Vicky7873/95Mobiles"
+[2024-10-06 00:34:24,869: INFO]: Repository Vicky7873/95Mobiles initialized!
+[2024-10-06 00:34:27,401: INFO]: >>>>>> stage Laptop model Eval completed <<<<<<
+
+x======x
+[2024-10-06 00:34:27,402: INFO]: >>>>>> stage Laptop Data Ingestion started <<<<<<
+[2024-10-06 00:34:27,407: INFO]: yaml: config/laptop_config.yaml loaded successfully
+[2024-10-06 00:34:27,408: INFO]: yaml: params/laptop_params.yaml loaded successfully
+[2024-10-06 00:34:27,408: INFO]: created directory at: data
+[2024-10-06 00:34:27,408: INFO]: created directory at: data/laptop/data_ingestion
+[2024-10-06 00:34:27,484: INFO]: >>>>>> stage Laptop Data Ingestion completed <<<<<<
+
+x======x
+[2024-10-06 00:34:27,484: INFO]: >>>>>> stage Laptop Feature Eng started <<<<<<
+[2024-10-06 00:34:27,486: INFO]: yaml: config/laptop_config.yaml loaded successfully
+[2024-10-06 00:34:27,486: INFO]: yaml: params/laptop_params.yaml loaded successfully
+[2024-10-06 00:34:27,486: INFO]: created directory at: data
+[2024-10-06 00:34:27,486: INFO]: created directory at: data/laptop/feature_eng
+[2024-10-06 00:34:27,538: INFO]: >>>>>> stage Laptop Feature Eng completed <<<<<<
+
+x======x
+[2024-10-06 00:34:27,538: INFO]: >>>>>> stage Laptop Feature Eng started <<<<<<
+[2024-10-06 00:34:27,540: INFO]: yaml: config/laptop_config.yaml loaded successfully
+[2024-10-06 00:34:27,540: INFO]: yaml: params/laptop_params.yaml loaded successfully
+[2024-10-06 00:34:27,540: INFO]: created directory at: data
+[2024-10-06 00:34:27,540: INFO]: created directory at: data/laptop/data_split
+[2024-10-06 00:34:27,552: INFO]: >>>>>> stage Laptop Feature Eng completed <<<<<<
+
+x======x
+[2024-10-06 00:34:27,552: INFO]: >>>>>> stage Laptop Feature Eng started <<<<<<
+[2024-10-06 00:34:27,553: INFO]: yaml: config/laptop_config.yaml loaded successfully
+[2024-10-06 00:34:27,553: INFO]: yaml: params/laptop_params.yaml loaded successfully
+[2024-10-06 00:34:27,553: INFO]: created directory at: data
+[2024-10-06 00:34:27,553: INFO]: created directory at: data/laptop/model_train
+[2024-10-06 00:34:28,013: INFO]: HTTP Request: GET https://dagshub.com/api/v1/repos/Vicky7873/95Mobiles "HTTP/1.1 200 OK"
+[2024-10-06 00:34:28,014: INFO]: Initialized MLflow to track repo "Vicky7873/95Mobiles"
+[2024-10-06 00:34:28,014: INFO]: Repository Vicky7873/95Mobiles initialized!
+[2024-10-06 00:35:08,785: INFO]: >>>>>> stage Laptop Feature Eng completed <<<<<<
+
+x======x
+[2024-10-06 00:35:08,786: INFO]: >>>>>> stage Laptop model Eval started <<<<<<
+[2024-10-06 00:35:08,790: INFO]: yaml: config/laptop_config.yaml loaded successfully
+[2024-10-06 00:35:08,791: INFO]: yaml: params/laptop_params.yaml loaded successfully
+[2024-10-06 00:35:08,791: INFO]: created directory at: data
+[2024-10-06 00:35:08,791: INFO]: created directory at: data/laptop/model_eval
+[2024-10-06 00:35:09,282: INFO]: HTTP Request: GET https://dagshub.com/api/v1/repos/Vicky7873/95Mobiles "HTTP/1.1 200 OK"
+[2024-10-06 00:35:09,288: INFO]: Initialized MLflow to track repo "Vicky7873/95Mobiles"
+[2024-10-06 00:35:09,289: INFO]: Repository Vicky7873/95Mobiles initialized!
+[2024-10-06 00:35:11,878: INFO]: >>>>>> stage Laptop model Eval completed <<<<<<
+
+x======x
+[2024-10-06 00:35:17,691: INFO]: Logging file start
+[2024-10-06 00:35:17,692: INFO]: >>>>>> stage Laptop Data Ingestion started <<<<<<
+[2024-10-06 00:35:17,693: INFO]: yaml: config/laptop_config.yaml loaded successfully
+[2024-10-06 00:35:17,693: INFO]: yaml: params/laptop_params.yaml loaded successfully
+[2024-10-06 00:35:17,694: INFO]: created directory at: data
+[2024-10-06 00:35:17,694: INFO]: created directory at: data/laptop/data_ingestion
+[2024-10-06 00:35:17,860: INFO]: >>>>>> stage Laptop Data Ingestion completed <<<<<<
+
+x======x
+[2024-10-06 00:35:18,278: INFO]: >>>>>> stage Laptop Feature Eng started <<<<<<
+[2024-10-06 00:35:18,279: INFO]: yaml: config/laptop_config.yaml loaded successfully
+[2024-10-06 00:35:18,279: INFO]: yaml: params/laptop_params.yaml loaded successfully
+[2024-10-06 00:35:18,279: INFO]: created directory at: data
+[2024-10-06 00:35:18,279: INFO]: created directory at: data/laptop/feature_eng
+[2024-10-06 00:35:18,313: INFO]: >>>>>> stage Laptop Feature Eng completed <<<<<<
+
+x======x
+[2024-10-06 00:35:18,346: INFO]: >>>>>> stage Laptop Feature Eng started <<<<<<
+[2024-10-06 00:35:18,347: INFO]: yaml: config/laptop_config.yaml loaded successfully
+[2024-10-06 00:35:18,348: INFO]: yaml: params/laptop_params.yaml loaded successfully
+[2024-10-06 00:35:18,348: INFO]: created directory at: data
+[2024-10-06 00:35:18,348: INFO]: created directory at: data/laptop/data_split
+[2024-10-06 00:35:18,358: INFO]: >>>>>> stage Laptop Feature Eng completed <<<<<<
+
+x======x
+[2024-10-06 00:35:19,042: INFO]: >>>>>> stage Laptop Feature Eng started <<<<<<
+[2024-10-06 00:35:19,044: INFO]: yaml: config/laptop_config.yaml loaded successfully
+[2024-10-06 00:35:19,044: INFO]: yaml: params/laptop_params.yaml loaded successfully
+[2024-10-06 00:35:19,044: INFO]: created directory at: data
+[2024-10-06 00:35:19,044: INFO]: created directory at: data/laptop/model_train
+[2024-10-06 00:35:19,401: INFO]: HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+[2024-10-06 00:35:19,409: INFO]: Accessing as Vicky7873
+[2024-10-06 00:35:19,840: INFO]: HTTP Request: GET https://dagshub.com/api/v1/repos/Vicky7873/95Mobiles "HTTP/1.1 200 OK"
+[2024-10-06 00:35:19,843: INFO]: Initialized MLflow to track repo "Vicky7873/95Mobiles"
+[2024-10-06 00:35:19,843: INFO]: Repository Vicky7873/95Mobiles initialized!
+[2024-10-06 00:36:00,911: INFO]: >>>>>> stage Laptop Feature Eng completed <<<<<<
+
+x======x
+[2024-10-06 00:36:00,914: INFO]: >>>>>> stage Laptop model Eval started <<<<<<
+[2024-10-06 00:36:00,919: INFO]: yaml: config/laptop_config.yaml loaded successfully
+[2024-10-06 00:36:00,920: INFO]: yaml: params/laptop_params.yaml loaded successfully
+[2024-10-06 00:36:00,920: INFO]: created directory at: data
+[2024-10-06 00:36:00,920: INFO]: created directory at: data/laptop/model_eval
+[2024-10-06 00:36:01,405: INFO]: HTTP Request: GET https://dagshub.com/api/v1/repos/Vicky7873/95Mobiles "HTTP/1.1 200 OK"
+[2024-10-06 00:36:01,409: INFO]: Initialized MLflow to track repo "Vicky7873/95Mobiles"
+[2024-10-06 00:36:01,410: INFO]: Repository Vicky7873/95Mobiles initialized!
+[2024-10-06 00:36:03,751: INFO]: >>>>>> stage Laptop model Eval completed <<<<<<
+
+x======x
+[2024-10-06 00:36:03,751: INFO]: >>>>>> stage Laptop Data Ingestion started <<<<<<
+[2024-10-06 00:36:03,753: INFO]: yaml: config/laptop_config.yaml loaded successfully
+[2024-10-06 00:36:03,754: INFO]: yaml: params/laptop_params.yaml loaded successfully
+[2024-10-06 00:36:03,754: INFO]: created directory at: data
+[2024-10-06 00:36:03,754: INFO]: created directory at: data/laptop/data_ingestion
+[2024-10-06 00:36:03,834: INFO]: >>>>>> stage Laptop Data Ingestion completed <<<<<<
+
+x======x
+[2024-10-06 00:36:03,834: INFO]: >>>>>> stage Laptop Feature Eng started <<<<<<
+[2024-10-06 00:36:03,837: INFO]: yaml: config/laptop_config.yaml loaded successfully
+[2024-10-06 00:36:03,838: INFO]: yaml: params/laptop_params.yaml loaded successfully
+[2024-10-06 00:36:03,838: INFO]: created directory at: data
+[2024-10-06 00:36:03,838: INFO]: created directory at: data/laptop/feature_eng
+[2024-10-06 00:36:03,890: INFO]: >>>>>> stage Laptop Feature Eng completed <<<<<<
+
+x======x
+[2024-10-06 00:36:03,890: INFO]: >>>>>> stage Laptop Data Split started <<<<<<
+[2024-10-06 00:36:03,892: INFO]: yaml: config/laptop_config.yaml loaded successfully
+[2024-10-06 00:36:03,892: INFO]: yaml: params/laptop_params.yaml loaded successfully
+[2024-10-06 00:36:03,893: INFO]: created directory at: data
+[2024-10-06 00:36:03,893: INFO]: created directory at: data/laptop/data_split
+[2024-10-06 00:36:03,904: INFO]: >>>>>> stage Laptop Data Split completed <<<<<<
+
+x======x
+[2024-10-06 00:36:03,904: INFO]: >>>>>> stage Laptop Feature Eng started <<<<<<
+[2024-10-06 00:36:03,906: INFO]: yaml: config/laptop_config.yaml loaded successfully
+[2024-10-06 00:36:03,906: INFO]: yaml: params/laptop_params.yaml loaded successfully
+[2024-10-06 00:36:03,906: INFO]: created directory at: data
+[2024-10-06 00:36:03,906: INFO]: created directory at: data/laptop/model_train
+[2024-10-06 00:36:04,295: INFO]: HTTP Request: GET https://dagshub.com/api/v1/repos/Vicky7873/95Mobiles "HTTP/1.1 200 OK"
+[2024-10-06 00:36:04,299: INFO]: Initialized MLflow to track repo "Vicky7873/95Mobiles"
+[2024-10-06 00:36:04,299: INFO]: Repository Vicky7873/95Mobiles initialized!
+[2024-10-06 00:36:44,842: INFO]: >>>>>> stage Laptop Feature Eng completed <<<<<<
+
+x======x
+[2024-10-06 00:36:44,844: INFO]: >>>>>> stage Laptop model Eval started <<<<<<
+[2024-10-06 00:36:44,848: INFO]: yaml: config/laptop_config.yaml loaded successfully
+[2024-10-06 00:36:44,849: INFO]: yaml: params/laptop_params.yaml loaded successfully
+[2024-10-06 00:36:44,850: INFO]: created directory at: data
+[2024-10-06 00:36:44,850: INFO]: created directory at: data/laptop/model_eval
+[2024-10-06 00:36:45,333: INFO]: HTTP Request: GET https://dagshub.com/api/v1/repos/Vicky7873/95Mobiles "HTTP/1.1 200 OK"
+[2024-10-06 00:36:45,339: INFO]: Initialized MLflow to track repo "Vicky7873/95Mobiles"
+[2024-10-06 00:36:45,340: INFO]: Repository Vicky7873/95Mobiles initialized!
+[2024-10-06 00:36:47,892: INFO]: >>>>>> stage Laptop model Eval completed <<<<<<
+
+x======x
+[2024-10-06 00:36:51,124: INFO]: Logging file start
+[2024-10-06 00:36:51,124: INFO]: >>>>>> stage Laptop Data Ingestion started <<<<<<
+[2024-10-06 00:36:51,126: INFO]: yaml: config/laptop_config.yaml loaded successfully
+[2024-10-06 00:36:51,126: INFO]: yaml: params/laptop_params.yaml loaded successfully
+[2024-10-06 00:36:51,126: INFO]: created directory at: data
+[2024-10-06 00:36:51,126: INFO]: created directory at: data/laptop/data_ingestion
+[2024-10-06 00:36:51,203: INFO]: >>>>>> stage Laptop Data Ingestion completed <<<<<<
+
+x======x
+[2024-10-06 00:36:51,598: INFO]: >>>>>> stage Laptop Feature Eng started <<<<<<
+[2024-10-06 00:36:51,599: INFO]: yaml: config/laptop_config.yaml loaded successfully
+[2024-10-06 00:36:51,600: INFO]: yaml: params/laptop_params.yaml loaded successfully
+[2024-10-06 00:36:51,600: INFO]: created directory at: data
+[2024-10-06 00:36:51,600: INFO]: created directory at: data/laptop/feature_eng
+[2024-10-06 00:36:51,635: INFO]: >>>>>> stage Laptop Feature Eng completed <<<<<<
+
+x======x
+[2024-10-06 00:36:51,676: INFO]: >>>>>> stage Laptop Feature Eng started <<<<<<
+[2024-10-06 00:36:51,678: INFO]: yaml: config/laptop_config.yaml loaded successfully
+[2024-10-06 00:36:51,679: INFO]: yaml: params/laptop_params.yaml loaded successfully
+[2024-10-06 00:36:51,679: INFO]: created directory at: data
+[2024-10-06 00:36:51,679: INFO]: created directory at: data/laptop/data_split
+[2024-10-06 00:36:51,691: INFO]: >>>>>> stage Laptop Feature Eng completed <<<<<<
+
+x======x
+[2024-10-06 00:36:52,373: INFO]: >>>>>> stage Laptop Feature Eng started <<<<<<
+[2024-10-06 00:36:52,374: INFO]: yaml: config/laptop_config.yaml loaded successfully
+[2024-10-06 00:36:52,375: INFO]: yaml: params/laptop_params.yaml loaded successfully
+[2024-10-06 00:36:52,375: INFO]: created directory at: data
+[2024-10-06 00:36:52,375: INFO]: created directory at: data/laptop/model_train
+[2024-10-06 00:36:52,807: INFO]: HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+[2024-10-06 00:36:52,811: INFO]: Accessing as Vicky7873
+[2024-10-06 00:36:53,319: INFO]: HTTP Request: GET https://dagshub.com/api/v1/repos/Vicky7873/95Mobiles "HTTP/1.1 200 OK"
+[2024-10-06 00:36:53,325: INFO]: Initialized MLflow to track repo "Vicky7873/95Mobiles"
+[2024-10-06 00:36:53,326: INFO]: Repository Vicky7873/95Mobiles initialized!
+[2024-10-06 00:37:34,876: INFO]: >>>>>> stage Laptop Feature Eng completed <<<<<<
+
+x======x
+[2024-10-06 00:37:34,878: INFO]: >>>>>> stage Laptop model Eval started <<<<<<
+[2024-10-06 00:37:34,881: INFO]: yaml: config/laptop_config.yaml loaded successfully
+[2024-10-06 00:37:34,882: INFO]: yaml: params/laptop_params.yaml loaded successfully
+[2024-10-06 00:37:34,883: INFO]: created directory at: data
+[2024-10-06 00:37:34,883: INFO]: created directory at: data/laptop/model_eval
+[2024-10-06 00:37:35,406: INFO]: HTTP Request: GET https://dagshub.com/api/v1/repos/Vicky7873/95Mobiles "HTTP/1.1 200 OK"
+[2024-10-06 00:37:35,411: INFO]: Initialized MLflow to track repo "Vicky7873/95Mobiles"
+[2024-10-06 00:37:35,413: INFO]: Repository Vicky7873/95Mobiles initialized!
+[2024-10-06 00:37:37,763: INFO]: >>>>>> stage Laptop model Eval completed <<<<<<
+
+x======x
+[2024-10-06 00:37:37,763: INFO]: >>>>>> stage Laptop Data Ingestion started <<<<<<
+[2024-10-06 00:37:37,769: INFO]: yaml: config/laptop_config.yaml loaded successfully
+[2024-10-06 00:37:37,771: INFO]: yaml: params/laptop_params.yaml loaded successfully
+[2024-10-06 00:37:37,771: INFO]: created directory at: data
+[2024-10-06 00:37:37,771: INFO]: created directory at: data/laptop/data_ingestion
+[2024-10-06 00:37:37,855: INFO]: >>>>>> stage Laptop Data Ingestion completed <<<<<<
+
+x======x
+[2024-10-06 00:37:37,855: INFO]: >>>>>> stage Laptop Feature Eng started <<<<<<
+[2024-10-06 00:37:37,859: INFO]: yaml: config/laptop_config.yaml loaded successfully
+[2024-10-06 00:37:37,860: INFO]: yaml: params/laptop_params.yaml loaded successfully
+[2024-10-06 00:37:37,860: INFO]: created directory at: data
+[2024-10-06 00:37:37,860: INFO]: created directory at: data/laptop/feature_eng
+[2024-10-06 00:37:37,915: INFO]: >>>>>> stage Laptop Feature Eng completed <<<<<<
+
+x======x
+[2024-10-06 00:37:37,915: INFO]: >>>>>> stage Laptop Data Split started <<<<<<
+[2024-10-06 00:37:37,917: INFO]: yaml: config/laptop_config.yaml loaded successfully
+[2024-10-06 00:37:37,917: INFO]: yaml: params/laptop_params.yaml loaded successfully
+[2024-10-06 00:37:37,917: INFO]: created directory at: data
+[2024-10-06 00:37:37,917: INFO]: created directory at: data/laptop/data_split
+[2024-10-06 00:37:37,930: INFO]: >>>>>> stage Laptop Data Split completed <<<<<<
+
+x======x
+[2024-10-06 00:37:37,930: INFO]: >>>>>> stage Laptop Model Training started <<<<<<
+[2024-10-06 00:37:37,931: INFO]: yaml: config/laptop_config.yaml loaded successfully
+[2024-10-06 00:37:37,931: INFO]: yaml: params/laptop_params.yaml loaded successfully
+[2024-10-06 00:37:37,931: INFO]: created directory at: data
+[2024-10-06 00:37:37,932: INFO]: created directory at: data/laptop/model_train
+[2024-10-06 00:37:38,374: INFO]: HTTP Request: GET https://dagshub.com/api/v1/repos/Vicky7873/95Mobiles "HTTP/1.1 200 OK"
+[2024-10-06 00:37:38,378: INFO]: Initialized MLflow to track repo "Vicky7873/95Mobiles"
+[2024-10-06 00:37:38,379: INFO]: Repository Vicky7873/95Mobiles initialized!
+[2024-10-06 00:38:19,288: INFO]: >>>>>> stage Laptop Model Training completed <<<<<<
+
+x======x
+[2024-10-06 00:38:19,289: INFO]: >>>>>> stage Laptop model Eval started <<<<<<
+[2024-10-06 00:38:19,293: INFO]: yaml: config/laptop_config.yaml loaded successfully
+[2024-10-06 00:38:19,295: INFO]: yaml: params/laptop_params.yaml loaded successfully
+[2024-10-06 00:38:19,295: INFO]: created directory at: data
+[2024-10-06 00:38:19,295: INFO]: created directory at: data/laptop/model_eval
+[2024-10-06 00:38:19,701: INFO]: HTTP Request: GET https://dagshub.com/api/v1/repos/Vicky7873/95Mobiles "HTTP/1.1 200 OK"
+[2024-10-06 00:38:19,708: INFO]: Initialized MLflow to track repo "Vicky7873/95Mobiles"
+[2024-10-06 00:38:19,709: INFO]: Repository Vicky7873/95Mobiles initialized!
+[2024-10-06 00:38:23,226: INFO]: >>>>>> stage Laptop model Eval completed <<<<<<
+
+x======x
+[2024-10-06 00:38:47,836: INFO]: Logging file start
+[2024-10-06 00:38:47,995: INFO]: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.29.172:8080
+[2024-10-06 00:38:47,996: INFO]: [33mPress CTRL+C to quit[0m
+[2024-10-06 00:38:47,996: INFO]:  * Restarting with stat
+[2024-10-06 00:38:48,566: INFO]: Logging file start
+[2024-10-06 00:38:48,671: WARNING]:  * Debugger is active!
+[2024-10-06 00:38:48,679: INFO]:  * Debugger PIN: 138-279-406
+[2024-10-06 00:38:51,895: INFO]: 192.168.29.172 - - [06/Oct/2024 00:38:51] "GET / HTTP/1.1" 200 -
+[2024-10-06 00:38:51,922: INFO]: 192.168.29.172 - - [06/Oct/2024 00:38:51] "[33mGET /Users/bhikipallai/Desktop/Projects/95Mobiles/templates/bhiki.png HTTP/1.1[0m" 404 -
+[2024-10-06 00:38:54,713: INFO]: 192.168.29.172 - - [06/Oct/2024 00:38:54] "GET /laptop/ HTTP/1.1" 200 -
+[2024-10-06 00:39:17,180: INFO]: 192.168.29.172 - - [06/Oct/2024 00:39:17] "POST /laptop/predict HTTP/1.1" 200 -
+[2024-10-06 00:39:21,655: INFO]: 192.168.29.172 - - [06/Oct/2024 00:39:21] "[32mGET /laptop HTTP/1.1[0m" 308 -
+[2024-10-06 00:39:21,661: INFO]: 192.168.29.172 - - [06/Oct/2024 00:39:21] "GET /laptop/ HTTP/1.1" 200 -

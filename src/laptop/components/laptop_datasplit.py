@@ -21,9 +21,9 @@ class LaptopDatasplit:
         X_train,X_test,y_train,y_test = self.Split_the_data()
         X_train.drop('Unnamed: 0',inplace=True,axis=1)
         X_test.drop('Unnamed: 0',axis=1,inplace=True)
-        X_train.to_csv(self.config.X_train)
-        X_test.to_csv(self.config.X_test)
-        y_train.to_csv(self.config.y_train)
-        y_test.to_csv(self.config.y_test)
+        X_train.to_csv(self.config.X_train,index=False)
+        X_test.to_csv(self.config.X_test,index=False)
+        y_train.to_csv(self.config.y_train,index=False)
+        y_test.to_csv(self.config.y_test,index=False)
         print(X_train.head(2))
     
