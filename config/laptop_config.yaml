@@ -10,3 +10,12 @@ feature_eng:
   root_dir: data/laptop/feature_eng
   laptop_raw_data: data/laptop/data_ingestion/laptop.csv
   laptop_cleaned_data: data/laptop/feature_eng/laptop_cleaned.csv
+
+
+data_split:
+  root_dir: data/laptop/data_split
+  laptop_cleaned_data: data/laptop/feature_eng/laptop_cleaned.csv
+  X_train: data/laptop/data_split/X_train.csv
+  X_test: data/laptop/data_split/X_test.csv
+  y_train: data/laptop/data_split/y_train.csv
+  y_test: data/laptop/data_split/y_test.csv

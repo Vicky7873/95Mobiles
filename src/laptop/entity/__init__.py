@@ -13,3 +13,16 @@ class Laptop_feConfig:
     root_dir: Path
     laptop_raw_data: Path
     laptop_cleaned_data: Path
+
+
+
+@dataclass(frozen=True)
+class Laptop_datasplit:
+    root_dir: Path
+    laptop_cleaned_data: Path
+    X_train: Path
+    X_test: Path
+    y_train: Path
+    y_test: Path
+    test_size: float
+    random_state: int

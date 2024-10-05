@@ -2262,3 +2262,114 @@ x======x
 [2024-10-05 14:36:30,730: INFO]: >>>>>> stage Laptop Feature Eng completed <<<<<<
 
 x======x
+[2024-10-05 14:47:15,676: INFO]: Logging file start
+[2024-10-05 18:20:06,344: INFO]: yaml: config/laptop_config.yaml loaded successfully
+[2024-10-05 18:20:06,348: INFO]: yaml: params/laptop_params.yaml loaded successfully
+[2024-10-05 18:20:06,349: INFO]: created directory at: data
+[2024-10-05 18:20:06,350: INFO]: created directory at: data/laptop/data_split
+[2024-10-05 18:21:13,374: INFO]: Logging file start
+[2024-10-05 18:21:14,282: INFO]: yaml: config/laptop_config.yaml loaded successfully
+[2024-10-05 18:21:14,283: INFO]: yaml: params/laptop_params.yaml loaded successfully
+[2024-10-05 18:21:14,284: INFO]: created directory at: data
+[2024-10-05 18:21:14,284: INFO]: created directory at: data/laptop/data_split
+[2024-10-05 18:23:14,873: INFO]: Logging file start
+[2024-10-05 18:23:15,643: INFO]: yaml: config/laptop_config.yaml loaded successfully
+[2024-10-05 18:23:15,644: INFO]: yaml: params/laptop_params.yaml loaded successfully
+[2024-10-05 18:23:15,645: INFO]: created directory at: data
+[2024-10-05 18:23:15,645: INFO]: created directory at: data/laptop/data_split
+[2024-10-05 18:25:55,542: INFO]: Logging file start
+[2024-10-05 18:25:56,743: INFO]: yaml: config/laptop_config.yaml loaded successfully
+[2024-10-05 18:25:56,746: INFO]: yaml: params/laptop_params.yaml loaded successfully
+[2024-10-05 18:25:56,746: INFO]: created directory at: data
+[2024-10-05 18:25:56,747: INFO]: created directory at: data/laptop/data_split
+[2024-10-05 18:26:26,302: INFO]: yaml: config/laptop_config.yaml loaded successfully
+[2024-10-05 18:26:26,305: INFO]: yaml: params/laptop_params.yaml loaded successfully
+[2024-10-05 18:26:26,306: INFO]: created directory at: data
+[2024-10-05 18:26:26,307: INFO]: created directory at: data/laptop/data_split
+[2024-10-05 18:26:42,419: INFO]: yaml: config/laptop_config.yaml loaded successfully
+[2024-10-05 18:26:42,421: INFO]: yaml: params/laptop_params.yaml loaded successfully
+[2024-10-05 18:26:42,421: INFO]: created directory at: data
+[2024-10-05 18:26:42,422: INFO]: created directory at: data/laptop/data_split
+[2024-10-05 18:29:30,170: INFO]: yaml: config/laptop_config.yaml loaded successfully
+[2024-10-05 18:29:30,173: INFO]: yaml: params/laptop_params.yaml loaded successfully
+[2024-10-05 18:29:30,173: INFO]: created directory at: data
+[2024-10-05 18:29:30,174: INFO]: created directory at: data/laptop/data_split
+[2024-10-05 18:29:39,906: INFO]: Logging file start
+[2024-10-05 18:29:40,649: INFO]: yaml: config/laptop_config.yaml loaded successfully
+[2024-10-05 18:29:40,673: INFO]: yaml: params/laptop_params.yaml loaded successfully
+[2024-10-05 18:29:40,674: INFO]: created directory at: data
+[2024-10-05 18:29:40,674: INFO]: created directory at: data/laptop/data_split
+[2024-10-05 18:30:20,734: INFO]: yaml: config/laptop_config.yaml loaded successfully
+[2024-10-05 18:30:20,736: INFO]: yaml: params/laptop_params.yaml loaded successfully
+[2024-10-05 18:30:20,737: INFO]: created directory at: data
+[2024-10-05 18:30:20,737: INFO]: created directory at: data/laptop/data_split
+[2024-10-05 18:30:55,220: INFO]: yaml: config/laptop_config.yaml loaded successfully
+[2024-10-05 18:30:55,222: INFO]: yaml: params/laptop_params.yaml loaded successfully
+[2024-10-05 18:30:55,223: INFO]: created directory at: data
+[2024-10-05 18:30:55,223: INFO]: created directory at: data/laptop/data_split
+[2024-10-05 18:33:09,755: INFO]: Logging file start
+[2024-10-05 18:33:10,535: INFO]: yaml: config/laptop_config.yaml loaded successfully
+[2024-10-05 18:33:10,535: INFO]: yaml: params/laptop_params.yaml loaded successfully
+[2024-10-05 18:33:10,536: INFO]: created directory at: data
+[2024-10-05 18:33:10,537: INFO]: created directory at: data/laptop/data_split
+[2024-10-05 18:40:06,377: INFO]: Logging file start
+[2024-10-05 18:40:06,809: INFO]: >>>>>> stage Laptop Data Ingestion started <<<<<<
+[2024-10-05 18:40:06,810: INFO]: yaml: config/laptop_config.yaml loaded successfully
+[2024-10-05 18:40:06,810: INFO]: created directory at: data
+[2024-10-05 18:40:06,810: INFO]: created directory at: data/laptop/data_ingestion
+[2024-10-05 18:40:07,195: INFO]: >>>>>> stage Laptop Data Ingestion completed <<<<<<
+
+x======x
+[2024-10-05 18:40:07,195: INFO]: >>>>>> stage Laptop Feature Eng started <<<<<<
+[2024-10-05 18:40:07,198: INFO]: yaml: config/laptop_config.yaml loaded successfully
+[2024-10-05 18:40:07,199: INFO]: created directory at: data
+[2024-10-05 18:40:07,199: INFO]: created directory at: data/laptop/feature_eng
+[2024-10-05 18:40:07,265: INFO]: >>>>>> stage Laptop Feature Eng completed <<<<<<
+
+x======x
+[2024-10-05 18:40:07,265: INFO]: >>>>>> stage Laptop Feature Eng started <<<<<<
+[2024-10-05 18:40:07,266: INFO]: yaml: config/laptop_config.yaml loaded successfully
+[2024-10-05 18:40:07,266: INFO]: created directory at: data
+[2024-10-05 18:42:49,997: INFO]: Logging file start
+[2024-10-05 18:42:50,461: INFO]: >>>>>> stage Laptop Data Ingestion started <<<<<<
+[2024-10-05 18:42:50,462: INFO]: yaml: config/laptop_config.yaml loaded successfully
+[2024-10-05 18:42:50,462: INFO]: created directory at: data
+[2024-10-05 18:42:50,462: INFO]: created directory at: data/laptop/data_ingestion
+[2024-10-05 18:42:50,547: INFO]: >>>>>> stage Laptop Data Ingestion completed <<<<<<
+
+x======x
+[2024-10-05 18:42:50,547: INFO]: >>>>>> stage Laptop Feature Eng started <<<<<<
+[2024-10-05 18:42:50,548: INFO]: yaml: config/laptop_config.yaml loaded successfully
+[2024-10-05 18:42:50,548: INFO]: created directory at: data
+[2024-10-05 18:42:50,548: INFO]: created directory at: data/laptop/feature_eng
+[2024-10-05 18:42:50,588: INFO]: >>>>>> stage Laptop Feature Eng completed <<<<<<
+
+x======x
+[2024-10-05 18:42:50,588: INFO]: >>>>>> stage Laptop Feature Eng started <<<<<<
+[2024-10-05 18:42:50,589: INFO]: yaml: config/laptop_config.yaml loaded successfully
+[2024-10-05 18:42:50,589: INFO]: created directory at: data
+[2024-10-05 19:04:42,939: INFO]: Logging file start
+[2024-10-05 19:04:43,345: INFO]: >>>>>> stage Laptop Data Ingestion started <<<<<<
+[2024-10-05 19:04:43,346: INFO]: yaml: config/laptop_config.yaml loaded successfully
+[2024-10-05 19:04:43,346: INFO]: yaml: params/laptop_params.yaml loaded successfully
+[2024-10-05 19:04:43,346: INFO]: created directory at: data
+[2024-10-05 19:04:43,346: INFO]: created directory at: data/laptop/data_ingestion
+[2024-10-05 19:04:43,724: INFO]: >>>>>> stage Laptop Data Ingestion completed <<<<<<
+
+x======x
+[2024-10-05 19:04:43,724: INFO]: >>>>>> stage Laptop Feature Eng started <<<<<<
+[2024-10-05 19:04:43,726: INFO]: yaml: config/laptop_config.yaml loaded successfully
+[2024-10-05 19:04:43,727: INFO]: yaml: params/laptop_params.yaml loaded successfully
+[2024-10-05 19:04:43,727: INFO]: created directory at: data
+[2024-10-05 19:04:43,727: INFO]: created directory at: data/laptop/feature_eng
+[2024-10-05 19:04:43,790: INFO]: >>>>>> stage Laptop Feature Eng completed <<<<<<
+
+x======x
+[2024-10-05 19:04:43,790: INFO]: >>>>>> stage Laptop Feature Eng started <<<<<<
+[2024-10-05 19:04:43,791: INFO]: yaml: config/laptop_config.yaml loaded successfully
+[2024-10-05 19:04:43,791: INFO]: yaml: params/laptop_params.yaml loaded successfully
+[2024-10-05 19:04:43,791: INFO]: created directory at: data
+[2024-10-05 19:04:43,791: INFO]: created directory at: data/laptop/data_split
+[2024-10-05 19:04:43,804: INFO]: >>>>>> stage Laptop Feature Eng completed <<<<<<
+
+x======x
