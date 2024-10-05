@@ -1,6 +1,6 @@
 from src.laptop.constants import *
 from src.laptop.utils.common import read_yaml,create_directory
-from src.laptop.entity import LaptopDataIngestionConfig,Laptop_feConfig,Laptop_datasplit,ModelTrainingConfig
+from src.laptop.entity import LaptopDataIngestionConfig,Laptop_feConfig,Laptop_datasplit,ModelTrainingConfig,laptop_modelevalconfig
 
 
 class ConfigurationManger:
@@ -71,4 +71,22 @@ class ConfigurationManger:
         )
 
         return model_trainconfig
+    
+
+
+    def get_model_eval(self)->laptop_modelevalconfig:
+        config = self.config.model_eval
+        create_directory([config.root_dir])
+
+        model_eval = laptop_modelevalconfig(
+            root_dir=config.root_dir,
+            X_train = config.X_train,
+            X_test = config.X_test,
+            y_train=config.y_train,
+            y_test=config.y_test,
+            save_score=config.save_score,
+            model_for_train=config.model_for_train
+        )
+
+        return model_eval
 

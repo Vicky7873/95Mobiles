@@ -36,3 +36,14 @@ class ModelTrainingConfig:
     y_test: Path
     saved_model: Path
     model_for_train: Path
+
+
+@dataclass(frozen=True)
+class laptop_modelevalconfig:
+    root_dir: Path
+    X_train: Path
+    X_test: Path
+    y_train: Path
+    y_test: Path
+    save_score: Path
+    model_for_train: Path

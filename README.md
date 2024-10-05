@@ -22,15 +22,17 @@ pip install -r requirements.txt
 ![alt text](image-4.png)
 
 
+
+
+# Laptop price predictions
 # Car price prediction
 1. Exp done for end to end
 2. data ingestion for bike done
 3. feature eng done
 4. data splitting done
 5. Hyper parameter tuninng with mlflow
-![alt text](image-5.png)
 6. model evaluatuion done with mlflow
-![alt text](image-6.png)
+![alt text](image-8.png)
 7. Application added
 
 # DVC 
