@@ -3028,3 +3028,29 @@ x======x
 [2024-10-06 00:39:17,180: INFO]: 192.168.29.172 - - [06/Oct/2024 00:39:17] "POST /laptop/predict HTTP/1.1" 200 -
 [2024-10-06 00:39:21,655: INFO]: 192.168.29.172 - - [06/Oct/2024 00:39:21] "[32mGET /laptop HTTP/1.1[0m" 308 -
 [2024-10-06 00:39:21,661: INFO]: 192.168.29.172 - - [06/Oct/2024 00:39:21] "GET /laptop/ HTTP/1.1" 200 -
+[2024-10-06 00:46:50,970: INFO]: Logging file start
+[2024-10-06 00:46:51,172: INFO]: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.29.172:8080
+[2024-10-06 00:46:51,172: INFO]: [33mPress CTRL+C to quit[0m
+[2024-10-06 00:46:51,172: INFO]:  * Restarting with stat
+[2024-10-06 00:46:51,738: INFO]: Logging file start
+[2024-10-06 00:46:51,841: WARNING]:  * Debugger is active!
+[2024-10-06 00:46:51,849: INFO]:  * Debugger PIN: 138-279-406
+[2024-10-06 00:46:54,640: INFO]: 192.168.29.172 - - [06/Oct/2024 00:46:54] "GET / HTTP/1.1" 200 -
+[2024-10-06 00:46:54,682: INFO]: 192.168.29.172 - - [06/Oct/2024 00:46:54] "[33mGET /templates/bhiki.png HTTP/1.1[0m" 404 -
+[2024-10-06 00:46:58,339: INFO]: 192.168.29.172 - - [06/Oct/2024 00:46:58] "GET / HTTP/1.1" 200 -
+[2024-10-06 00:46:58,352: INFO]: 192.168.29.172 - - [06/Oct/2024 00:46:58] "[33mGET /templates/bhiki.png HTTP/1.1[0m" 404 -
+[2024-10-06 00:51:40,769: INFO]: Logging file start
+[2024-10-06 00:51:40,923: INFO]: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.29.172:8080
+[2024-10-06 00:51:40,924: INFO]: [33mPress CTRL+C to quit[0m
+[2024-10-06 00:51:40,925: INFO]:  * Restarting with stat
+[2024-10-06 00:51:41,484: INFO]: Logging file start
+[2024-10-06 00:51:41,588: WARNING]:  * Debugger is active!
+[2024-10-06 00:51:41,598: INFO]:  * Debugger PIN: 138-279-406
+[2024-10-06 00:51:45,968: INFO]: 192.168.29.172 - - [06/Oct/2024 00:51:45] "GET / HTTP/1.1" 200 -
+[2024-10-06 00:51:46,023: INFO]: 192.168.29.172 - - [06/Oct/2024 00:51:46] "GET /static/bhiki.png HTTP/1.1" 200 -

@@ -34,6 +34,7 @@ pip install -r requirements.txt
 6. model evaluatuion done with mlflow
 ![alt text](image-8.png)
 7. Application added
+![alt text](image-10.png)
 ![alt text](image-9.png)
 
 # DVC 
