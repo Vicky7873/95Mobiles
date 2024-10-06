@@ -3198,3 +3198,58 @@ x======x
 [2024-10-06 17:32:47,801: INFO]: yaml: config/mobiles_config.yaml loaded successfully
 [2024-10-06 17:32:47,802: INFO]: created directory at: data
 [2024-10-06 17:32:47,803: INFO]: created directory at: data/mobile/data_cleaning
+[2024-10-06 17:36:18,927: INFO]: Logging file start
+[2024-10-06 17:45:25,557: INFO]: yaml: config/mobiles_config.yaml loaded successfully
+[2024-10-06 17:45:25,567: INFO]: created directory at: data
+[2024-10-06 17:45:25,570: INFO]: created directory at: data/mobile/feature_eng
+[2024-10-06 17:46:09,532: INFO]: yaml: config/mobiles_config.yaml loaded successfully
+[2024-10-06 17:46:09,535: INFO]: created directory at: data
+[2024-10-06 17:46:09,536: INFO]: created directory at: data/mobile/feature_eng
+[2024-10-06 17:46:50,306: INFO]: yaml: config/mobiles_config.yaml loaded successfully
+[2024-10-06 17:46:50,308: INFO]: created directory at: data
+[2024-10-06 17:46:50,309: INFO]: created directory at: data/mobile/feature_eng
+[2024-10-06 17:47:16,794: INFO]: yaml: config/mobiles_config.yaml loaded successfully
+[2024-10-06 17:47:16,796: INFO]: created directory at: data
+[2024-10-06 17:47:16,797: INFO]: created directory at: data/mobile/feature_eng
+[2024-10-06 17:47:34,122: INFO]: yaml: config/mobiles_config.yaml loaded successfully
+[2024-10-06 17:47:34,123: INFO]: created directory at: data
+[2024-10-06 17:47:34,124: INFO]: created directory at: data/mobile/feature_eng
+[2024-10-06 17:47:41,043: INFO]: Logging file start
+[2024-10-06 17:47:41,744: INFO]: yaml: config/mobiles_config.yaml loaded successfully
+[2024-10-06 17:47:41,745: INFO]: created directory at: data
+[2024-10-06 17:47:41,745: INFO]: created directory at: data/mobile/feature_eng
+[2024-10-06 17:48:03,149: INFO]: Logging file start
+[2024-10-06 17:48:03,861: INFO]: yaml: config/mobiles_config.yaml loaded successfully
+[2024-10-06 17:48:03,864: INFO]: created directory at: data
+[2024-10-06 17:48:03,864: INFO]: created directory at: data/mobile/feature_eng
+[2024-10-06 17:48:38,675: INFO]: Logging file start
+[2024-10-06 17:48:39,495: INFO]: yaml: config/mobiles_config.yaml loaded successfully
+[2024-10-06 17:48:39,496: INFO]: created directory at: data
+[2024-10-06 17:48:39,496: INFO]: created directory at: data/mobile/feature_eng
+[2024-10-06 17:49:17,487: INFO]: Logging file start
+[2024-10-06 17:49:18,245: INFO]: yaml: config/mobiles_config.yaml loaded successfully
+[2024-10-06 17:49:18,246: INFO]: created directory at: data
+[2024-10-06 17:49:18,246: INFO]: created directory at: data/mobile/feature_eng
+[2024-10-06 17:53:58,131: INFO]: Logging file start
+[2024-10-06 17:53:58,940: INFO]: >>>>>> stage Mobile Data Ingestion started <<<<<<
+[2024-10-06 17:53:58,941: INFO]: yaml: config/mobiles_config.yaml loaded successfully
+[2024-10-06 17:53:58,942: INFO]: created directory at: data
+[2024-10-06 17:53:58,942: INFO]: created directory at: data/mobile/data_ingestion
+[2024-10-06 17:53:59,320: INFO]: >>>>>> stage Mobile Data Ingestion completed <<<<<<
+
+x======x
+[2024-10-06 17:53:59,320: INFO]: >>>>>> stage Mobile Data Cleaning started <<<<<<
+[2024-10-06 17:53:59,321: INFO]: yaml: config/mobiles_config.yaml loaded successfully
+[2024-10-06 17:53:59,321: INFO]: created directory at: data
+[2024-10-06 17:53:59,321: INFO]: created directory at: data/mobile/data_cleaning
+[2024-10-06 17:53:59,331: INFO]: Mobile data cleaned successfully
+[2024-10-06 17:53:59,331: INFO]: >>>>>> stage Mobile Data Cleaning completed <<<<<<
+
+x======x
+[2024-10-06 17:53:59,331: INFO]: >>>>>> stage Mobile fe started <<<<<<
+[2024-10-06 17:53:59,332: INFO]: yaml: config/mobiles_config.yaml loaded successfully
+[2024-10-06 17:53:59,332: INFO]: created directory at: data
+[2024-10-06 17:53:59,332: INFO]: created directory at: data/mobile/feature_eng
+[2024-10-06 17:53:59,343: INFO]: >>>>>> stage Mobile fe completed <<<<<<
+
+x======x

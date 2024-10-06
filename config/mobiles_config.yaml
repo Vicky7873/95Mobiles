@@ -10,3 +10,8 @@ data_cleaning:
   root_dir: data/mobile/data_cleaning
   mobile_raw_data: data/mobile/data_ingestion/mobile.csv
   mobile_cleaned_data: data/mobile/data_cleaning/mobile_cleaned.csv
+
+feature_eng:
+  root_dir: data/mobile/feature_eng
+  mobile_cleaned_data: data/mobile/data_cleaning/mobile_cleaned.csv
+  final_data: data/mobile/feature_eng/mobile.csv
