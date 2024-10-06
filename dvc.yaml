@@ -164,5 +164,64 @@ stages:
       - data/laptop/model_eval/score.json
   
 
+  mobiles_data_ingestion:
+    cmd: python -m src.mobiles.pipelines.st_01_mobile_data_Ingestion
+    deps:
+      - src/mobiles/pipelines/st_01_mobile_data_Ingestion.py
+      - config/mobiles_config.yaml
+    outs:
+      - data/mobile/data_ingestion/mobile.csv
 
+  mobile_data_clean:
+    cmd: python -m src.mobiles.pipelines.st_02_mobile_data_clean
+    deps:
+      - src/mobiles/pipelines/st_02_mobile_data_clean.py
+      - config/mobiles_config.yaml
+    outs:
+      - data/mobile/data_cleaning/mobile_cleaned.csv
+
+
+  mobile_data_feature_eng:
+    cmd: python -m src.mobiles.pipelines.st_03_mobile_fe
+    deps:
+      - src/mobiles/pipelines/st_03_mobile_fe.py
+      - config/mobiles_config.yaml
+    outs:
+      - data/mobile/feature_eng/mobile.csv
+
+
+  mobile_data_split:
+    cmd: python -m src.mobiles.pipelines.st_04_mobile_data_split
+    deps:
+      - src/mobiles/pipelines/st_04_mobile_data_split.py
+      - config/mobiles_config.yaml
+    params:
+      - params/mobiles_params.yaml:
+        - split.test_size
+        - split.random_state
+    outs:
+      - data/mobile/data_split/X_train.csv
+      - data/mobile/data_split/X_test.csv
+      - data/mobile/data_split/y_train.csv
+      - data/mobile/data_split/y_test.csv
+
+
+  mobile_model_training:
+    cmd: 
+      - python -m src.mobiles.pipelines.st_05_mobile_model_train
+      - cp data/mobile/model_train/mobile.pkl models/mobile.pkl
+    deps:
+      - src/mobiles/pipelines/st_05_mobile_model_train.py
+      - config/mobiles_config.yaml
+    outs:
+      - data/mobile/model_train/mobile.pkl
+
+
+  mobile_model_eval:
+    cmd: python -m src.mobiles.pipelines.st_06_mobile_model_eval
+    deps:
+      - src/mobiles/pipelines/st_06_mobile_model_eval.py
+      - config/mobiles_config.yaml
+    outs:
+      - data/mobile/model_eval/score.json
 

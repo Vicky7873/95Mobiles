@@ -3589,3 +3589,68 @@ x======x
 [2024-10-06 19:05:14,857: INFO]: >>>>>> stage Mobile model eval completed <<<<<<
 
 x======x
+[2024-10-06 19:14:41,813: INFO]: Logging file start
+[2024-10-06 19:14:41,898: INFO]: >>>>>> stage Mobile Data Ingestion started <<<<<<
+[2024-10-06 19:14:41,900: INFO]: yaml: config/mobiles_config.yaml loaded successfully
+[2024-10-06 19:14:41,902: INFO]: yaml: params/mobiles_params.yaml loaded successfully
+[2024-10-06 19:14:41,902: INFO]: created directory at: data
+[2024-10-06 19:14:41,902: INFO]: created directory at: data/mobile/data_ingestion
+[2024-10-06 19:14:42,354: INFO]: >>>>>> stage Mobile Data Ingestion completed <<<<<<
+
+x======x
+[2024-10-06 19:14:42,981: INFO]: Logging file start
+[2024-10-06 19:14:42,981: INFO]: >>>>>> stage Mobile Data Cleaning started <<<<<<
+[2024-10-06 19:14:42,983: INFO]: yaml: config/mobiles_config.yaml loaded successfully
+[2024-10-06 19:14:42,983: INFO]: yaml: params/mobiles_params.yaml loaded successfully
+[2024-10-06 19:14:42,983: INFO]: created directory at: data
+[2024-10-06 19:14:42,983: INFO]: created directory at: data/mobile/data_cleaning
+[2024-10-06 19:14:42,997: INFO]: Mobile data cleaned successfully
+[2024-10-06 19:14:42,998: INFO]: >>>>>> stage Mobile Data Cleaning completed <<<<<<
+
+x======x
+[2024-10-06 19:14:43,930: INFO]: Logging file start
+[2024-10-06 19:14:43,930: INFO]: >>>>>> stage Mobile fe started <<<<<<
+[2024-10-06 19:14:43,933: INFO]: yaml: config/mobiles_config.yaml loaded successfully
+[2024-10-06 19:14:43,934: INFO]: yaml: params/mobiles_params.yaml loaded successfully
+[2024-10-06 19:14:43,934: INFO]: created directory at: data
+[2024-10-06 19:14:43,934: INFO]: created directory at: data/mobile/feature_eng
+[2024-10-06 19:14:43,956: INFO]: >>>>>> stage Mobile fe completed <<<<<<
+
+x======x
+[2024-10-06 19:14:44,844: INFO]: Logging file start
+[2024-10-06 19:14:44,844: INFO]: >>>>>> stage Mobile data split started <<<<<<
+[2024-10-06 19:14:44,846: INFO]: yaml: config/mobiles_config.yaml loaded successfully
+[2024-10-06 19:14:44,846: INFO]: yaml: params/mobiles_params.yaml loaded successfully
+[2024-10-06 19:14:44,847: INFO]: created directory at: data
+[2024-10-06 19:14:44,847: INFO]: created directory at: data/mobile/data_split
+[2024-10-06 19:14:44,857: INFO]: >>>>>> stage Mobile data split completed <<<<<<
+
+x======x
+[2024-10-06 19:14:46,626: INFO]: Logging file start
+[2024-10-06 19:14:46,626: INFO]: >>>>>> stage Mobile model train started <<<<<<
+[2024-10-06 19:14:46,628: INFO]: yaml: config/mobiles_config.yaml loaded successfully
+[2024-10-06 19:14:46,628: INFO]: yaml: params/mobiles_params.yaml loaded successfully
+[2024-10-06 19:14:46,628: INFO]: created directory at: data
+[2024-10-06 19:14:46,628: INFO]: created directory at: data/mobile/model_train
+[2024-10-06 19:14:47,058: INFO]: HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+[2024-10-06 19:14:47,061: INFO]: Accessing as Vicky7873
+[2024-10-06 19:14:47,436: INFO]: HTTP Request: GET https://dagshub.com/api/v1/repos/Vicky7873/95Mobiles "HTTP/1.1 200 OK"
+[2024-10-06 19:14:47,437: INFO]: Initialized MLflow to track repo "Vicky7873/95Mobiles"
+[2024-10-06 19:14:47,438: INFO]: Repository Vicky7873/95Mobiles initialized!
+[2024-10-06 19:14:55,260: INFO]: >>>>>> stage Mobile model train completed <<<<<<
+
+x======x
+[2024-10-06 19:14:57,286: INFO]: Logging file start
+[2024-10-06 19:14:57,286: INFO]: >>>>>> stage Mobile model eval started <<<<<<
+[2024-10-06 19:14:57,288: INFO]: yaml: config/mobiles_config.yaml loaded successfully
+[2024-10-06 19:14:57,288: INFO]: yaml: params/mobiles_params.yaml loaded successfully
+[2024-10-06 19:14:57,288: INFO]: created directory at: data
+[2024-10-06 19:14:57,288: INFO]: created directory at: data/mobile/model_eval
+[2024-10-06 19:14:57,687: INFO]: HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+[2024-10-06 19:14:57,689: INFO]: Accessing as Vicky7873
+[2024-10-06 19:14:58,224: INFO]: HTTP Request: GET https://dagshub.com/api/v1/repos/Vicky7873/95Mobiles "HTTP/1.1 200 OK"
+[2024-10-06 19:14:58,225: INFO]: Initialized MLflow to track repo "Vicky7873/95Mobiles"
+[2024-10-06 19:14:58,225: INFO]: Repository Vicky7873/95Mobiles initialized!
+[2024-10-06 19:15:00,986: INFO]: >>>>>> stage Mobile model eval completed <<<<<<
+
+x======x

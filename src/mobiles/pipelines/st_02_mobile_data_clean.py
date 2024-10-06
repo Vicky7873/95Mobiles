@@ -14,3 +14,14 @@ class MobileDataCleaning_Pipeline:
         data_cleaning.columns_cleaning()
         data_cleaning.clean_data()
         logger.info("Mobile data cleaned successfully")
+
+
+STAGE_NAME = "Mobile Data Cleaning"
+try:
+    logger.info(f">>>>>> stage {STAGE_NAME} started <<<<<<")
+    obj = MobileDataCleaning_Pipeline()
+    obj.main()
+    logger.info(f">>>>>> stage {STAGE_NAME} completed <<<<<<\n\nx======x")
+except Exception as e:
+    logger.exception(e)
+    raise e

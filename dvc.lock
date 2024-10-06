@@ -315,3 +315,117 @@ stages:
       hash: md5
       md5: 937efa91bb7b0c676402ae54d05b9945
       size: 83
+  mobiles_data_ingestion:
+    cmd: python -m src.mobiles.pipelines.st_01_mobile_data_Ingestion
+    deps:
+    - path: config/mobiles_config.yaml
+      hash: md5
+      md5: d0f317015d89730d7c06211e291d024d
+      size: 1494
+    - path: src/mobiles/pipelines/st_01_mobile_data_Ingestion.py
+      hash: md5
+      md5: 57925e5ce1eeb8a28c4fc8c02487b792
+      size: 715
+    outs:
+    - path: data/mobile/data_ingestion/mobile.csv
+      hash: md5
+      md5: eb1b6c0b11da7ef1384307c5e1928172
+      size: 22627
+  mobile_data_clean:
+    cmd: python -m src.mobiles.pipelines.st_02_mobile_data_clean
+    deps:
+    - path: config/mobiles_config.yaml
+      hash: md5
+      md5: d0f317015d89730d7c06211e291d024d
+      size: 1494
+    - path: src/mobiles/pipelines/st_02_mobile_data_clean.py
+      hash: md5
+      md5: 1d244dc274355c53e5cc00748a150fdb
+      size: 826
+    outs:
+    - path: data/mobile/data_cleaning/mobile_cleaned.csv
+      hash: md5
+      md5: bc7c4b685a5605f87ed56ffd620a7d11
+      size: 21105
+  mobile_data_feature_eng:
+    cmd: python -m src.mobiles.pipelines.st_03_mobile_fe
+    deps:
+    - path: config/mobiles_config.yaml
+      hash: md5
+      md5: d0f317015d89730d7c06211e291d024d
+      size: 1494
+    - path: src/mobiles/pipelines/st_03_mobile_fe.py
+      hash: md5
+      md5: 7af1d5e855bfd38b04f695925dfd3b2d
+      size: 686
+    outs:
+    - path: data/mobile/feature_eng/mobile.csv
+      hash: md5
+      md5: 3804c0d8443ccb126b231a6d827426c1
+      size: 32085
+  mobile_data_split:
+    cmd: python -m src.mobiles.pipelines.st_04_mobile_data_split
+    deps:
+    - path: config/mobiles_config.yaml
+      hash: md5
+      md5: d0f317015d89730d7c06211e291d024d
+      size: 1494
+    - path: src/mobiles/pipelines/st_04_mobile_data_split.py
+      hash: md5
+      md5: 79bb305e1494bc0ae2bae9838f34b668
+      size: 739
+    params:
+      params/mobiles_params.yaml:
+        split.random_state: 21
+        split.test_size: 0.21
+    outs:
+    - path: data/mobile/data_split/X_test.csv
+      hash: md5
+      md5: 0990b5ab4a6ea204e9d0e799d6e36e33
+      size: 6056
+    - path: data/mobile/data_split/X_train.csv
+      hash: md5
+      md5: 6946e2536bd879721179df47912bb87c
+      size: 22441
+    - path: data/mobile/data_split/y_test.csv
+      hash: md5
+      md5: d21927deedba1850cc2780e86f0ae63b
+      size: 695
+    - path: data/mobile/data_split/y_train.csv
+      hash: md5
+      md5: d32a744db9c0b161f4af0e8536433927
+      size: 2575
+  mobile_model_training:
+    cmd:
+    - python -m src.mobiles.pipelines.st_05_mobile_model_train
+    - cp data/mobile/model_train/mobile.pkl models/mobile.pkl
+    deps:
+    - path: config/mobiles_config.yaml
+      hash: md5
+      md5: d0f317015d89730d7c06211e291d024d
+      size: 1494
+    - path: src/mobiles/pipelines/st_05_mobile_model_train.py
+      hash: md5
+      md5: 60a549b67491509830ed7ed20afaadc4
+      size: 708
+    outs:
+    - path: data/mobile/model_train/mobile.pkl
+      hash: md5
+      md5: 2e5497b988612f54ab4846551062cb01
+      size: 323761
+  mobile_model_eval:
+    cmd: python -m src.mobiles.pipelines.st_06_mobile_model_eval
+    deps:
+    - path: config/mobiles_config.yaml
+      hash: md5
+      md5: d0f317015d89730d7c06211e291d024d
+      size: 1494
+    - path: src/mobiles/pipelines/st_06_mobile_model_eval.py
+      hash: md5
+      md5: d94568c150105dd337bae14592446988
+      size: 706
+    outs:
+    - path: data/mobile/model_eval/score.json
+      hash: md5
+      md5: 0b334e8da68858d5217ee3f079d92f1b
+      size: 83

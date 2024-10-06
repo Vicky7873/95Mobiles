@@ -12,3 +12,14 @@ class MobileModelEvalPipeline:
         model_eval = MobilemodelEval(eval_con)
         model_eval.model_eval()
     
+
+
+STAGE_NAME = "Mobile model eval"
+try:
+    logger.info(f">>>>>> stage {STAGE_NAME} started <<<<<<")
+    obj = MobileModelEvalPipeline()
+    obj.main()
+    logger.info(f">>>>>> stage {STAGE_NAME} completed <<<<<<\n\nx======x")
+except Exception as e:
+    logger.exception(e)
+    raise e

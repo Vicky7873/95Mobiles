@@ -12,3 +12,14 @@ class MobileModeltrain:
         model = Model_train(config=model_con)
         model.train_model()
         model.save_model()
+
+
+STAGE_NAME = "Mobile model train"
+try:
+    logger.info(f">>>>>> stage {STAGE_NAME} started <<<<<<")
+    obj = MobileModeltrain()
+    obj.main()
+    logger.info(f">>>>>> stage {STAGE_NAME} completed <<<<<<\n\nx======x")
+except Exception as e:
+    logger.exception(e)
+    raise e

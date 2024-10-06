@@ -12,3 +12,14 @@ class mobile_fe_pipeline:
         fe_do = fe(config=fe_config)
         fe_do.load_data()
         fe_do.transform_data()
+
+    
+STAGE_NAME = "Mobile fe"
+try:
+    logger.info(f">>>>>> stage {STAGE_NAME} started <<<<<<")
+    obj = mobile_fe_pipeline()
+    obj.main()
+    logger.info(f">>>>>> stage {STAGE_NAME} completed <<<<<<\n\nx======x")
+except Exception as e:
+    logger.exception(e)
+    raise e
