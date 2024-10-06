@@ -3303,3 +3303,67 @@ x======x
 [2024-10-06 18:21:41,918: INFO]: >>>>>> stage Mobile data split completed <<<<<<
 
 x======x
+[2024-10-06 18:25:12,504: INFO]: Logging file start
+[2024-10-06 18:28:27,487: INFO]: Logging file start
+[2024-10-06 18:36:37,285: INFO]: yaml: config/mobiles_config.yaml loaded successfully
+[2024-10-06 18:36:37,292: INFO]: yaml: params/mobiles_params.yaml loaded successfully
+[2024-10-06 18:36:37,294: INFO]: created directory at: data
+[2024-10-06 18:36:37,295: INFO]: created directory at: data/mobile/model_train
+[2024-10-06 18:38:04,203: INFO]: Logging file start
+[2024-10-06 18:38:05,910: INFO]: yaml: config/mobiles_config.yaml loaded successfully
+[2024-10-06 18:38:05,911: INFO]: yaml: params/mobiles_params.yaml loaded successfully
+[2024-10-06 18:38:05,911: INFO]: created directory at: data
+[2024-10-06 18:38:05,912: INFO]: created directory at: data/mobile/model_train
+[2024-10-06 18:38:06,266: INFO]: HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+[2024-10-06 18:38:06,274: INFO]: Accessing as Vicky7873
+[2024-10-06 18:38:06,680: INFO]: HTTP Request: GET https://dagshub.com/api/v1/repos/Vicky7873/95Mobiles "HTTP/1.1 200 OK"
+[2024-10-06 18:38:06,685: INFO]: Initialized MLflow to track repo "Vicky7873/95Mobiles"
+[2024-10-06 18:38:06,687: INFO]: Repository Vicky7873/95Mobiles initialized!
+[2024-10-06 18:42:28,946: INFO]: Logging file start
+[2024-10-06 18:43:02,020: INFO]: Logging file start
+[2024-10-06 18:43:03,411: INFO]: >>>>>> stage Mobile Data Ingestion started <<<<<<
+[2024-10-06 18:43:03,413: INFO]: yaml: config/mobiles_config.yaml loaded successfully
+[2024-10-06 18:43:03,413: INFO]: yaml: params/mobiles_params.yaml loaded successfully
+[2024-10-06 18:43:03,413: INFO]: created directory at: data
+[2024-10-06 18:43:03,413: INFO]: created directory at: data/mobile/data_ingestion
+[2024-10-06 18:43:03,802: INFO]: >>>>>> stage Mobile Data Ingestion completed <<<<<<
+
+x======x
+[2024-10-06 18:43:03,802: INFO]: >>>>>> stage Mobile Data Cleaning started <<<<<<
+[2024-10-06 18:43:03,803: INFO]: yaml: config/mobiles_config.yaml loaded successfully
+[2024-10-06 18:43:03,803: INFO]: yaml: params/mobiles_params.yaml loaded successfully
+[2024-10-06 18:43:03,803: INFO]: created directory at: data
+[2024-10-06 18:43:03,803: INFO]: created directory at: data/mobile/data_cleaning
+[2024-10-06 18:43:03,815: INFO]: Mobile data cleaned successfully
+[2024-10-06 18:43:03,816: INFO]: >>>>>> stage Mobile Data Cleaning completed <<<<<<
+
+x======x
+[2024-10-06 18:43:03,816: INFO]: >>>>>> stage Mobile fe started <<<<<<
+[2024-10-06 18:43:03,817: INFO]: yaml: config/mobiles_config.yaml loaded successfully
+[2024-10-06 18:43:03,817: INFO]: yaml: params/mobiles_params.yaml loaded successfully
+[2024-10-06 18:43:03,818: INFO]: created directory at: data
+[2024-10-06 18:43:03,818: INFO]: created directory at: data/mobile/feature_eng
+[2024-10-06 18:43:03,829: INFO]: >>>>>> stage Mobile fe completed <<<<<<
+
+x======x
+[2024-10-06 18:43:03,829: INFO]: >>>>>> stage Mobile data split started <<<<<<
+[2024-10-06 18:43:03,831: INFO]: yaml: config/mobiles_config.yaml loaded successfully
+[2024-10-06 18:43:03,831: INFO]: yaml: params/mobiles_params.yaml loaded successfully
+[2024-10-06 18:43:03,831: INFO]: created directory at: data
+[2024-10-06 18:43:03,831: INFO]: created directory at: data/mobile/data_split
+[2024-10-06 18:43:03,839: INFO]: >>>>>> stage Mobile data split completed <<<<<<
+
+x======x
+[2024-10-06 18:43:03,840: INFO]: >>>>>> stage Mobile model train started <<<<<<
+[2024-10-06 18:43:03,841: INFO]: yaml: config/mobiles_config.yaml loaded successfully
+[2024-10-06 18:43:03,841: INFO]: yaml: params/mobiles_params.yaml loaded successfully
+[2024-10-06 18:43:03,841: INFO]: created directory at: data
+[2024-10-06 18:43:03,841: INFO]: created directory at: data/mobile/model_train
+[2024-10-06 18:43:04,207: INFO]: HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+[2024-10-06 18:43:04,209: INFO]: Accessing as Vicky7873
+[2024-10-06 18:43:04,617: INFO]: HTTP Request: GET https://dagshub.com/api/v1/repos/Vicky7873/95Mobiles "HTTP/1.1 200 OK"
+[2024-10-06 18:43:04,619: INFO]: Initialized MLflow to track repo "Vicky7873/95Mobiles"
+[2024-10-06 18:43:04,619: INFO]: Repository Vicky7873/95Mobiles initialized!
+[2024-10-06 18:43:12,815: INFO]: >>>>>> stage Mobile model train completed <<<<<<
+
+x======x

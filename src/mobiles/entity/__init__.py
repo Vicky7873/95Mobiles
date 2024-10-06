@@ -32,3 +32,14 @@ class mobile_datasplitconfig:
     final_data: Path
     test_size: float
     random_state: int
+
+
+@dataclass(frozen=True)
+class mobile_Modeltrainconfig:
+    root_dir: Path
+    X_train: Path
+    X_test: Path
+    y_train:Path
+    y_test: Path
+    save_model: Path
+    model_for_train: Path
