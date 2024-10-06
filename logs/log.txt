@@ -3367,3 +3367,225 @@ x======x
 [2024-10-06 18:43:12,815: INFO]: >>>>>> stage Mobile model train completed <<<<<<
 
 x======x
+[2024-10-06 18:45:53,883: INFO]: Logging file start
+[2024-10-06 18:49:11,592: INFO]: yaml: config/mobiles_config.yaml loaded successfully
+[2024-10-06 18:49:11,595: INFO]: yaml: params/mobiles_params.yaml loaded successfully
+[2024-10-06 18:49:11,595: INFO]: created directory at: data
+[2024-10-06 18:49:11,596: INFO]: created directory at: data/mobile/model_eval
+[2024-10-06 18:49:12,227: INFO]: HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+[2024-10-06 18:49:12,230: INFO]: Accessing as Vicky7873
+[2024-10-06 18:49:12,712: INFO]: HTTP Request: GET https://dagshub.com/api/v1/repos/Vicky7873/95Mobiles "HTTP/1.1 200 OK"
+[2024-10-06 18:49:12,715: INFO]: Initialized MLflow to track repo "Vicky7873/95Mobiles"
+[2024-10-06 18:49:12,716: INFO]: Repository Vicky7873/95Mobiles initialized!
+[2024-10-06 18:50:12,028: INFO]: Logging file start
+[2024-10-06 18:50:13,352: INFO]: yaml: config/mobiles_config.yaml loaded successfully
+[2024-10-06 18:50:13,354: INFO]: yaml: params/mobiles_params.yaml loaded successfully
+[2024-10-06 18:50:13,354: INFO]: created directory at: data
+[2024-10-06 18:50:13,355: INFO]: created directory at: data/mobile/model_eval
+[2024-10-06 18:50:13,862: INFO]: HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+[2024-10-06 18:50:13,866: INFO]: Accessing as Vicky7873
+[2024-10-06 18:50:14,276: INFO]: HTTP Request: GET https://dagshub.com/api/v1/repos/Vicky7873/95Mobiles "HTTP/1.1 200 OK"
+[2024-10-06 18:50:14,280: INFO]: Initialized MLflow to track repo "Vicky7873/95Mobiles"
+[2024-10-06 18:50:14,281: INFO]: Repository Vicky7873/95Mobiles initialized!
+[2024-10-06 18:55:06,668: INFO]: Logging file start
+[2024-10-06 18:55:08,220: INFO]: >>>>>> stage Mobile Data Ingestion started <<<<<<
+[2024-10-06 18:55:08,222: INFO]: yaml: config/mobiles_config.yaml loaded successfully
+[2024-10-06 18:55:08,222: INFO]: yaml: params/mobiles_params.yaml loaded successfully
+[2024-10-06 18:55:08,222: INFO]: created directory at: data
+[2024-10-06 18:55:08,222: INFO]: created directory at: data/mobile/data_ingestion
+[2024-10-06 18:55:08,537: INFO]: >>>>>> stage Mobile Data Ingestion completed <<<<<<
+
+x======x
+[2024-10-06 18:55:08,537: INFO]: >>>>>> stage Mobile Data Cleaning started <<<<<<
+[2024-10-06 18:55:08,539: INFO]: yaml: config/mobiles_config.yaml loaded successfully
+[2024-10-06 18:55:08,539: INFO]: yaml: params/mobiles_params.yaml loaded successfully
+[2024-10-06 18:55:08,539: INFO]: created directory at: data
+[2024-10-06 18:55:08,539: INFO]: created directory at: data/mobile/data_cleaning
+[2024-10-06 18:55:08,548: INFO]: Mobile data cleaned successfully
+[2024-10-06 18:55:08,548: INFO]: >>>>>> stage Mobile Data Cleaning completed <<<<<<
+
+x======x
+[2024-10-06 18:55:08,548: INFO]: >>>>>> stage Mobile fe started <<<<<<
+[2024-10-06 18:55:08,549: INFO]: yaml: config/mobiles_config.yaml loaded successfully
+[2024-10-06 18:55:08,550: INFO]: yaml: params/mobiles_params.yaml loaded successfully
+[2024-10-06 18:55:08,550: INFO]: created directory at: data
+[2024-10-06 18:55:08,550: INFO]: created directory at: data/mobile/feature_eng
+[2024-10-06 18:55:08,560: INFO]: >>>>>> stage Mobile fe completed <<<<<<
+
+x======x
+[2024-10-06 18:55:08,560: INFO]: >>>>>> stage Mobile data split started <<<<<<
+[2024-10-06 18:55:08,561: INFO]: yaml: config/mobiles_config.yaml loaded successfully
+[2024-10-06 18:55:08,562: INFO]: yaml: params/mobiles_params.yaml loaded successfully
+[2024-10-06 18:55:08,562: INFO]: created directory at: data
+[2024-10-06 18:55:08,562: INFO]: created directory at: data/mobile/data_split
+[2024-10-06 18:55:08,569: INFO]: >>>>>> stage Mobile data split completed <<<<<<
+
+x======x
+[2024-10-06 18:55:08,569: INFO]: >>>>>> stage Mobile model train started <<<<<<
+[2024-10-06 18:55:08,571: INFO]: yaml: config/mobiles_config.yaml loaded successfully
+[2024-10-06 18:55:08,571: INFO]: yaml: params/mobiles_params.yaml loaded successfully
+[2024-10-06 18:55:08,571: INFO]: created directory at: data
+[2024-10-06 18:55:08,571: INFO]: created directory at: data/mobile/model_train
+[2024-10-06 18:55:08,917: INFO]: HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+[2024-10-06 18:55:08,918: INFO]: Accessing as Vicky7873
+[2024-10-06 18:55:09,310: INFO]: HTTP Request: GET https://dagshub.com/api/v1/repos/Vicky7873/95Mobiles "HTTP/1.1 200 OK"
+[2024-10-06 18:55:09,311: INFO]: Initialized MLflow to track repo "Vicky7873/95Mobiles"
+[2024-10-06 18:55:09,311: INFO]: Repository Vicky7873/95Mobiles initialized!
+[2024-10-06 18:55:17,041: INFO]: >>>>>> stage Mobile model train completed <<<<<<
+
+x======x
+[2024-10-06 18:55:17,041: INFO]: >>>>>> stage Mobile model eval started <<<<<<
+[2024-10-06 18:55:17,043: INFO]: yaml: config/mobiles_config.yaml loaded successfully
+[2024-10-06 18:55:17,044: INFO]: yaml: params/mobiles_params.yaml loaded successfully
+[2024-10-06 18:55:17,044: INFO]: created directory at: data
+[2024-10-06 18:55:17,044: INFO]: created directory at: data/mobile/model_eval
+[2024-10-06 18:55:17,425: INFO]: HTTP Request: GET https://dagshub.com/api/v1/repos/Vicky7873/95Mobiles "HTTP/1.1 200 OK"
+[2024-10-06 18:55:17,426: INFO]: Initialized MLflow to track repo "Vicky7873/95Mobiles"
+[2024-10-06 18:55:17,426: INFO]: Repository Vicky7873/95Mobiles initialized!
+[2024-10-06 18:55:17,847: ERROR]: Run with UUID 142aa856b0f54d82bf82e84c89c55d42 is already active. To start a new run, first end the current run with mlflow.end_run(). To start a nested run, call start_run with nested=True
+Traceback (most recent call last):
+  File "/Users/bhikipallai/Desktop/Projects/95Mobiles/main_pipe/mobile_main.py", line 69, in <module>
+    obj.main()
+  File "/Users/bhikipallai/Desktop/Projects/95Mobiles/src/mobiles/pipelines/st_06_mobile_model_eval.py", line 13, in main
+    model_eval.model_eval()
+  File "/Users/bhikipallai/Desktop/Projects/95Mobiles/src/mobiles/components/mobile_model_eval.py", line 28, in model_eval
+    with mlflow.start_run():
+         ^^^^^^^^^^^^^^^^^^
+  File "/Applications/anaconda3/envs/95m/lib/python3.12/site-packages/mlflow/tracking/fluent.py", line 321, in start_run
+    raise Exception(
+Exception: Run with UUID 142aa856b0f54d82bf82e84c89c55d42 is already active. To start a new run, first end the current run with mlflow.end_run(). To start a nested run, call start_run with nested=True
+[2024-10-06 19:02:07,634: INFO]: Logging file start
+[2024-10-06 19:02:09,023: INFO]: yaml: config/mobiles_config.yaml loaded successfully
+[2024-10-06 19:02:09,025: INFO]: yaml: params/mobiles_params.yaml loaded successfully
+[2024-10-06 19:02:09,026: INFO]: created directory at: data
+[2024-10-06 19:02:09,027: INFO]: created directory at: data/mobile/model_eval
+[2024-10-06 19:02:09,509: INFO]: HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+[2024-10-06 19:02:09,512: INFO]: Accessing as Vicky7873
+[2024-10-06 19:02:09,899: INFO]: HTTP Request: GET https://dagshub.com/api/v1/repos/Vicky7873/95Mobiles "HTTP/1.1 200 OK"
+[2024-10-06 19:02:09,901: INFO]: Initialized MLflow to track repo "Vicky7873/95Mobiles"
+[2024-10-06 19:02:09,902: INFO]: Repository Vicky7873/95Mobiles initialized!
+[2024-10-06 19:02:51,908: INFO]: Logging file start
+[2024-10-06 19:02:53,299: INFO]: >>>>>> stage Mobile Data Ingestion started <<<<<<
+[2024-10-06 19:02:53,301: INFO]: yaml: config/mobiles_config.yaml loaded successfully
+[2024-10-06 19:02:53,302: INFO]: yaml: params/mobiles_params.yaml loaded successfully
+[2024-10-06 19:02:53,302: INFO]: created directory at: data
+[2024-10-06 19:02:53,302: INFO]: created directory at: data/mobile/data_ingestion
+[2024-10-06 19:02:53,633: INFO]: >>>>>> stage Mobile Data Ingestion completed <<<<<<
+
+x======x
+[2024-10-06 19:02:53,633: INFO]: >>>>>> stage Mobile Data Cleaning started <<<<<<
+[2024-10-06 19:02:53,634: INFO]: yaml: config/mobiles_config.yaml loaded successfully
+[2024-10-06 19:02:53,634: INFO]: yaml: params/mobiles_params.yaml loaded successfully
+[2024-10-06 19:02:53,635: INFO]: created directory at: data
+[2024-10-06 19:02:53,635: INFO]: created directory at: data/mobile/data_cleaning
+[2024-10-06 19:02:53,644: INFO]: Mobile data cleaned successfully
+[2024-10-06 19:02:53,644: INFO]: >>>>>> stage Mobile Data Cleaning completed <<<<<<
+
+x======x
+[2024-10-06 19:02:53,644: INFO]: >>>>>> stage Mobile fe started <<<<<<
+[2024-10-06 19:02:53,646: INFO]: yaml: config/mobiles_config.yaml loaded successfully
+[2024-10-06 19:02:53,646: INFO]: yaml: params/mobiles_params.yaml loaded successfully
+[2024-10-06 19:02:53,646: INFO]: created directory at: data
+[2024-10-06 19:02:53,646: INFO]: created directory at: data/mobile/feature_eng
+[2024-10-06 19:02:53,655: INFO]: >>>>>> stage Mobile fe completed <<<<<<
+
+x======x
+[2024-10-06 19:02:53,655: INFO]: >>>>>> stage Mobile data split started <<<<<<
+[2024-10-06 19:02:53,657: INFO]: yaml: config/mobiles_config.yaml loaded successfully
+[2024-10-06 19:02:53,658: INFO]: yaml: params/mobiles_params.yaml loaded successfully
+[2024-10-06 19:02:53,658: INFO]: created directory at: data
+[2024-10-06 19:02:53,658: INFO]: created directory at: data/mobile/data_split
+[2024-10-06 19:02:53,665: INFO]: >>>>>> stage Mobile data split completed <<<<<<
+
+x======x
+[2024-10-06 19:02:53,665: INFO]: >>>>>> stage Mobile model train started <<<<<<
+[2024-10-06 19:02:53,667: INFO]: yaml: config/mobiles_config.yaml loaded successfully
+[2024-10-06 19:02:53,667: INFO]: yaml: params/mobiles_params.yaml loaded successfully
+[2024-10-06 19:02:53,667: INFO]: created directory at: data
+[2024-10-06 19:02:53,667: INFO]: created directory at: data/mobile/model_train
+[2024-10-06 19:02:53,997: INFO]: HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+[2024-10-06 19:02:53,999: INFO]: Accessing as Vicky7873
+[2024-10-06 19:02:54,394: INFO]: HTTP Request: GET https://dagshub.com/api/v1/repos/Vicky7873/95Mobiles "HTTP/1.1 200 OK"
+[2024-10-06 19:02:54,395: INFO]: Initialized MLflow to track repo "Vicky7873/95Mobiles"
+[2024-10-06 19:02:54,396: INFO]: Repository Vicky7873/95Mobiles initialized!
+[2024-10-06 19:03:02,233: INFO]: >>>>>> stage Mobile model train completed <<<<<<
+
+x======x
+[2024-10-06 19:03:02,233: INFO]: >>>>>> stage Mobile model eval started <<<<<<
+[2024-10-06 19:03:02,235: INFO]: yaml: config/mobiles_config.yaml loaded successfully
+[2024-10-06 19:03:02,235: INFO]: yaml: params/mobiles_params.yaml loaded successfully
+[2024-10-06 19:03:02,235: INFO]: created directory at: data
+[2024-10-06 19:03:02,235: INFO]: created directory at: data/mobile/model_eval
+[2024-10-06 19:03:02,641: INFO]: HTTP Request: GET https://dagshub.com/api/v1/repos/Vicky7873/95Mobiles "HTTP/1.1 200 OK"
+[2024-10-06 19:03:02,642: INFO]: Initialized MLflow to track repo "Vicky7873/95Mobiles"
+[2024-10-06 19:03:02,642: INFO]: Repository Vicky7873/95Mobiles initialized!
+[2024-10-06 19:03:02,991: ERROR]: Run with UUID da509b59041646a7bdf6eba1bcf12e62 is already active. To start a new run, first end the current run with mlflow.end_run(). To start a nested run, call start_run with nested=True
+Traceback (most recent call last):
+  File "/Users/bhikipallai/Desktop/Projects/95Mobiles/main_pipe/mobile_main.py", line 69, in <module>
+    obj.main()
+  File "/Users/bhikipallai/Desktop/Projects/95Mobiles/src/mobiles/pipelines/st_06_mobile_model_eval.py", line 13, in main
+    model_eval.model_eval()
+  File "/Users/bhikipallai/Desktop/Projects/95Mobiles/src/mobiles/components/mobile_model_eval.py", line 28, in model_eval
+    with mlflow.start_run():
+         ^^^^^^^^^^^^^^^^^^
+  File "/Applications/anaconda3/envs/95m/lib/python3.12/site-packages/mlflow/tracking/fluent.py", line 321, in start_run
+    raise Exception(
+Exception: Run with UUID da509b59041646a7bdf6eba1bcf12e62 is already active. To start a new run, first end the current run with mlflow.end_run(). To start a nested run, call start_run with nested=True
+[2024-10-06 19:05:01,215: INFO]: Logging file start
+[2024-10-06 19:05:02,708: INFO]: >>>>>> stage Mobile Data Ingestion started <<<<<<
+[2024-10-06 19:05:02,710: INFO]: yaml: config/mobiles_config.yaml loaded successfully
+[2024-10-06 19:05:02,710: INFO]: yaml: params/mobiles_params.yaml loaded successfully
+[2024-10-06 19:05:02,710: INFO]: created directory at: data
+[2024-10-06 19:05:02,710: INFO]: created directory at: data/mobile/data_ingestion
+[2024-10-06 19:05:02,767: INFO]: >>>>>> stage Mobile Data Ingestion completed <<<<<<
+
+x======x
+[2024-10-06 19:05:02,767: INFO]: >>>>>> stage Mobile Data Cleaning started <<<<<<
+[2024-10-06 19:05:02,768: INFO]: yaml: config/mobiles_config.yaml loaded successfully
+[2024-10-06 19:05:02,768: INFO]: yaml: params/mobiles_params.yaml loaded successfully
+[2024-10-06 19:05:02,768: INFO]: created directory at: data
+[2024-10-06 19:05:02,769: INFO]: created directory at: data/mobile/data_cleaning
+[2024-10-06 19:05:02,778: INFO]: Mobile data cleaned successfully
+[2024-10-06 19:05:02,779: INFO]: >>>>>> stage Mobile Data Cleaning completed <<<<<<
+
+x======x
+[2024-10-06 19:05:02,779: INFO]: >>>>>> stage Mobile fe started <<<<<<
+[2024-10-06 19:05:02,780: INFO]: yaml: config/mobiles_config.yaml loaded successfully
+[2024-10-06 19:05:02,780: INFO]: yaml: params/mobiles_params.yaml loaded successfully
+[2024-10-06 19:05:02,780: INFO]: created directory at: data
+[2024-10-06 19:05:02,780: INFO]: created directory at: data/mobile/feature_eng
+[2024-10-06 19:05:02,790: INFO]: >>>>>> stage Mobile fe completed <<<<<<
+
+x======x
+[2024-10-06 19:05:02,791: INFO]: >>>>>> stage Mobile data split started <<<<<<
+[2024-10-06 19:05:02,792: INFO]: yaml: config/mobiles_config.yaml loaded successfully
+[2024-10-06 19:05:02,792: INFO]: yaml: params/mobiles_params.yaml loaded successfully
+[2024-10-06 19:05:02,792: INFO]: created directory at: data
+[2024-10-06 19:05:02,792: INFO]: created directory at: data/mobile/data_split
+[2024-10-06 19:05:02,801: INFO]: >>>>>> stage Mobile data split completed <<<<<<
+
+x======x
+[2024-10-06 19:05:02,801: INFO]: >>>>>> stage Mobile model train started <<<<<<
+[2024-10-06 19:05:02,803: INFO]: yaml: config/mobiles_config.yaml loaded successfully
+[2024-10-06 19:05:02,803: INFO]: yaml: params/mobiles_params.yaml loaded successfully
+[2024-10-06 19:05:02,803: INFO]: created directory at: data
+[2024-10-06 19:05:02,803: INFO]: created directory at: data/mobile/model_train
+[2024-10-06 19:05:03,148: INFO]: HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+[2024-10-06 19:05:03,150: INFO]: Accessing as Vicky7873
+[2024-10-06 19:05:03,570: INFO]: HTTP Request: GET https://dagshub.com/api/v1/repos/Vicky7873/95Mobiles "HTTP/1.1 200 OK"
+[2024-10-06 19:05:03,571: INFO]: Initialized MLflow to track repo "Vicky7873/95Mobiles"
+[2024-10-06 19:05:03,571: INFO]: Repository Vicky7873/95Mobiles initialized!
+[2024-10-06 19:05:11,246: INFO]: >>>>>> stage Mobile model train completed <<<<<<
+
+x======x
+[2024-10-06 19:05:11,247: INFO]: >>>>>> stage Mobile model eval started <<<<<<
+[2024-10-06 19:05:11,248: INFO]: yaml: config/mobiles_config.yaml loaded successfully
+[2024-10-06 19:05:11,248: INFO]: yaml: params/mobiles_params.yaml loaded successfully
+[2024-10-06 19:05:11,249: INFO]: created directory at: data
+[2024-10-06 19:05:11,249: INFO]: created directory at: data/mobile/model_eval
+[2024-10-06 19:05:11,646: INFO]: HTTP Request: GET https://dagshub.com/api/v1/repos/Vicky7873/95Mobiles "HTTP/1.1 200 OK"
+[2024-10-06 19:05:11,647: INFO]: Initialized MLflow to track repo "Vicky7873/95Mobiles"
+[2024-10-06 19:05:11,647: INFO]: Repository Vicky7873/95Mobiles initialized!
+[2024-10-06 19:05:14,857: INFO]: >>>>>> stage Mobile model eval completed <<<<<<
+
+x======x

@@ -1,6 +1,6 @@
 from src.mobiles.utils.common import read_yaml,create_directory
 from src.mobiles.constants import *
-from src.mobiles.entity import MobileDataIngestionConfig,Mobile_Data_Cleaning_Config,Mobile_fe_Config,mobile_datasplitconfig,mobile_Modeltrainconfig
+from src.mobiles.entity import MobileDataIngestionConfig,Mobile_Data_Cleaning_Config,Mobile_fe_Config,mobile_datasplitconfig,mobile_Modeltrainconfig,mobile_model_eval_config
 
 class ConfigurationManger:
     def __init__(self,config_filepath = CONFIG_FILE_PATH,params_filepath = PARAMS_FILE_PATH) :
@@ -81,3 +81,21 @@ class ConfigurationManger:
             model_for_train=config.model_for_train
         )
         return model_train
+    
+
+
+    def get_model_eval(self) -> mobile_model_eval_config:
+        config = self.config.model_eval
+        create_directory([config.root_dir])
+
+        model_eval = mobile_model_eval_config(
+            root_dir=config.root_dir,
+            X_train = config.X_train,
+            X_test = config.X_test,
+            y_train=config.y_train,
+            y_test=config.y_test,
+            save_score=config.save_score,
+            model_for_train=config.model_for_train
+        )
+
+        return model_eval

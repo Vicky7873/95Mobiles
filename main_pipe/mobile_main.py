@@ -3,6 +3,7 @@ from src.mobiles.pipelines.st_02_mobile_data_clean import MobileDataCleaning_Pip
 from src.mobiles.pipelines.st_03_mobile_fe import mobile_fe_pipeline
 from src.mobiles.pipelines.st_04_mobile_data_split import Mobile_datasplit_pipeline
 from src.mobiles.pipelines.st_05_mobile_model_train import MobileModeltrain
+from src.mobiles.pipelines.st_06_mobile_model_eval import MobileModelEvalPipeline
 from log import logger
 
 STAGE_NAME = "Mobile Data Ingestion"
@@ -53,6 +54,18 @@ STAGE_NAME = "Mobile model train"
 try:
     logger.info(f">>>>>> stage {STAGE_NAME} started <<<<<<")
     obj = MobileModeltrain()
+    obj.main()
+    logger.info(f">>>>>> stage {STAGE_NAME} completed <<<<<<\n\nx======x")
+except Exception as e:
+    logger.exception(e)
+    raise e
+
+
+
+STAGE_NAME = "Mobile model eval"
+try:
+    logger.info(f">>>>>> stage {STAGE_NAME} started <<<<<<")
+    obj = MobileModelEvalPipeline()
     obj.main()
     logger.info(f">>>>>> stage {STAGE_NAME} completed <<<<<<\n\nx======x")
 except Exception as e:

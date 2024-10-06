@@ -43,3 +43,15 @@ class mobile_Modeltrainconfig:
     y_test: Path
     save_model: Path
     model_for_train: Path
+
+
+
+@dataclass(frozen=True)
+class mobile_model_eval_config:
+    root_dir: Path
+    X_train: Path
+    X_test: Path
+    y_train:Path
+    y_test: Path
+    model_for_train: Path
+    save_score: Path

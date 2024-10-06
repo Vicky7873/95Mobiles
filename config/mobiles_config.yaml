@@ -33,3 +33,13 @@ model_train:
   save_model: data/mobile/model_train/mobile.pkl
   model_for_train: models/mobile.pkl
 
+
+model_eval:
+  root_dir: data/mobile/model_eval
+  X_train: data/mobile/data_split/X_train.csv
+  X_test: data/mobile/data_split/X_test.csv
+  y_train: data/mobile/data_split/y_train.csv
+  y_test: data/mobile/data_split/y_test.csv
+  save_score: data/mobile/model_eval/score.json
+  model_for_train: models/mobile.pkl
+
