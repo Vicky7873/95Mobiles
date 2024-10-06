@@ -1,6 +1,6 @@
 from src.mobiles.utils.common import read_yaml,create_directory
 from src.mobiles.constants import *
-from src.mobiles.entity import MobileDataIngestionConfig
+from src.mobiles.entity import MobileDataIngestionConfig,Mobile_Data_Cleaning_Config
 
 class ConfigurationManger:
     def __init__(self,config_filepath = CONFIG_FILE_PATH,params_filepath = PARAMS_FILE_PATH) :
@@ -18,3 +18,16 @@ class ConfigurationManger:
         )
 
         return model_dataingestion
+
+
+    def get_mobile_data_cleaning(self)->Mobile_Data_Cleaning_Config:
+        config = self.config.data_cleaning
+        create_directory([config.root_dir])
+
+        model_datacleaning = Mobile_Data_Cleaning_Config(
+            root_dir=config.root_dir,
+            mobile_raw_data=config.mobile_raw_data,
+            mobile_cleaned_data=config.mobile_cleaned_data
+        )
+
+        return model_datacleaning

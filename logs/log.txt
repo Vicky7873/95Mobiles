@@ -3096,3 +3096,105 @@ x======x
 [2024-10-06 17:03:00,664: INFO]: >>>>>> stage Mobile Data Ingestion completed <<<<<<
 
 x======x
+[2024-10-06 17:08:14,830: INFO]: Logging file start
+[2024-10-06 17:17:50,862: INFO]: yaml: config/mobiles_config.yaml loaded successfully
+[2024-10-06 17:17:50,869: INFO]: created directory at: data
+[2024-10-06 17:17:50,871: INFO]: created directory at: data/mobile/data_cleaning
+[2024-10-06 17:22:55,211: INFO]: Logging file start
+[2024-10-06 17:22:55,678: INFO]: >>>>>> stage Mobile Data Ingestion started <<<<<<
+[2024-10-06 17:22:55,678: INFO]: yaml: config/mobiles_config.yaml loaded successfully
+[2024-10-06 17:22:55,679: INFO]: created directory at: data
+[2024-10-06 17:22:55,679: INFO]: created directory at: data/mobile/data_cleaning
+[2024-10-06 17:22:55,679: ERROR]: 'Mobile_Data_Cleaning_Config' object has no attribute 'download_url'
+Traceback (most recent call last):
+  File "/Users/bhikipallai/Desktop/Projects/95Mobiles/main_pipe/mobile_main.py", line 9, in <module>
+    obj.main()
+  File "/Users/bhikipallai/Desktop/Projects/95Mobiles/src/mobiles/pipelines/st_01_mobile_data_Ingestion.py", line 13, in main
+    mb_di.download_data()
+  File "/Users/bhikipallai/Desktop/Projects/95Mobiles/src/mobiles/components/mb_di.py", line 10, in download_data
+    response = requests.get(self.config.download_url)
+                            ^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'Mobile_Data_Cleaning_Config' object has no attribute 'download_url'
+[2024-10-06 17:24:28,679: INFO]: Logging file start
+[2024-10-06 17:24:29,219: INFO]: >>>>>> stage Mobile Data Ingestion started <<<<<<
+[2024-10-06 17:24:29,220: INFO]: yaml: config/mobiles_config.yaml loaded successfully
+[2024-10-06 17:24:29,222: INFO]: created directory at: data
+[2024-10-06 17:24:29,222: INFO]: created directory at: data/mobile/data_cleaning
+[2024-10-06 17:24:29,222: ERROR]: 'Mobile_Data_Cleaning_Config' object has no attribute 'download_url'
+Traceback (most recent call last):
+  File "/Users/bhikipallai/Desktop/Projects/95Mobiles/main_pipe/mobile_main.py", line 9, in <module>
+    obj.main()
+  File "/Users/bhikipallai/Desktop/Projects/95Mobiles/src/mobiles/pipelines/st_01_mobile_data_Ingestion.py", line 13, in main
+    mb_di.download_data()
+  File "/Users/bhikipallai/Desktop/Projects/95Mobiles/src/mobiles/components/mb_di.py", line 10, in download_data
+    response = requests.get(self.config.download_url)
+                            ^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'Mobile_Data_Cleaning_Config' object has no attribute 'download_url'
+[2024-10-06 17:26:56,327: INFO]: Logging file start
+[2024-10-06 17:26:56,858: INFO]: >>>>>> stage Mobile Data Ingestion started <<<<<<
+[2024-10-06 17:26:56,859: INFO]: yaml: config/mobiles_config.yaml loaded successfully
+[2024-10-06 17:26:56,860: INFO]: created directory at: data
+[2024-10-06 17:26:56,860: INFO]: created directory at: data/mobile/data_cleaning
+[2024-10-06 17:26:56,860: ERROR]: 'Mobile_Data_Cleaning_Config' object has no attribute 'download_url'
+Traceback (most recent call last):
+  File "/Users/bhikipallai/Desktop/Projects/95Mobiles/main_pipe/mobile_main.py", line 9, in <module>
+    obj.main()
+  File "/Users/bhikipallai/Desktop/Projects/95Mobiles/src/mobiles/pipelines/st_01_mobile_data_Ingestion.py", line 13, in main
+    mb_di.download_data()
+  File "/Users/bhikipallai/Desktop/Projects/95Mobiles/src/mobiles/components/mb_di.py", line 10, in download_data
+    response = requests.get(self.config.download_url)
+                            ^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'Mobile_Data_Cleaning_Config' object has no attribute 'download_url'
+[2024-10-06 17:29:33,693: INFO]: Logging file start
+[2024-10-06 17:29:34,256: INFO]: >>>>>> stage Mobile Data Ingestion started <<<<<<
+[2024-10-06 17:29:34,257: INFO]: yaml: config/mobiles_config.yaml loaded successfully
+[2024-10-06 17:29:34,258: INFO]: created directory at: data
+[2024-10-06 17:29:34,258: INFO]: created directory at: data/mobile/data_cleaning
+[2024-10-06 17:29:34,258: ERROR]: 'Mobile_Data_Cleaning_Config' object has no attribute 'download_url'
+Traceback (most recent call last):
+  File "/Users/bhikipallai/Desktop/Projects/95Mobiles/main_pipe/mobile_main.py", line 9, in <module>
+    obj.main()
+  File "/Users/bhikipallai/Desktop/Projects/95Mobiles/src/mobiles/pipelines/st_01_mobile_data_Ingestion.py", line 13, in main
+    mb_di.download_data()
+  File "/Users/bhikipallai/Desktop/Projects/95Mobiles/src/mobiles/components/mb_di.py", line 10, in download_data
+    response = requests.get(self.config.download_url)
+                            ^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'Mobile_Data_Cleaning_Config' object has no attribute 'download_url'
+[2024-10-06 17:31:18,948: INFO]: Logging file start
+[2024-10-06 17:31:19,496: INFO]: >>>>>> stage Mobile Data Ingestion started <<<<<<
+[2024-10-06 17:31:19,497: INFO]: yaml: config/mobiles_config.yaml loaded successfully
+[2024-10-06 17:31:19,499: INFO]: created directory at: data
+[2024-10-06 17:31:19,499: INFO]: created directory at: data/mobile/data_cleaning
+[2024-10-06 17:31:19,499: ERROR]: 'Mobile_Data_Cleaning_Config' object has no attribute 'download_url'
+Traceback (most recent call last):
+  File "/Users/bhikipallai/Desktop/Projects/95Mobiles/main_pipe/mobile_main.py", line 9, in <module>
+    obj.main()
+  File "/Users/bhikipallai/Desktop/Projects/95Mobiles/src/mobiles/pipelines/st_01_mobile_data_Ingestion.py", line 13, in main
+    mb_di.download_data()
+  File "/Users/bhikipallai/Desktop/Projects/95Mobiles/src/mobiles/components/mb_di.py", line 10, in download_data
+    response = requests.get(self.config.download_url)
+                            ^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'Mobile_Data_Cleaning_Config' object has no attribute 'download_url'
+[2024-10-06 17:32:18,536: INFO]: Logging file start
+[2024-10-06 17:32:19,073: INFO]: >>>>>> stage Mobile Data Ingestion started <<<<<<
+[2024-10-06 17:32:19,074: INFO]: yaml: config/mobiles_config.yaml loaded successfully
+[2024-10-06 17:32:19,075: INFO]: created directory at: data
+[2024-10-06 17:32:19,075: INFO]: created directory at: data/mobile/data_ingestion
+[2024-10-06 17:32:19,380: INFO]: >>>>>> stage Mobile Data Ingestion completed <<<<<<
+
+x======x
+[2024-10-06 17:32:19,380: INFO]: >>>>>> stage Mobile Data Cleaning started <<<<<<
+[2024-10-06 17:32:19,381: INFO]: yaml: config/mobiles_config.yaml loaded successfully
+[2024-10-06 17:32:19,381: INFO]: created directory at: data
+[2024-10-06 17:32:19,381: INFO]: created directory at: data/mobile/data_cleaning
+[2024-10-06 17:32:19,398: INFO]: Mobile data cleaned successfully
+[2024-10-06 17:32:19,398: INFO]: >>>>>> stage Mobile Data Cleaning completed <<<<<<
+
+x======x
+[2024-10-06 17:32:36,990: INFO]: Logging file start
+[2024-10-06 17:32:37,466: INFO]: yaml: config/mobiles_config.yaml loaded successfully
+[2024-10-06 17:32:37,468: INFO]: created directory at: data
+[2024-10-06 17:32:47,479: INFO]: Logging file start
+[2024-10-06 17:32:47,801: INFO]: yaml: config/mobiles_config.yaml loaded successfully
+[2024-10-06 17:32:47,802: INFO]: created directory at: data
+[2024-10-06 17:32:47,803: INFO]: created directory at: data/mobile/data_cleaning
