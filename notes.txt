@@ -97,3 +97,27 @@ car_model_training:
     #  - models/car_best_model.pkl
 
  ##########################################################################   
+ best_score = -float("inf")
+best_model = None
+best_model_name = None
+
+
+for model_name,model in models.items():
+    models_gdr = GridSearchCV(model,param_grid=grid_param[model_name],cv=5)
+    models_gdr.fit(X_train,y_train)
+    print("Best parameters: ", models_gdr.best_params_)
+    print("best score: ", models_gdr.best_score_)
+    print("best estimator: ", models_gdr.best_estimator_)
+
+    if models_gdr.best_score_>best_score:
+        best_score = models_gdr.best_score_
+        best_model = models_gdr.best_estimator_
+        best_model_name = model_name
+## this will check the score and store in best score as per this it will store the highest score models
+ex: 2 models random forest(rfr) and descission tree (dtr)
+so when the for loop iteration happen for rfr and get the score 93% so it will store the model best_model
+and the dtr score is 83 then 93> 83 so it wont store bcoz we have alredy store the rfr score in [best_score = -float("inf")]
+
+print("Best Model Type:", best_model_name)
+print("Best Model Score:", best_score)
+print("Best Model:", best_model)

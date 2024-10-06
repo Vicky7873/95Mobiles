@@ -10,4 +10,5 @@ gdown
 mlflow
 dagshub
 dvc
-# -e .
+category_encoders
+-e .

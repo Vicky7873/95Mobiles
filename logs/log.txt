@@ -3054,3 +3054,45 @@ x======x
 [2024-10-06 00:51:41,598: INFO]:  * Debugger PIN: 138-279-406
 [2024-10-06 00:51:45,968: INFO]: 192.168.29.172 - - [06/Oct/2024 00:51:45] "GET / HTTP/1.1" 200 -
 [2024-10-06 00:51:46,023: INFO]: 192.168.29.172 - - [06/Oct/2024 00:51:46] "GET /static/bhiki.png HTTP/1.1" 200 -
+[2024-10-06 16:42:58,424: INFO]: Logging file start
+[2024-10-06 16:49:17,207: INFO]: yaml: config/laptop_config.yaml loaded successfully
+[2024-10-06 16:49:17,209: INFO]: created directory at: data
+[2024-10-06 16:49:33,217: INFO]: yaml: config/laptop_config.yaml loaded successfully
+[2024-10-06 16:49:33,218: INFO]: created directory at: data
+[2024-10-06 16:49:33,219: INFO]: created directory at: data/laptop/data_ingestion
+[2024-10-06 16:49:58,420: INFO]: Logging file start
+[2024-10-06 16:49:58,504: INFO]: yaml: config/laptop_config.yaml loaded successfully
+[2024-10-06 16:49:58,505: INFO]: created directory at: data
+[2024-10-06 16:49:58,506: INFO]: created directory at: data/laptop/data_ingestion
+[2024-10-06 16:50:07,852: INFO]: Logging file start
+[2024-10-06 16:50:07,917: INFO]: yaml: config/laptop_config.yaml loaded successfully
+[2024-10-06 16:50:07,918: INFO]: created directory at: data
+[2024-10-06 16:50:07,920: INFO]: created directory at: data/laptop/data_ingestion
+[2024-10-06 16:50:22,952: INFO]: Logging file start
+[2024-10-06 16:50:23,111: INFO]: yaml: config/laptop_config.yaml loaded successfully
+[2024-10-06 16:50:23,112: INFO]: created directory at: data
+[2024-10-06 16:50:23,113: INFO]: created directory at: data/laptop/data_ingestion
+[2024-10-06 16:50:59,148: INFO]: Logging file start
+[2024-10-06 16:50:59,234: INFO]: yaml: config/laptop_config.yaml loaded successfully
+[2024-10-06 16:50:59,235: INFO]: created directory at: data
+[2024-10-06 16:50:59,236: INFO]: created directory at: data/laptop/data_ingestion
+[2024-10-06 16:51:23,052: INFO]: Logging file start
+[2024-10-06 16:51:23,128: INFO]: yaml: config/laptop_config.yaml loaded successfully
+[2024-10-06 16:51:23,129: INFO]: created directory at: data
+[2024-10-06 16:51:23,130: INFO]: created directory at: data/laptop/data_ingestion
+[2024-10-06 16:51:53,628: INFO]: Logging file start
+[2024-10-06 16:51:53,747: INFO]: yaml: config/laptop_config.yaml loaded successfully
+[2024-10-06 16:51:53,777: INFO]: created directory at: data
+[2024-10-06 16:51:53,778: INFO]: created directory at: data/laptop/data_ingestion
+[2024-10-06 16:54:57,731: INFO]: Logging file start
+[2024-10-06 16:54:57,812: INFO]: yaml: config/mobiles_config.yaml loaded successfully
+[2024-10-06 16:54:57,814: INFO]: created directory at: data
+[2024-10-06 16:54:57,815: INFO]: created directory at: data/mobile/data_ingestion
+[2024-10-06 17:03:00,233: INFO]: Logging file start
+[2024-10-06 17:03:00,361: INFO]: >>>>>> stage Mobile Data Ingestion started <<<<<<
+[2024-10-06 17:03:00,362: INFO]: yaml: config/mobiles_config.yaml loaded successfully
+[2024-10-06 17:03:00,363: INFO]: created directory at: data
+[2024-10-06 17:03:00,363: INFO]: created directory at: data/mobile/data_ingestion
+[2024-10-06 17:03:00,664: INFO]: >>>>>> stage Mobile Data Ingestion completed <<<<<<
+
+x======x

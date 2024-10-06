@@ -1,0 +1,6 @@
+data_root: data
+
+data_ingestion:
+  root_dir: data/mobile/data_ingestion
+  download_url: 'https://raw.githubusercontent.com/Vicky7873/data/refs/heads/main/Mobile%20phone%20price.csv'
+  mobile_raw_data: data/mobile/data_ingestion/mobile.csv
