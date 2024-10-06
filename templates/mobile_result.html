@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mobile Price Prediction Result</title>
+    <style>
+        /* General Styles */
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: linear-gradient(135deg, #3a6186, #89253e);
+            color: #333;
+            overflow: hidden;
+        }
+
+        /* Background Animation */
+        @keyframes backgroundMove {
+            0% { background-position: 0 0; }
+            100% { background-position: 100% 100%; }
+        }
+
+        body {
+            background: linear-gradient(45deg, #ff9a9e, #fad0c4, #fcb69f, #ffecd2);
+            background-size: 400% 400%;
+            animation: backgroundMove 10s ease infinite;
+        }
+
+        /* Result Container */
+        .container {
+            background-color: rgba(255, 255, 255, 0.8);
+            padding: 50px;
+            border-radius: 15px;
+            max-width: 500px;
+            width: 100%;
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+            text-align: center;
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.3);
+        }
+
+        h2 {
+            font-size: 28px;
+            margin-bottom: 30px;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            color: #444;
+        }
+
+        .result-box {
+            background-color: #007bff;
+            color: #fff;
+            padding: 30px;
+            border-radius: 10px;
+            font-size: 22px;
+            font-weight: bold;
+            letter-spacing: 1px;
+            margin-top: 20px;
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+        }
+
+        .result-box:hover {
+            transform: scale(1.05);
+        }
+
+        .back-button {
+            margin-top: 30px;
+            padding: 12px 25px;
+            background-color: #444;
+            color: #fff;
+            border: none;
+            font-size: 16px;
+            border-radius: 8px;
+            cursor: pointer;
+            text-transform: uppercase;
+            transition: background-color 0.3s ease, transform 0.3s ease;
+        }
+
+        .back-button:hover {
+            background-color: #333;
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h2>Predicted Mobile Price</h2>
+
+    <div class="result-box">
+        <p>Your predicted Mobile price is: <br> ₹{{ predicted_price }}</p>
+    </div>
+
+    <form action="/mobile" method="GET">
+        <button class="back-button" type="submit">Back to Form</button>
+    </form>
+</div>
+
+</body>
+</html>

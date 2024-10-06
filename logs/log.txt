@@ -3654,3 +3654,162 @@ x======x
 [2024-10-06 19:15:00,986: INFO]: >>>>>> stage Mobile model eval completed <<<<<<
 
 x======x
+[2024-10-06 19:42:15,691: INFO]: Logging file start
+[2024-10-06 19:42:15,892: INFO]: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.29.22:8080
+[2024-10-06 19:42:15,892: INFO]: [33mPress CTRL+C to quit[0m
+[2024-10-06 19:42:15,892: INFO]:  * Restarting with stat
+[2024-10-06 19:42:16,494: INFO]: Logging file start
+[2024-10-06 19:42:16,610: WARNING]:  * Debugger is active!
+[2024-10-06 19:42:16,621: INFO]:  * Debugger PIN: 138-279-406
+[2024-10-06 19:42:21,474: INFO]: 192.168.29.22 - - [06/Oct/2024 19:42:21] "GET / HTTP/1.1" 200 -
+[2024-10-06 19:42:21,520: INFO]: 192.168.29.22 - - [06/Oct/2024 19:42:21] "GET /static/bhiki.png HTTP/1.1" 200 -
+[2024-10-06 19:42:21,550: INFO]: 192.168.29.22 - - [06/Oct/2024 19:42:21] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[2024-10-06 19:42:23,683: INFO]: 192.168.29.22 - - [06/Oct/2024 19:42:23] "[33mGET /mobile HTTP/1.1[0m" 404 -
+[2024-10-06 19:42:37,826: INFO]:  * Detected change in '/Users/bhikipallai/Desktop/Projects/95Mobiles/app.py', reloading
+[2024-10-06 19:42:37,974: INFO]:  * Restarting with stat
+[2024-10-06 19:42:38,801: INFO]: Logging file start
+[2024-10-06 19:42:38,954: WARNING]:  * Debugger is active!
+[2024-10-06 19:42:38,964: INFO]:  * Debugger PIN: 138-279-406
+[2024-10-06 19:42:47,090: INFO]: Logging file start
+[2024-10-06 19:42:47,245: INFO]: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.29.22:8080
+[2024-10-06 19:42:47,245: INFO]: [33mPress CTRL+C to quit[0m
+[2024-10-06 19:42:47,245: INFO]:  * Restarting with stat
+[2024-10-06 19:42:47,852: INFO]: Logging file start
+[2024-10-06 19:42:47,970: WARNING]:  * Debugger is active!
+[2024-10-06 19:42:47,976: INFO]:  * Debugger PIN: 138-279-406
+[2024-10-06 19:42:50,920: INFO]: 192.168.29.22 - - [06/Oct/2024 19:42:50] "GET / HTTP/1.1" 200 -
+[2024-10-06 19:42:50,969: INFO]: 192.168.29.22 - - [06/Oct/2024 19:42:50] "[36mGET /static/bhiki.png HTTP/1.1[0m" 304 -
+[2024-10-06 19:42:53,182: INFO]: 192.168.29.22 - - [06/Oct/2024 19:42:53] "[32mGET /mobile HTTP/1.1[0m" 308 -
+[2024-10-06 19:42:53,187: INFO]: 192.168.29.22 - - [06/Oct/2024 19:42:53] "GET /mobile/ HTTP/1.1" 200 -
+[2024-10-06 19:48:21,572: INFO]: Logging file start
+[2024-10-06 19:48:21,738: INFO]: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.29.22:8080
+[2024-10-06 19:48:21,738: INFO]: [33mPress CTRL+C to quit[0m
+[2024-10-06 19:48:21,739: INFO]:  * Restarting with stat
+[2024-10-06 19:48:22,334: INFO]: Logging file start
+[2024-10-06 19:48:22,454: WARNING]:  * Debugger is active!
+[2024-10-06 19:48:22,463: INFO]:  * Debugger PIN: 138-279-406
+[2024-10-06 19:48:25,114: INFO]: 192.168.29.22 - - [06/Oct/2024 19:48:25] "GET / HTTP/1.1" 200 -
+[2024-10-06 19:48:25,139: INFO]: 192.168.29.22 - - [06/Oct/2024 19:48:25] "[36mGET /static/bhiki.png HTTP/1.1[0m" 304 -
+[2024-10-06 19:48:27,572: INFO]: 192.168.29.22 - - [06/Oct/2024 19:48:27] "GET /mobile/ HTTP/1.1" 200 -
+[2024-10-06 19:49:34,813: INFO]: 192.168.29.22 - - [06/Oct/2024 19:49:34] "[33mPOST /Mobile/predict HTTP/1.1[0m" 404 -
+[2024-10-06 19:50:14,517: INFO]:  * Detected change in '/Users/bhikipallai/Desktop/Projects/95Mobiles/src/mobiles/applications/mobile.py', reloading
+[2024-10-06 19:50:14,696: INFO]:  * Restarting with stat
+[2024-10-06 19:50:15,720: INFO]: Logging file start
+[2024-10-06 19:50:15,888: WARNING]:  * Debugger is active!
+[2024-10-06 19:50:15,896: INFO]:  * Debugger PIN: 138-279-406
+[2024-10-06 19:50:18,618: INFO]: Logging file start
+[2024-10-06 19:50:18,735: INFO]: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.29.22:8080
+[2024-10-06 19:50:18,735: INFO]: [33mPress CTRL+C to quit[0m
+[2024-10-06 19:50:18,735: INFO]:  * Restarting with stat
+[2024-10-06 19:50:19,345: INFO]: Logging file start
+[2024-10-06 19:50:19,455: WARNING]:  * Debugger is active!
+[2024-10-06 19:50:19,470: INFO]:  * Debugger PIN: 138-279-406
+[2024-10-06 19:50:22,732: INFO]: 192.168.29.22 - - [06/Oct/2024 19:50:22] "GET / HTTP/1.1" 200 -
+[2024-10-06 19:50:22,783: INFO]: 192.168.29.22 - - [06/Oct/2024 19:50:22] "[36mGET /static/bhiki.png HTTP/1.1[0m" 304 -
+[2024-10-06 19:50:25,158: INFO]: 192.168.29.22 - - [06/Oct/2024 19:50:25] "GET /mobile/ HTTP/1.1" 200 -
+[2024-10-06 19:50:42,031: INFO]: 192.168.29.22 - - [06/Oct/2024 19:50:42] "[33mPOST /Mobile/predict HTTP/1.1[0m" 404 -
+[2024-10-06 19:51:07,940: INFO]:  * Detected change in '/Users/bhikipallai/Desktop/Projects/95Mobiles/src/mobiles/applications/mobile.py', reloading
+[2024-10-06 19:51:08,098: INFO]:  * Restarting with stat
+[2024-10-06 19:51:08,980: INFO]: Logging file start
+[2024-10-06 19:51:09,139: WARNING]:  * Debugger is active!
+[2024-10-06 19:51:09,152: INFO]:  * Debugger PIN: 138-279-406
+[2024-10-06 19:51:28,374: INFO]:  * Detected change in '/Users/bhikipallai/Desktop/Projects/95Mobiles/src/mobiles/applications/mobile.py', reloading
+[2024-10-06 19:51:28,494: INFO]:  * Restarting with stat
+[2024-10-06 19:51:29,315: INFO]: Logging file start
+[2024-10-06 19:51:29,462: WARNING]:  * Debugger is active!
+[2024-10-06 19:51:29,473: INFO]:  * Debugger PIN: 138-279-406
+[2024-10-06 19:51:33,956: INFO]: Logging file start
+[2024-10-06 19:51:34,070: INFO]: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.29.22:8080
+[2024-10-06 19:51:34,070: INFO]: [33mPress CTRL+C to quit[0m
+[2024-10-06 19:51:34,071: INFO]:  * Restarting with stat
+[2024-10-06 19:51:34,681: INFO]: Logging file start
+[2024-10-06 19:51:34,797: WARNING]:  * Debugger is active!
+[2024-10-06 19:51:34,804: INFO]:  * Debugger PIN: 138-279-406
+[2024-10-06 19:51:37,751: INFO]: 192.168.29.22 - - [06/Oct/2024 19:51:37] "GET / HTTP/1.1" 200 -
+[2024-10-06 19:51:37,801: INFO]: 192.168.29.22 - - [06/Oct/2024 19:51:37] "[36mGET /static/bhiki.png HTTP/1.1[0m" 304 -
+[2024-10-06 19:51:40,041: INFO]: 192.168.29.22 - - [06/Oct/2024 19:51:40] "GET /mobile/ HTTP/1.1" 200 -
+[2024-10-06 19:51:56,649: INFO]: 192.168.29.22 - - [06/Oct/2024 19:51:56] "[33mPOST /Mobile/predict HTTP/1.1[0m" 404 -
+[2024-10-06 19:52:55,560: INFO]:  * Detected change in '/Users/bhikipallai/Desktop/Projects/95Mobiles/src/mobiles/applications/mobile.py', reloading
+[2024-10-06 19:52:55,680: INFO]:  * Restarting with stat
+[2024-10-06 19:52:56,582: INFO]: Logging file start
+[2024-10-06 19:52:56,751: WARNING]:  * Debugger is active!
+[2024-10-06 19:52:56,762: INFO]:  * Debugger PIN: 138-279-406
+[2024-10-06 19:54:15,667: INFO]: Logging file start
+[2024-10-06 19:54:15,831: INFO]: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.29.22:8080
+[2024-10-06 19:54:15,831: INFO]: [33mPress CTRL+C to quit[0m
+[2024-10-06 19:54:15,831: INFO]:  * Restarting with stat
+[2024-10-06 19:54:16,432: INFO]: Logging file start
+[2024-10-06 19:54:16,555: WARNING]:  * Debugger is active!
+[2024-10-06 19:54:16,564: INFO]:  * Debugger PIN: 138-279-406
+[2024-10-06 19:54:19,499: INFO]: 192.168.29.22 - - [06/Oct/2024 19:54:19] "GET / HTTP/1.1" 200 -
+[2024-10-06 19:54:19,566: INFO]: 192.168.29.22 - - [06/Oct/2024 19:54:19] "[36mGET /static/bhiki.png HTTP/1.1[0m" 304 -
+[2024-10-06 19:54:21,968: INFO]: 192.168.29.22 - - [06/Oct/2024 19:54:21] "GET /mobile/ HTTP/1.1" 200 -
+[2024-10-06 19:54:40,569: INFO]: 192.168.29.22 - - [06/Oct/2024 19:54:40] "[35m[1mPOST /mobile/predict HTTP/1.1[0m" 500 -
+[2024-10-06 19:54:40,577: INFO]: 192.168.29.22 - - [06/Oct/2024 19:54:40] "GET /mobile/predict?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+[2024-10-06 19:54:40,577: INFO]: 192.168.29.22 - - [06/Oct/2024 19:54:40] "GET /mobile/predict?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+[2024-10-06 19:54:40,592: INFO]: 192.168.29.22 - - [06/Oct/2024 19:54:40] "GET /mobile/predict?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+[2024-10-06 19:54:59,979: INFO]:  * Detected change in '/Users/bhikipallai/Desktop/Projects/95Mobiles/src/mobiles/applications/mobile.py', reloading
+[2024-10-06 19:55:00,103: INFO]:  * Restarting with stat
+[2024-10-06 19:55:01,020: INFO]: Logging file start
+[2024-10-06 19:55:01,180: WARNING]:  * Debugger is active!
+[2024-10-06 19:55:01,194: INFO]:  * Debugger PIN: 138-279-406
+[2024-10-06 19:55:04,992: INFO]: Logging file start
+[2024-10-06 19:55:05,106: INFO]: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.29.22:8080
+[2024-10-06 19:55:05,106: INFO]: [33mPress CTRL+C to quit[0m
+[2024-10-06 19:55:05,106: INFO]:  * Restarting with stat
+[2024-10-06 19:55:05,705: INFO]: Logging file start
+[2024-10-06 19:55:05,819: WARNING]:  * Debugger is active!
+[2024-10-06 19:55:05,829: INFO]:  * Debugger PIN: 138-279-406
+[2024-10-06 19:55:08,723: INFO]: 192.168.29.22 - - [06/Oct/2024 19:55:08] "GET / HTTP/1.1" 200 -
+[2024-10-06 19:55:08,776: INFO]: 192.168.29.22 - - [06/Oct/2024 19:55:08] "[36mGET /static/bhiki.png HTTP/1.1[0m" 304 -
+[2024-10-06 19:55:10,841: INFO]: 192.168.29.22 - - [06/Oct/2024 19:55:10] "GET /mobile/ HTTP/1.1" 200 -
+[2024-10-06 19:55:26,445: INFO]: 192.168.29.22 - - [06/Oct/2024 19:55:26] "[35m[1mPOST /mobile/predict HTTP/1.1[0m" 500 -
+[2024-10-06 19:55:26,452: INFO]: 192.168.29.22 - - [06/Oct/2024 19:55:26] "[36mGET /mobile/predict?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[2024-10-06 19:55:26,453: INFO]: 192.168.29.22 - - [06/Oct/2024 19:55:26] "[36mGET /mobile/predict?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[2024-10-06 19:56:47,743: INFO]:  * Detected change in '/Users/bhikipallai/Desktop/Projects/95Mobiles/src/mobiles/applications/mobile.py', reloading
+[2024-10-06 19:56:47,874: INFO]:  * Restarting with stat
+[2024-10-06 19:56:48,767: INFO]: Logging file start
+[2024-10-06 19:56:48,933: WARNING]:  * Debugger is active!
+[2024-10-06 19:56:48,943: INFO]:  * Debugger PIN: 138-279-406
+[2024-10-06 19:56:52,079: INFO]: Logging file start
+[2024-10-06 19:56:52,193: INFO]: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.29.22:8080
+[2024-10-06 19:56:52,193: INFO]: [33mPress CTRL+C to quit[0m
+[2024-10-06 19:56:52,194: INFO]:  * Restarting with stat
+[2024-10-06 19:56:52,784: INFO]: Logging file start
+[2024-10-06 19:56:52,903: WARNING]:  * Debugger is active!
+[2024-10-06 19:56:52,910: INFO]:  * Debugger PIN: 138-279-406
+[2024-10-06 19:56:57,190: INFO]: 192.168.29.22 - - [06/Oct/2024 19:56:57] "GET / HTTP/1.1" 200 -
+[2024-10-06 19:56:57,247: INFO]: 192.168.29.22 - - [06/Oct/2024 19:56:57] "[36mGET /static/bhiki.png HTTP/1.1[0m" 304 -
+[2024-10-06 19:56:59,319: INFO]: 192.168.29.22 - - [06/Oct/2024 19:56:59] "GET /mobile/ HTTP/1.1" 200 -
+[2024-10-06 19:57:14,142: INFO]: 192.168.29.22 - - [06/Oct/2024 19:57:14] "POST /mobile/predict HTTP/1.1" 200 -
+[2024-10-06 19:57:19,843: INFO]: 192.168.29.22 - - [06/Oct/2024 19:57:19] "[32mGET /mobile HTTP/1.1[0m" 308 -
+[2024-10-06 19:57:19,845: INFO]: 192.168.29.22 - - [06/Oct/2024 19:57:19] "GET /mobile/ HTTP/1.1" 200 -
+[2024-10-06 19:57:43,767: INFO]: 192.168.29.22 - - [06/Oct/2024 19:57:43] "GET /bike/ HTTP/1.1" 200 -
+[2024-10-06 19:57:48,205: INFO]: 192.168.29.22 - - [06/Oct/2024 19:57:48] "GET /car/ HTTP/1.1" 200 -
+[2024-10-06 19:57:51,663: INFO]: 192.168.29.22 - - [06/Oct/2024 19:57:51] "[32mGET /laptop HTTP/1.1[0m" 308 -
+[2024-10-06 19:57:51,668: INFO]: 192.168.29.22 - - [06/Oct/2024 19:57:51] "GET /laptop/ HTTP/1.1" 200 -
+[2024-10-06 19:57:55,899: INFO]: 192.168.29.22 - - [06/Oct/2024 19:57:55] "GET /mobile/ HTTP/1.1" 200 -

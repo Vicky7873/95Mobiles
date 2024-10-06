@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mobile Price Prediction</title>
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: #f0f2f5;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 500px;
+            margin: 50px auto;
+            background-color: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+            margin-bottom: 20px;
+            font-size: 24px;
+            letter-spacing: 1px;
+        }
+        label {
+            font-size: 16px;
+            color: #555;
+            margin-bottom: 5px;
+            display: block;
+        }
+        input[type="text"], input[type="number"], select {
+            width: 100%;
+            padding: 12px 15px;
+            margin: 8px 0;
+            border-radius: 8px;
+            border: 1px solid #ccc;
+            background-color: #f9f9f9;
+            font-size: 14px;
+            color: #333;
+            box-sizing: border-box;
+            outline: none;
+        }
+        input[type="text"]:focus, input[type="number"]:focus {
+            border-color: #4CAF50;
+        }
+        input[type="submit"] {
+            background-color: #4CAF50;
+            color: white;
+            padding: 12px;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 16px;
+            transition: background-color 0.3s ease;
+            width: 100%;
+        }
+        input[type="submit"]:hover {
+            background-color: #45a049;
+        }
+        .form-group {
+            margin-bottom: 15px;
+        }
+        @media (max-width: 600px) {
+            .container {
+                width: 90%;
+                padding: 20px;
+            }
+            h1 {
+                font-size: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Predict Mobile Price</h1>
+        <form action="/mobile/predict" method="post">
+            <div class="form-group">
+                <label for="brand">Brand:</label>
+                    <select id="brand" name="brand" required>
+                        <option value="">Select Brand</option>
+                        <option value="Apple">Apple</option>
+                        <option value="Samsung">Samsung</option>
+                        <option value="OnePlus">OnePlus</option>
+                        <option value="Xiaomi">Xiaomi</option>
+                        <option value="Google">Google</option>
+                        <option value="Oppo">Oppo</option>
+                        <option value="Vivo">Vivo</option>
+                        <option value="Realme">Realme</option>
+                        <option value="Motorola">Motorola</option>
+                        <option value="Nokia">Nokia</option>
+                        <option value="Sony">Sony</option>
+                        <option value="LG">LG</option>
+                        <option value="Asus">Asus</option>
+                        <option value="Blackberry">Blackberry</option>
+                        <option value="CAT">CAT</option>
+                        <option value="Huawei">Huawei</option>
+                    </select>
+
+            </div>
+
+            <div class="form-group">
+                <label for="model">Model:</label>
+                <input type="text" id="model" name="model" placeholder="Enter mobile model" required>
+            </div>
+
+            <div class="form-group">
+                <label for="storage">Storage (GB):</label>
+                <select id="storage" name="storage" required>
+                      <option value="">Select Storage</option>
+                      <option value="32">32 GB</option>
+                      <option value="64">64 GB</option>
+                      <option value="128">128 GB</option>
+                      <option value="256">256 GB</option>
+                      <option value="512">512 GB</option>
+                  </select>
+            </div>
+
+            <div class="form-group">
+                <label for="ram">RAM (GB):</label>
+                <select id="ram" name="ram" required>
+                    <option value="">Select RAM</option>
+                    <option value="2">2 GB</option>
+                    <option value="3">3 GB</option>
+                    <option value="4">4 GB</option>
+                    <option value="5">5 GB</option>
+                    <option value="6">6 GB</option>
+                    <option value="8">8 GB</option>
+                    <option value="12">12 GB</option>
+                    <option value="16">16 GB</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="screen_size">Screen Size (inches):</label>
+                <input type="number" step="0.1" id="screen_size" name="screen_size" placeholder="Enter screen size" min="1" required>
+            </div>
+
+            <div class="form-group">
+                <label for="camera">Camera (MP):</label>
+                <select id="camera" name="camera" required>
+                      <option value="">Select Camera</option>
+                      <option value="12+12+12">12+12+12 MP</option>
+                      <option value="108+10+10+12">108+10+10+12 MP</option>
+                      <option value="48+50+8+2">48+50+8+2 MP</option>
+                      <option value="64+8+5+2">64+8+5+2 MP</option>
+                      <option value="50+12.2">50+12.2 MP</option>
+                      <option value="12+12">12+12 MP</option>
+                      <option value="48+8+2+2">48+8+2+2 MP</option>
+                      <option value="50+13+16+2">50+13+16+2 MP</option>
+                      <option value="50+48+12+8">50+48+12+8 MP</option>
+                      <option value="64+8+2">64+8+2 MP</option>
+                      <option value="64+12+5+5">64+12+5+5 MP</option>
+                      <option value="50+50+13+3">50+50+13+3 MP</option>
+                      <option value="64+8+5">64+8+5 MP</option>
+                      <option value="64+12+12">64+12+12 MP</option>
+                      <option value="50+2+2">50+2+2 MP</option>
+                      <option value="48+2+2">48+2+2 MP</option>
+                      <option value="50+8+2+2">50+8+2+2 MP</option>
+                      <option value="48+5">48+5 MP</option>
+                      <option value="48+50+2">48+50+2 MP</option>
+                      <option value="108+8+5+2">108+8+5+2 MP</option>
+                      <option value="13+2+2">13+2+2 MP</option>
+                      <option value="13+2">13+2 MP</option>
+                      <option value="12">12 MP</option>
+                      <option value="48+5+2">48+5+2 MP</option>
+                      <option value="50+8+2">50+8+2 MP</option>
+                      <option value="64+8+2+2">64+8+2+2 MP</option>
+                      <option value="48+8+5">48+8+5 MP</option>
+                      <option value="64+8">64+8 MP</option>
+                      <option value="48+5+2+2">48+5+2+2 MP</option>
+                      <option value="50+2">50+2 MP</option>
+                      <option value="64+12+8+5">64+12+8+5 MP</option>
+                      <option value="64+2">64+2 MP</option>
+                      <option value="48+13+13">48+13+13 MP</option>
+                      <option value="50+12">50+12 MP</option>
+                      <option value="50+16+13+2">50+16+13+2 MP</option>
+                      <option value="108+16+8">108+16+8 MP</option>
+                      <option value="48+13">48+13 MP</option>
+                      <option value="64+13+12">64+13+12 MP</option>
+                      <option value="64+12+8">64+12+8 MP</option>
+                      <option value="13+5">13+5 MP</option>
+                      <option value="108+8+2">108+8+2 MP</option>
+                      <option value="64+5+2+2">64+5+2+2 MP</option>
+                      <option value="64+12">64+12 MP</option>
+                      <option value="48+50+8">48+50+8 MP</option>
+                      <option value="50+48+48">50+48+48 MP</option>
+                      <option value="8+2">8+2 MP</option>
+                      <option value="12+12+8">12+12+8 MP</option>
+                      <option value="64+13+5">64+13+5 MP</option>
+                      <option value="12+13">12+13 MP</option>
+                      <option value="64+8+5+5">64+8+5+5 MP</option>
+                      <option value="48+8+2">48+8+2 MP</option>
+                      <option value="48+2">48+2 MP</option>
+                      <option value="108+12+10+10">108+12+10+10 MP</option>
+                      <option value="50+5">50+5 MP</option>
+                      <option value="48+8+5+5">48+8+5+5 MP</option>
+                      <option value="108+8+2+2">108+8+2+2 MP</option>
+                      <option value="13">13 MP</option>
+                      <option value="48+8+5+2">48+8+5+2 MP</option>
+                      <option value="13+5+2">13+5+2 MP</option>
+                      <option value="8">8 MP</option>
+                      <option value="13+5+2+2">13+5+2+2 MP</option>
+                      <option value="13+8+5+2">13+8+5+2 MP</option>
+                      <option value="13+8+2+2">13+8+2+2 MP</option>
+                      <option value="12+2+2">12+2+2 MP</option>
+                      <option value="13+8+2">13+8+2 MP</option>
+                      <option value="25+8+5">25+8+5 MP</option>
+                      <option value="108+12+12">108+12+12 MP</option>
+                      <option value="12.2+16">12.2+16 MP</option>
+                      <option value="50+20+12+3D">50+20+12+3D MP</option>
+                      <option value="64+12+2+2">64+12+2+2 MP</option>
+                      <option value="108+13+5">108+13+5 MP</option>
+                      <option value="48+16+5+2">48+16+5+2 MP</option>
+                      <option value="12+7">12+7 MP</option>
+                      <option value="50+12+40+3D">50+12+40+3D MP</option>
+                      <option value="50+8+16+2">50+8+16+2 MP</option>
+                      <option value="48+12+5">48+12+5 MP</option>
+                      <option value="48+48+8+5">48+48+8+5 MP</option>
+                      <option value="40+40+8+3D">40+40+8+3D MP</option>
+                      <option value="48+12+13">48+12+13 MP</option>
+                      <option value="40+20+8+ToF">40+20+8+ToF MP</option>
+                      <option value="48+16+8">48+16+8 MP</option>
+                      <option value="16+8+5">16+8+5 MP</option>
+                      <option value="16+8+8+2">16+8+8+2 MP</option>
+                      <option value="12+64+12">12+64+12 MP</option>
+                      <option value="50+40+12+3D">50+40+12+3D MP</option>
+                      <option value="108+48+12+3D">108+48+12+3D MP</option>
+                      <option value="64+2+2">64+2+2 MP</option>
+                      <option value="48+13+12+2">48+13+12+2 MP</option>
+                      <option value="108+48+12+0.3">108+48+12+0.3 MP</option>
+                      <option value="48+16+2">48+16+2 MP</option>
+                      <option value="48+13+8+2">48+13+8+2 MP</option>
+                  </select>
+
+            </div>
+
+            <div class="form-group">
+                <label for="battery">Battery Capacity (mAh):</label>
+                <input type="number" id="battery" name="battery" placeholder="Enter battery capacity" min="1" required>
+            </div>
+
+            <input type="submit" value="Predict Price">
+        </form>
+    </div>
+
+</body>
+</html>

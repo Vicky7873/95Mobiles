@@ -22,12 +22,21 @@ pip install -r requirements.txt
 ![alt text](image-4.png)
 
 
-
-
-# Laptop price predictions
 # Car price prediction
 1. Exp done for end to end
-2. data ingestion for bike done
+2. data ingestion for car done
+3. feature eng done
+4. data splitting done
+5. Hyper parameter tuninng with mlflow
+6. model evaluatuion done with mlflow
+![alt text](image-5.png)
+7. Application added
+![alt text](image-6.png)
+![alt text](image-7.png)
+
+# Laptop Price prediction
+1. Exp done for end to end
+2. data ingestion for laptop done
 3. feature eng done
 4. data splitting done
 5. Hyper parameter tuninng with mlflow
@@ -36,6 +45,21 @@ pip install -r requirements.txt
 7. Application added
 ![alt text](image-10.png)
 ![alt text](image-9.png)
+
+
+
+# Mobile Price prediction
+1. Exp done for end to end
+2. data ingestion for Mobile done
+3. feature eng done
+4. data splitting done
+5. Hyper parameter tuninng with mlflow
+6. model evaluatuion done with mlflow
+![alt text](image-11.png)
+7. Application added
+![alt text](image-12.png)
+
+
 
 # DVC 
 1. dvc init
