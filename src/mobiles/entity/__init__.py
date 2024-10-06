@@ -21,3 +21,14 @@ class Mobile_fe_Config:
     root_dir: Path
     mobile_cleaned_data: Path
     final_data: Path
+
+@dataclass(frozen=True)
+class mobile_datasplitconfig:
+    root_dir: Path
+    X_train: Path
+    X_test: Path
+    y_train:Path
+    y_test: Path
+    final_data: Path
+    test_size: float
+    random_state: int

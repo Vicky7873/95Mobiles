@@ -3253,3 +3253,53 @@ x======x
 [2024-10-06 17:53:59,343: INFO]: >>>>>> stage Mobile fe completed <<<<<<
 
 x======x
+[2024-10-06 18:02:07,263: INFO]: Logging file start
+[2024-10-06 18:06:05,250: INFO]: Logging file start
+[2024-10-06 18:06:17,346: INFO]: Logging file start
+[2024-10-06 18:12:29,358: INFO]: yaml: config/mobiles_config.yaml loaded successfully
+[2024-10-06 18:12:29,367: INFO]: yaml: params/mobiles_params.yaml loaded successfully
+[2024-10-06 18:12:29,370: INFO]: created directory at: data
+[2024-10-06 18:12:29,371: INFO]: created directory at: data/mobile/data_split
+[2024-10-06 18:12:56,507: INFO]: yaml: config/mobiles_config.yaml loaded successfully
+[2024-10-06 18:12:56,510: INFO]: yaml: params/mobiles_params.yaml loaded successfully
+[2024-10-06 18:12:56,511: INFO]: created directory at: data
+[2024-10-06 18:12:56,512: INFO]: created directory at: data/mobile/data_split
+[2024-10-06 18:14:33,493: INFO]: yaml: config/mobiles_config.yaml loaded successfully
+[2024-10-06 18:14:33,495: INFO]: yaml: params/mobiles_params.yaml loaded successfully
+[2024-10-06 18:14:33,496: INFO]: created directory at: data
+[2024-10-06 18:14:33,498: INFO]: created directory at: data/mobile/data_split
+[2024-10-06 18:20:16,154: INFO]: Logging file start
+[2024-10-06 18:21:40,736: INFO]: Logging file start
+[2024-10-06 18:21:41,556: INFO]: >>>>>> stage Mobile Data Ingestion started <<<<<<
+[2024-10-06 18:21:41,557: INFO]: yaml: config/mobiles_config.yaml loaded successfully
+[2024-10-06 18:21:41,558: INFO]: yaml: params/mobiles_params.yaml loaded successfully
+[2024-10-06 18:21:41,558: INFO]: created directory at: data
+[2024-10-06 18:21:41,558: INFO]: created directory at: data/mobile/data_ingestion
+[2024-10-06 18:21:41,884: INFO]: >>>>>> stage Mobile Data Ingestion completed <<<<<<
+
+x======x
+[2024-10-06 18:21:41,884: INFO]: >>>>>> stage Mobile Data Cleaning started <<<<<<
+[2024-10-06 18:21:41,885: INFO]: yaml: config/mobiles_config.yaml loaded successfully
+[2024-10-06 18:21:41,885: INFO]: yaml: params/mobiles_params.yaml loaded successfully
+[2024-10-06 18:21:41,885: INFO]: created directory at: data
+[2024-10-06 18:21:41,886: INFO]: created directory at: data/mobile/data_cleaning
+[2024-10-06 18:21:41,897: INFO]: Mobile data cleaned successfully
+[2024-10-06 18:21:41,897: INFO]: >>>>>> stage Mobile Data Cleaning completed <<<<<<
+
+x======x
+[2024-10-06 18:21:41,897: INFO]: >>>>>> stage Mobile fe started <<<<<<
+[2024-10-06 18:21:41,898: INFO]: yaml: config/mobiles_config.yaml loaded successfully
+[2024-10-06 18:21:41,898: INFO]: yaml: params/mobiles_params.yaml loaded successfully
+[2024-10-06 18:21:41,898: INFO]: created directory at: data
+[2024-10-06 18:21:41,898: INFO]: created directory at: data/mobile/feature_eng
+[2024-10-06 18:21:41,909: INFO]: >>>>>> stage Mobile fe completed <<<<<<
+
+x======x
+[2024-10-06 18:21:41,909: INFO]: >>>>>> stage Mobile data split started <<<<<<
+[2024-10-06 18:21:41,910: INFO]: yaml: config/mobiles_config.yaml loaded successfully
+[2024-10-06 18:21:41,910: INFO]: yaml: params/mobiles_params.yaml loaded successfully
+[2024-10-06 18:21:41,910: INFO]: created directory at: data
+[2024-10-06 18:21:41,911: INFO]: created directory at: data/mobile/data_split
+[2024-10-06 18:21:41,918: INFO]: >>>>>> stage Mobile data split completed <<<<<<
+
+x======x

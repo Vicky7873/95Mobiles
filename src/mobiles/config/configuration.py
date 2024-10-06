@@ -1,10 +1,11 @@
 from src.mobiles.utils.common import read_yaml,create_directory
 from src.mobiles.constants import *
-from src.mobiles.entity import MobileDataIngestionConfig,Mobile_Data_Cleaning_Config,Mobile_fe_Config
+from src.mobiles.entity import MobileDataIngestionConfig,Mobile_Data_Cleaning_Config,Mobile_fe_Config,mobile_datasplitconfig
 
 class ConfigurationManger:
     def __init__(self,config_filepath = CONFIG_FILE_PATH,params_filepath = PARAMS_FILE_PATH) :
         self.config = read_yaml(config_filepath)
+        self.params = read_yaml(params_filepath)
         create_directory([self.config.data_root])
 
     def get_mobile_data_ingestion(self)->MobileDataIngestionConfig:
@@ -44,3 +45,24 @@ class ConfigurationManger:
         )
 
         return model_fe
+    
+
+
+
+    def get_data_split(self) -> mobile_datasplitconfig:
+        config = self.config.data_split
+        params = self.params.split
+
+        create_directory([config.root_dir])
+
+        model_datasplit = mobile_datasplitconfig(
+            root_dir=config.root_dir,
+            X_train=config.X_train,
+            X_test=config.X_test,
+            y_train=config.y_train,
+            y_test=config.y_test,
+            test_size=params.test_size,
+            random_state=params.random_state,
+            final_data=config.final_data
+        )
+        return model_datasplit

@@ -15,3 +15,12 @@ feature_eng:
   root_dir: data/mobile/feature_eng
   mobile_cleaned_data: data/mobile/data_cleaning/mobile_cleaned.csv
   final_data: data/mobile/feature_eng/mobile.csv
+
+data_split:
+  root_dir: data/mobile/data_split
+  X_train: data/mobile/data_split/X_train.csv
+  X_test: data/mobile/data_split/X_test.csv
+  y_train: data/mobile/data_split/y_train.csv
+  y_test: data/mobile/data_split/y_test.csv
+  final_data: data/mobile/feature_eng/mobile.csv
+
